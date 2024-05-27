@@ -79,16 +79,16 @@ P &=& V I
 P &=& V^{2}R
 \end{eqnarray}
 
-De eis is dat de onzekerheid in het vermogen kleiner dan 10% is, dus $\frac{u_{P}_}{P}\leq 0.1$. De onzekerheid in P is gegeven door
+De eis is dat de onzekerheid in het vermogen kleiner dan 10% is, dus $\frac{u_{P}}{P}\leq 0.1$. De onzekerheid in P is gegeven door
 
 \begin{equation}
-\left(\frac{u_{P}_}{P}\right)^{2} = \left(2\frac{u_{V}}{V}\right)^{2} + \left(\frac{u_{R}_}{R}\right)^{2}
+\left(\frac{u_{P}}{P}\right)^{2} = \left(2\frac{u_{V}}{V}\right)^{2} + \left(\frac{u_{R}}{R}\right)^{2}
 \end{equation}
 
 Invullen en omschrijven geeft:
 
 \begin{equation}
-\left(0.1\right)^{2} \leq \left(2\frac{u_{V}}{V}\right)^{2} + \left(\frac{u_{R}_}{R}\right)^{2}
+\left(0.1\right)^{2} \leq \left(2\frac{u_{V}}{V}\right)^{2} + \left(\frac{u_{R}}{R}\right)^{2}
 \end{equation}
 
 Voor zeer kleine waarden van $V$ zal de onzekerheid $\frac{u_{V}}{V}$ al groter zijn dan 10%. Omdat $u_{V}$ vaststaat op 1V geldt dit onder de 10V. Hoe hoger het voltage, hoe lager de onzekerheid $u_{V}{V}$. Boven een bepaald voltage zal het ok zijn om de onzekere 5% weerstand te gebruiken. Dat punt gaan we uitrekenen:
