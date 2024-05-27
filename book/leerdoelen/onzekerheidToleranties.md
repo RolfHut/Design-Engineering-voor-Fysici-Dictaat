@@ -67,10 +67,10 @@ Bij het natuurkundig practicum was de uitdaging om bij een gegeven opstelling te
 
 Bij het ontwerpen van een meet-apparaat of een meet-opstelling worden dezelfde vergelijkingen gebruikt om een ander probleem op te lossen, namelijk: hoe nauwkeurig moeten onderdelen van mijn oplossing zijn om een gewenste nauwkeurigheid te behalen. De maximaal toegelaten nauwkeurigheid ($U\left( Z\right)$ in bovenstaande vergelijkingen) is dan gegeven. De op te lossen vraag is welke combinatie van ontwerpkeuzes ervoor zorgt dat de opstelling aan dit criteria gaat voldoen. Realiseer je daarbij dat een opstelling relatief nauwkeuriger maken vaak zowel kan door $U\left( A\right)$ te verlagen als door $A$ te vergroten.
 
-### Voorbeeld 1: Maximaal vermogen
+### Voorbeeld: Maximaal vermogen
 Stel je hebt een simpele schakeling van een LEDje, een weerstand en een variabelle spanningsbron. Het maximale vermogen dat door de schakeling mag is bekend, daarboven gaat de schakeling kapot. De spanningsval over de LED is 2 Volt, de spanningsbron heeft een bereik van 0 tot 220 Volt en een onzekerheid van 1 Volt. Je hebt weerstanden met een nauwkeurigheid van 1% of 5% tot je beschikking. Je wilt dat de onzekerheid in het vermogen lager dan 10% is zodat je niet per ongelukt de schakeling kapot maakt. Deel het bereik van de spanningsdeler op en geef voor elk gebied aan welke weerstand je moet kiezen.
 
-#### Uitwerking voorbeeld 1:
+#### Uitwerking voorbeeld: Maximaal vermogen
 Gebruik de wet van Ohm, het vermogen $P$ in een schakeling is gegeven door:
 
 \begin{eqnarray}
@@ -104,40 +104,4 @@ V &\geq & 23.1
 \end{eqnarray}
 
 Dus vanaf 23 V is het ok om een 5% weerstand te gebruiken. Tussen de 10 en 23V is een 1% weerstand nodig. Onder de 10V is het niet mogelijk om een nauwkeurigheid van onder de 10% te halen omdat de onzekerheid in de spanningsbron dan al meer dan 10% is.
-
-### Voorbeeld 2: Nog één meeting
-
-Een groep onderzoekers is bezig met een experiment waarbij elke onderzoeker metingen aan dezelfde grootheid doet. Na een aantal metingen is de vraag: doen we nog één meting extra en hoe klein moet de onzekerheid van deze meting zijn zodanig dat de onzekerheid in het totale gemiddelde kleiner wordt. 
-
-#### Voorbeeld 2: analytische uitwerking
-Stel er zijn al $N$ metingen aan grootheid $X$ gedaan en elke meting tot nu toe had onzekerheidm $u_{X}$. Dan is de schatting van de onzekerheid in het gemiddelde:
-
-\begin{equation}
-u_{\bar{X}_{N}} = \frac{u_{X}}{\sqrt{N}}
-\end{equation}
-
-We gebruiken de notatie $\bar{X}_{N}$ voor het gemiddelde van $N$ metingen van $X$. Er wordt één extra meting gedaan, die noemen we dus $X_{N+1}$ met onzekerheid $u_{X_{N+1}}$. Het nieuwe gemiddelde met deze meting noemen we $\bar{X}_{N+1}$ en wordt gegeven door:
-
-\begin{equation}
-\bar{X}_{N+1} = \frac{N}{N+1} \bar{X}_{N} + \frac{1}{N+1}X_{N+1} 
-\end{equation}
-
-$\bar{X}_{N+1}$ heeft onzekerheid $u_{\bar{X}_{N+1}}$. Met de calculus based approach kunnen we deze onzekerheid afleiden:
-
-\begin{eqnarray}
-u_{\bar{X}_{N+1}} &=& \left(\left(\frac{\partial \bar{X}_{N+1}}{\partial \bar{X}_{N}}u_{\bar{X}_{N}}\right)^{2} + \left(\frac{\partial \bar{X}_{N+1}}{\partial {X}_{N+1}}u_{{X}_{N+1}}\right)^{2}\right)^{\frac{1}{2}}
-\\
-u_{\bar{X}_{N+1}} &=& \left(\left(\frac{N}{N+1}u_{\bar{X}_{N}}\right)^{2} + \left(\frac{1}{N+1}u_{{X}_{N+1}}\right)^{2}\right)^{\frac{1}{2}}
-\end{eqnarray}
-
-De eis is dat $u_{\bar{X}_{N+1}} \leq u_{\bar{X}_{N}}$, invullen geeft:
-
-\begin{eqnarray}
-    u_{\bar{X}_{N+1}} &\leq& u_{\bar{X}_{N}}
-\\
-    \left(\frac{N}{N+1}u_{\bar{X}_{N}}\right)^{2} + \left(\frac{1}{N+1}u_{{X}_{N+1}}\right)^{2} &\leq& \left(u_{\bar{X}_{N}}\right)^{2}
-\\
-    \left(\frac{1}{N+1}\right)^{2}\left(u_{{X}_{N+1}}\right)^{2} &\leq& \left(1 - \left(\frac{N}{N+1}\right)^{2}\right)\left(u_{\bar{X}_{N}}\right)^{2} 
-\end{eqnarray}
-
 
