@@ -9,7 +9,7 @@ parts:
     - file: leerdoelen/fabricagetechnieken.md
     - file: leerdoelen/onzekerheidToleranties.md
       sections:
-      - file: onzekerheid_oefenopgaves.md
+      - file: leerdoelen/onzekerheid_oefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
   - caption: Activiteiten
     chapters:
