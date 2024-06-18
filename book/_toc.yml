@@ -8,6 +8,8 @@ parts:
     - file: leerdoelen/schattendRekenen.md
     - file: leerdoelen/fabricagetechnieken.md
     - file: leerdoelen/onzekerheidToleranties.md
+      sections:
+      - file: leerdoelen/onzekerheid_oefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
   - caption: Tot slot
     chapters:
