@@ -13,7 +13,6 @@ parts:
     - file: leerdoelen/lifeCycleAnalysis.md
   - caption: Ontwerpopdrachten
     chapters:
-    - file: ontwerpopdrachten/0kickOffDag/kickoffdagTestAssignment.ipynb
     - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensor.ipynb
     - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.ipynb
   - caption: Overig
