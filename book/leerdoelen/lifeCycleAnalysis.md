@@ -1,5 +1,5 @@
 # Duurzaam ontwerpen
-Samenvatting van de stof door
+Samenvatting van de stof door Bas Flipsen, Universitair Hoofddocent, Industrieel Ontwerpen (2024)
 
 ## Introductie
 
@@ -24,7 +24,7 @@ Om een eco-geïnformeerde analyse te maken beginnen we met een bill of materials
 
 Als je start vanaf een bestaand product, ontmantel het product en bepaal welke materialen er gebruikt zijn. Middels bekende milieu-indicatoren zoals klimaatverandering (Global Warming Potential, GWP100) uitgedrukt in $kgCO_{2}$-equivalent, of watergebruik uitgedrukt in $m^3$ world eq. deprived. Er zijn veel verschillende indicatoren, en [Bassi et al (2023)](https://dx.doi.org/10.2760/798894) geeft je een mooi overzicht hiervan. Binnen dit vak gaan we ons focussen op GWP, de impact van het materiaalverbruik op klimaatverandering.
 
-![Action Techno Fietsbel.png](images/8f0a36c244ff4921d67d6b853fbf56e4ff20d5bb.png)
+<img src="../figures/2024-06-18-22-45-32-image.png" style="display: block; margin-left: 110; margin-top: auto ; margin-bottom: auto ; width: 15% ;transform: rotate(270deg);"/>
 
 Hierboven zie je de Action Techno fietsbel en hieronder de BOM ervan.  Naast de massa van ieder onderdeel is ook de GWP milieubelasting van het materiaal opgenomen in de laatste kolom. Deze is berekend door het product te nemen van de massa van onderdeel $i$ en de impact van het materiaal per kilogram:
 
@@ -51,7 +51,8 @@ Met behulp van deze eenvoudige impact analyse kan je snel een indruk krijgen van
 
 In de figuur hieronder zie je een algemeen overzicht van de milieubelasting voor verschillende materialengroepen.
 
-![alt text](2024-06-18-20-18-24-image.png)
+<img src="../figures/2024-06-18-20-18-24-image.png" style="display: left; margin: 30; width: 50%;" />
+
 Zoals je ziet heeft aluminium een veel hogere impact $(9-10 kgCO_2/kg)$ ten opzichte van staal $(1-2 kgCO_2/kg)$, terwijl kunststof daar wat meer tussenin zit $(2-4 kgCO_2/kg)$. Meer waarden kan je terugvinden in betaalde databases zoals [Ansys Granta Edupack](https://www.ansys.com/products/materials/granta-edupack) (toegankelijk via de [TU Delft Software repository](https://software.tudelft.nl)) en [Ecoinvent](https://ecoinvent.org/), maar ook in open databases zoals [Idemat](https://www.ecocostsvalue.com/data-tools-books/). 
 
 ## Materiaaldeterminatie
@@ -99,7 +100,8 @@ In consumentenproducten worden thermoharders niet vaak gebruikt, waardoor kunsts
 
 Naast het gevoel van massa, de transparantie en de thermische geleiding kan je voor kunststof ook kijken naar de zogenaamde "recycling code" . Deze code is in het leven geroepen om achteraf voornamelijk verpakkingskunststoffen te kunnen sorteren. De code betekend niet per definitie dat het materiaal ook daadwerkelijk wordt gerecycleerd!
 
-![alt text](2024-06-19-08-21-58-image.png)
+<img src="../figures/2024-06-19-08-21-58-image.png" style="display: left; margin: 30; width: 50%;" />
+
 De bovenstaande figuur toont de recycling codes voor de 6 meest voorkomende kunststoffen. Recyclingcode nummer 7 wordt gebruikt voor alle andere kunststoffen "O", waaronder ABS (vaak gebruikt in consumentenelektronica) en PA (Nylon). Hogere nummers worden gebruikt voor andere materialen, zoals 12 voor Lithium batterijen, 20 voor golfkarton, 22 voor papier en 60 voor Katoen. Meer informatie over recyclingcodes is te vinden op ([Recycling codes - Wikipedia](https://en.wikipedia.org/wiki/Recycling_codes)).
 
 
@@ -107,7 +109,8 @@ De bovenstaande figuur toont de recycling codes voor de 6 meest voorkomende kuns
 
 De dichtheid van een materiaal is een belangrijke eigenschap waarmee je producten en productgroepen kunt identificeren. Onderstaande grafiek geeft een overzicht van de dichtheid van de verschillende materiaalgroepen.
 
-![alt text](79811741349dddb249ef64e89568e14b85763493.jpg)
+<img src="../figures/79811741349dddb249ef64e89568e14b85763493.jpg" style="display: left; margin: 30; width: 70%;" />
+
  Je kan deze kennis gebruiken om een gevoel te krijgen voor lichte en zware materialen:
 
 - Gemiddeld zijn **metalen** het zwaarst en hebben een dichtheid van rond de $8kg/dm^3$, behalve titanium $(4.5 kg/dm^3)$, aluminium $(2.7 kg/dm^3)$ en magnesium $(1.7 kg/dm^3)$. 
