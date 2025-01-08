@@ -24,7 +24,7 @@ Om een eco-geïnformeerde analyse te maken beginnen we met een bill of materials
 
 Als je start vanaf een bestaand product, ontmantel het product en bepaal welke materialen er gebruikt zijn. Middels bekende milieu-indicatoren zoals klimaatverandering (Global Warming Potential, GWP100) uitgedrukt in $kgCO_{2}$-equivalent, of watergebruik uitgedrukt in $m^3$ world eq. deprived. Er zijn veel verschillende indicatoren, en [Bassi et al (2023)](https://dx.doi.org/10.2760/798894) geeft je een mooi overzicht hiervan. Binnen dit vak gaan we ons focussen op GWP, de impact van het materiaalverbruik op klimaatverandering.
 
-<img src="../figures/2024-06-18-22-45-32-image.png" style="display: block; margin-left: 110; margin-top: auto ; margin-bottom: auto ; width: 15% ;transform: rotate(270deg);"/>
+<img src="../figures/2024-06-18-22-45-32-image.png" style="display: left; margin: 30 ; width: 50% ;"/>
 
 Hierboven zie je de Action Techno fietsbel en hieronder de BOM ervan.  Naast de massa van ieder onderdeel is ook de GWP milieubelasting van het materiaal opgenomen in de laatste kolom. Deze is berekend door het product te nemen van de massa van onderdeel $i$ en de impact van het materiaal per kilogram:
 
