@@ -29,7 +29,7 @@ Als je start vanaf een bestaand product, ontmantel het product en bepaal welke m
 Hierboven zie je de Action Techno fietsbel en hieronder de BOM ervan.  Naast de massa van ieder onderdeel is ook de GWP milieubelasting van het materiaal opgenomen in de laatste kolom. Deze is berekend door het product te nemen van de massa van onderdeel $i$ en de impact van het materiaal per kilogram:
 
 $$
-\text{GWP}_{i}=m_{i}\cdot I_{\text{materiaal}}
+GWP_{i}=m_{i}\cdot I_{materiaal}
 $$
 
 | no. $i$        | naam        | materiaal          | massa $m$ (g) | GWP ($gCO_2$) |
