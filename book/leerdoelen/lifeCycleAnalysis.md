@@ -144,7 +144,7 @@ In bovenstaande tabel vind je de dichtheidsbereiken voor de meest voorkomende po
 
 Om de dichtheid van een object bij benadering te bepalen, heb je drie maatcilinders nodig met drie vloeistoffen van verschillende dichtheden (water-ethanol mix, puur water en een water-zout mix). 
 
-![](images/2024-06-19-09-20-37-image.png)
+<img src="../figures/2024-06-19-09-20-37-image.png" style="display: left; margin: 30; width: 50%;" />
 
 Samen met bovenstaand schema kun je nu je eerste weloverwogen schatting maken:
 
@@ -152,7 +152,7 @@ Samen met bovenstaand schema kun je nu je eerste weloverwogen schatting maken:
 2. **Basisdichtheid:** Deze cilinder bevat 100% kraanwater met een dichtheid van $1,00 kg/dm^3$.
 3. **Hoge dichtheid:** Om de dichtheid van de vloeistof te verhogen, kun je glycerine toevoegen, die een dichtheid van $1,26 kg/dm^3$ heeft. Door de fractie water/glycerine te veranderen, kun je een vloeistof produceren met een dichtheid tussen $1.00$ (puur water) en $1.26$ (pure glycerine). Als glycerine niet beschikbaar is, kun je ook keukenzout gebruiken. Door zout op te lossen in water kan de resulterende vloeistof een dichtheid van ongeveer $1.17 kg/dm^3$ bereiken. Voeg 34 gram keukenzout toe aan 100 ml kraanwater en roer het met een roermotor. Laat de oplossing een nacht staan en decanteer voorzichtig het heldere zout.
 
-![](images/2024-06-20-15-42-13-image.png)
+<img src="../figures/2024-06-20-15-42-13-image.png" style="display: left; margin: 30; width: 30%;" />
 
 Metalen kunnen ook gemakkelijk worden onderscheiden door de dichtheid van het object. De massa $m$ is eenvoudig te bepalen met een weegschaaltje.
 In plaats van gebruik te maken van de afmetingen, kunnen we het volume ook in één keer meten door het object in water onder te dompelen. De verandering van het waterniveau bepaald dan het volume van het object. Samen met de massa van het object kan de dichtheid worden berekend met de massa $m$ te delen door het volume $V$:
@@ -160,6 +160,7 @@ In plaats van gebruik te maken van de afmetingen, kunnen we het volume ook in é
 $$
 \rho=\frac{m}{V}
 $$
+<img src="../figures/2024-06-19-09-11-38-image.png" style="display: left; margin: 30; width: 30%;" />
 
 Zorg ervoor dat de nauwkeurigheid van de weegschaal hoog genoeg is voor een nuttige massameting. Voor kleinere objecten in consumentenproducten zou een nauwkeurigheid van 0.01 tot 0.1 gram voldoende moeten zijn.
 
