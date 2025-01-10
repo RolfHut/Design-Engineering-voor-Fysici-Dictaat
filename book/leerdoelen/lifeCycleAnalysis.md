@@ -160,6 +160,7 @@ In plaats van gebruik te maken van de afmetingen, kunnen we het volume ook in é
 $$
 \rho=\frac{m}{V}
 $$
+
 <img src="../figures/2024-06-19-09-11-38-image.png" style="display: left; margin: 30; width: 30%;" />
 
 Zorg ervoor dat de nauwkeurigheid van de weegschaal hoog genoeg is voor een nuttige massameting. Voor kleinere objecten in consumentenproducten zou een nauwkeurigheid van 0.01 tot 0.1 gram voldoende moeten zijn.
