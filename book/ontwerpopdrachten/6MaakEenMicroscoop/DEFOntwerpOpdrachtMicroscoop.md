@@ -25,6 +25,13 @@ We gaan vandaag, natuurlijk, weer kijken of jullie de leerdoelen van vandaag ond
 
 Maak als groep voordat je begint een plan voor hoe je aan het einde van de dag gaat laten zien dat je deze leerdoelen onder de knie hebt. Stel hierbij een tijdsplan op waarin staat hoelaat de fysica en het ontwerp goedgekeurd moeten zijn door je TA en wanneer je uiterlijk begint met bouwen. **Vul dat in bij opdracht 1 in de template en laat dat aan je TA zien.** Dit aan het begin goed doen zorgt ervoor dat we kleinere kans hebben dat we als de dag al klaar is nog om een verbetering hoeven te vragen. 
 
+# Resultaat 'het werkt'\n",
+Zet in de cel bij opdracht 2 in de template twee foto's:
+
+- een foto waarbij je twee foto's aan elkaar plakt: De twee foto's neem je met je camera / telefoon en het object op dezelfde plek. Het verschil tussen de foto's is dat je microscoop er wel/niet tussen zit. Op deze manier kunnen we goed beoordelen wat de vergroting van je microscoop is. Zorg er dus ook voor dat je niet in de ene foto wel inzoomt en de andere foto niet! Om foto's aan elkaar te plakken kan je apps zoals 'Layout' gebruiken. De twee originele foto's moet je op Brightspace inleveren zonder dat deze aangepast zijn!
+- een foto van de gehele microscoop waarmee wij kunnen beoordelen hoe goed je opstelling in elkaar zit.
+   
+
 ## Inleveren.
 
 Controleer eerst nog goed of alles klopt. **Klik boven op Kernel -> Restart and Run all** en check of er geen errors zijn. Zorg dat alle benodigde bestanden zijn geupload in vocareum en dat de afbeeldingen zichtbaar zijn in het notebook. 
