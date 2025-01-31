@@ -91,3 +91,34 @@ Overleg als groep welke algoritme je kansrijk acht om goed te gaan werken. Kies 
 
 Alleen de metingen die een bruikbare waarde opgeven kun je in de data array in de volgende stap toevoegen; 
 de rest van de metingen kan niet gebruikt worden door het imagingDEF programma en moet je dus met een ```#``` commentarieren. 
+
+### Evaluatie
+Run de cellen onder opdracht 7 in de template om de evaluatie uit te kunnen voeren. 
+
+# Iteratie 1+
+### Synthese
+Maak een nieuwe blokkenschema op A3 van wat je nu als algoritme gaat proberen. Als het kleine wijzigingen zijn ten opzichte van een vorige iteratie, kras dan gewoon in de oude blokkenschema als dat duidelijk blijft. Maak een foto en zet die bij opdracht 8 van de template. Zorg dat het iteratienummer goed op de foto te zien is.
+
+### Simulatie en evaluatie
+Je gaat nu weer metingen doen om je algoritme te controleren. Kies een nieuwe target plek en hoek waar je het papiertje neerzet. We raden je aan om minstens twee meetseries te doen met verschillende locaties. Deze meetseries kunnen verwerkt worden bij opdracht 9 in de template.
+
+### Decision
+Is je algoritme goed genoeg, of valt er nog wat te verbeteren? Kan je het aantal benodigde metingen nog omlaag brengen? Als je algoritme nog verbeteringen nodig heeft, kopieer cellen vanaf opdracht 8 en 9. Plaats deze onder opdracht 9 in de template en maak daarin de volgende iteratie. 
+
+Is je algoritme klaar dan ga je hieronder door.
+
+## Algoritme aan TA laten zien
+Hierboven heb je als het goed is een aantal keren ge-itereerd.
+**Als je tevreden bent met je algoritme roep je je TA erbij en laat deze meekijken met de laatste versie van je algoritme. Als je TA tevreden is met jullie algoritme krijg je van je TA een locaties voor het papier.**
+Doe metingen op deze locatie en voer je algortime voor de laatste keer uit. Gebruik hier bij Opdracht 10 in de template.
+
+# Leerdoel: ontwerpcyclus
+Om te laten zien dat je begrepen hebt hoe je vandaag met de ontwerpcyclus om moet gaan, zet je bij opdracht 11 in de template: onder elkaar alle blokkenschema's van alle versies van je algoritme. Zet ze in de goede volgorde (op tijd). Licht hierbij de gemaakte evaluaties en beslissingen kort toe. Dit, samen met het resultaat dat het gelukt is hierboven, laat zien dat je het leerdoel voor vandaag onder de knie hebt.
+
+## Inleveren
+Als je helemaal klaar bent kan je je uiteindelijke versie inleveren.
+
+Controleer eerst nog goed of alles klopt. **Klik boven op Kernel -> Restart and Run all en check of er geen errors zijn.** Zorg dat alle benodigde bestanden zijn geüpload in vocareum en dat de afbeeldingen zichtbaar zijn in het notebook.
+
+Als je helemaal klaar bent kan het notebook worden ingeleverd door bovenaan op submit te klikken. Je kan meerdere keren iets inleveren, alleen de laatste versie wordt dan bewaard.
+   
