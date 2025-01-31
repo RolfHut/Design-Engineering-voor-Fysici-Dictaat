@@ -1,5 +1,5 @@
 # DEF Ontwerpopdracht Kalibreer een Sensor
-Vandaag ga je kijken of de sensor die je van ons krijgt geschikt is voor een bepaalde toepassing. Welke toepassing dat is en wat de criteria zijn ga je zelf bepalen.
+Vandaag ga je samen kijken of de sensor die je van ons krijgt geschikt is voor een bepaalde toepassing. Welke toepassing dat is en wat de criteria zijn ga je zelf bepalen.
 
 ### Leerdoelen
 
