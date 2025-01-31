@@ -35,7 +35,7 @@ Je hebt een leeg oppervlak van (minstens) 70 cm bij 70 cm nodig. Op de tafels he
 
 Sluit je Arduino aan volgens deze schakeling, zorg ervoor dat je USB kabel niet in je laptop zit terwijl je de schakeling aansluit!
 
-<img src="\schakeling.png\" width="\2000\"> 
+<img src="\schakeling.png\" width="\2000\">
 
 ### Opdracht 1: Kalibreren sensor 
 
