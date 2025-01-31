@@ -50,8 +50,8 @@ Follow these steps:
 3. Use the equation for the uncertainty of a voltage divider to derive the uncertainty in de output Voltage.
 
 Calculate which of the variations in the production process will have the largest impact on your output Voltage? (This should take no more than 15 minutes, if you get stuck ask help).
-1. 
-2. Show the derived uncertainty equation and your answer to the above question to your TA before moving on.
+
+1. Show the derived uncertainty equation and your answer to the above question to your TA before moving on.
 2. On the sheet your TA gave you is a table with “problem -> cause -> solution”. Fill in this table and show it to your TA.
 *Now you can move on to simulating in LTSpice, but before simulating, first, read the LTSpice manual!*
 
