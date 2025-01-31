@@ -4,7 +4,7 @@ Vandaag ga je een sensor maken op basis van verandering van capaciteit. Wat de s
 
 ## Groep vormen
 
-Deze opdracht doe je in groepen van 3 studenten. Je kan jouw groepsnummer en jouw medestudenten vinden op Brightspace onder Groups: ontwerpopdracht 2: ontwerp een sensor. Als eerste moet je je voorstellen aan jouw teamgenoten en zeker weten dat je met de juiste studenten aan de juiste tafel zit. Vervolgens download je het juiste template notebook van brightspace dit staat onder .... . Dit template moet aan het eind van de dag ingeleverd worden via Vocareum.
+Deze opdracht doe je in groepen van 3 studenten. Je kan jouw groepsnummer en jouw medestudenten vinden op Brightspace onder Groups: ontwerpopdracht 2: ontwerp een sensor. Als eerste moet je je voorstellen aan jouw teamgenoten en zeker weten dat je met de juiste studenten aan de juiste tafel zit. Vervolgens download je het juiste template notebook van Brightspace. Dit template moet aan het eind van de dag ingeleverd worden via Vocareum.
 Als je groep om 10.50 niet compleet is, trek dan aan de bel door je TA erbij te roepen. Wij komen dan kijken wie er mist en schuiven met studenten in incomplete groepen om jullie in volledige groepen te krijgen.
 
 ## Leerdoelen
@@ -24,7 +24,7 @@ Je gaat vandaag werken met de apparatuur in de caddy die bij je tafel staat. Aan
 Overleg bij alles wat je in het notebook invult met je team: wat je inlevert is van jullie alle drie. Je zal dus goed moeten samenwerken. Jullie hebben allemaal als het goed is de gehele opdracht doorgelezen. Maak nu samen een planning waarin je aangeeft
     
 - hoe laat je bij de mijlpalen verwacht te zijn. Als je een mijlpaal niet haalt omdat je vast zit is het een goed idee om een TA om hulp te vragen
-- Op welke tijden je als team je pauzes neemt: plan deze in! continue werken is niet effectief)
+- Op welke tijden je als team je pauzes neemt: plan deze in! continue werken is niet effectief.
     
 In de template staat een tabel. Vul deze in (en eventueel aan als je meer regels nodig hebt). **Laat de planning aan je TA zien, die tekent dit af!** De planning moet uiterlijk om **11.15** binnen zijn.
 
@@ -64,7 +64,7 @@ waarbij $A$ de overlappende oppervlakte van je platen is, $d$ de afstand tussen 
     
 Meet op de oscilloscoop en gebruik de formules die je bij santiy check 2 afgeleidt hebt om de daadwerkelijke capaciteit van je plaatcondensator te bepalen.
     
-**De cellen in de template kunnen nu ingevuld worden. Tot en met de tabel. Laat je plaatcondensator, je ontwerp en je berekening aan je TA zien. Die tekent dit af. Pas als je TA sanity check 3 afgetekend heeft pak je als team er weer één laptop bij om door te gaan.**
+**De cellen in de template bij opdracht 1 kunnen nu ingevuld worden. Tot en met de tabel. Laat je plaatcondensator, je ontwerp en je berekening aan je TA zien. Die tekent dit af. Pas als je TA sanity check 3 afgetekend heeft pak je als team er weer één laptop bij om door te gaan.**
 
 
 ## Ontwerp opdracht: Maak je eigen sensor.
@@ -77,8 +77,8 @@ We gaan, via deze instructie, weer de ontwerpcyclus door om tot je sensor te kom
 ### Synthese
 In de formule van de vlakke plaat condensator staan drie parameters die je kan gebruiken in je ontwerp: afstand ($d$), oppervlakte ($A$) en diëlektrische constante ($\epsilon_{r}$). Deze parameters kan je door andere fysische grootheden laten veranderen. Zo zou je bijvoorbeeld een materiaal met een grote thermische expansie coefficient kunnen inklemmen tussen twee platen. Bij toename van de temperatuur worden de platen uit elkaar geduwd. Op die manier zorgt verandering in temperatuur voor verandering in afstand, dat via de capaciteit te meten is. Dit is een voorbeeld van een (vrij slechte!) temperatuur sensor. In de synthese fase ga je eerst ideeen ontwikkelen om vervolgens één idee te kiezen en uit te werken.
     
-#### Opdracht 1
-Verzin per parameter ($A$, $d$ en $\epsilon_{r}$) minsten één andere fysische grootheid die je via $A$, $d$ of $\epsilon_{r}$ kan meten. Schets hoe die drie sensoren eruit zouden moeten zien / zouden moeten werken. Upload je schetsen in de template.
+#### Opdracht synthese
+Verzin per parameter ($A$, $d$ en $\epsilon_{r}$) minsten één andere fysische grootheid die je via $A$, $d$ of $\epsilon_{r}$ kan meten. Schets hoe die drie sensoren eruit zouden moeten zien / zouden moeten werken. Upload je schetsen in de template bij opdracht 2.
 
 **Laat dat aan je TA zien.**
 
@@ -88,7 +88,7 @@ Kies één van je drie geschetste sensoren uit om daadwerkelijk te gaan maken. B
 - wat is haalbaar gegeven de beschikbare materialen en tijd?
 - wat vind je (als groep!) het leukst om te maken?
 
-Geef in de template aan welke sensor jullie gaan maken. 
+Geef in de template bij opdracht 3 aan welke sensor jullie gaan maken. 
 
 ## Simulatie
 Het is belangrijk om van tevoren te weten of de sensor die je gaat maken zijn capaciteit in een groot genoeg meetbaar bereik veranderdt. Werk je schets van je gekozen sensor verder uit. Zet daar in ieder geval goed alle afmetingen bij. 
@@ -97,7 +97,7 @@ Als je schets klaar is, bepaal dan (schat, of leidt af) hoe de te meten variabel
     
 Bijvoorbeeld: een stuk pvc tussen twee metalen platen van 10 cm bij 10 cm zal bij een temperatuur verandering van 20 naar 30 graden lineair uitzetten van 3 naar 3.002 millimeter. Hierdoor veranderd de capaciteit van 117.33 pF naar 117.25 pF. (ik heb expres een slecht voorbeeld gekozen, dit verschil is niet meetbaar).
     
-Bereken en plot de verwachte ontwerpgrafiek van jullie sensor in de template. Maak daarbij gebruik van de functie die je zelf geschreven hebt. Zet met comments (#) duidelijk in je code welke aannames en schattingen je maakt.
+Bereken en plot de verwachte ontwerpgrafiek van jullie sensor in de template bij opdracht 4. Maak daarbij gebruik van de functie die je zelf geschreven hebt. Zet met comments (#) duidelijk in je code welke aannames en schattingen je maakt.
    
 Om te kijken of de verwachte verandering in capaciteit goed meetbaar is gebruiken we het pakket LTSpice. Dit pakket simuleert het gedrag van elektrische schakelingen. **Ieder groepslid opent op de eigen laptop LTSpice.**
     
@@ -107,7 +107,7 @@ Om te kijken of de verwachte verandering in capaciteit goed meetbaar is gebruike
 - Kies V(vin) en V(vout) en druk op ok. Je zou nu twee grafieken moeten zien.
 - Verander de waarde van de condensator door er met de rechtermuisknop op te klikken. Een van de groepsleden kiest als waarde het midden van het verwachte bereik aan capaciteit (midden van je grafiek hierboven). De andere twee groepsleden kiezen het maximum en het minimum. 
 - druk weer op 'run' en zie de grafieken veranderen. Lees af hoeveel Vpp LTSpice berekend bij de uitgang (Vout). Je kan de assen aanpassen door erop te klikken met je rechtermuisknop.
-- Vul nu de tabel in deze staat in de template. **Elk groepslid heeft nu succesvol met LTSpice gewerkt, dit is belangrijk voor de ontwerpopdracht van volgende week**
+- Vul nu de tabel in deze staat in de template bij opdracht 5. **Elk groepslid heeft nu succesvol met LTSpice gewerkt, dit is belangrijk voor de ontwerpopdracht van volgende week**
     
 Is de verwachte verandering in capaciteit goed meetbaar? Zo nee, ga dan terug in de ontwerp cyclus. Bepaal zelf hoe ver terug je moet stappen of vraag je TA om advies. 
 
@@ -116,25 +116,25 @@ Is de verwachte verandering in capaciteit goed meetbaar? Zo nee, ga dan terug in
 ### Fabricage en meten (laptops weer weg)
 Maak nu je sensor.
     
-Zodra je sensor af is, maak je twee foto's van je sensor waarbij je in elke foto een andere meting doet. Probeer je scope scherm in beeld te krijgen zodat we ook de meetwaarde zien. Als dat door de opstelling niet kan, maar dan twee (extra) foto's van je scope die bij de metingen horen. Zet die foto's in de template. Dit zijn de foto's die we gebruiken om te zien of jullie sensoren werken. 
+Zodra je sensor af is, maak je twee foto's van je sensor waarbij je in elke foto een andere meting doet. Probeer je scope scherm in beeld te krijgen zodat we ook de meetwaarde zien. Als dat door de opstelling niet kan, maar dan twee (extra) foto's van je scope die bij de metingen horen. Zet die foto's in de template bij opdracht 6. Dit zijn de foto's die we gebruiken om te zien of jullie sensoren werken. 
 ## Kalibratiemeting met Arduino
 Sluit vervolgens je sensor aan op je Arduino (zie de schakeling op Brightspace) en upload de code die op Brightspace staat naar je Arduino. Je kan nu heel snel heel veel metingen doen van de capaciteit, veel sneller dan als je dat steeds op de scope moet aflezen.
     
-Doe metingen over het bereik waar je de sensor voor ontworpen hebt (denk aan je berekende ontwerpgrafiek). Meet de bijbehorende capaciteit. Plot in de template je gemeten kalibratiegrafiek. Plot in dezelfde figuur ook je verwachte kalibratie die je hierboven had uitgerekend.
+Doe metingen over het bereik waar je de sensor voor ontworpen hebt (denk aan je berekende ontwerpgrafiek). Meet de bijbehorende capaciteit. Plot in de template bij opdracht 7 je gemeten kalibratiegrafiek. Plot in dezelfde figuur ook je verwachte kalibratie die je hierboven had uitgerekend.
 
 ## Feedback op samenwerken geven
 Kijk als herinnering nog even de video over feedback geve: https://www.youtube.com/watch?v=16uW1kPoiww. Pak je logboek van vorige week erbij en geef elkaar allemaal feedback. Noteer je feedback in je logboek.
    
 ## Itereren
-Bepaal aan de hand van je kalibratiegrafiek of je sensor goed is voor de gekozen grootheid. Kijk dan naar hoe de sensor nog verbeterd kan worden. Vul tekst in de template aan.
+Bepaal aan de hand van je kalibratiegrafiek of je sensor goed is voor de gekozen grootheid. Kijk dan naar hoe de sensor nog verbeterd kan worden. Vul tekst in de template bij opdracht 8 aan.
 
 Vervolgens kies je één van de twee en voer je de voorgestelde verbetering uit en kalibreer je je sensor opnieuw.
 
 ## Uiteindelijke resultaat
-Zet in de template een foto van je uiteindelijke sensor. Plot daaronder je kalibratiegrafiek, gemaakt op basis van je kalibratiemetingen. Fit een bijpassende lijn door je metingen. Zet in je plot ook je verwachte ontwerpgrafiek (op basis van je zelfgeschreven functie). 
+Zet in de template bij opdracht 9 een foto van je uiteindelijke sensor. Plot daaronder je kalibratiegrafiek, gemaakt op basis van je kalibratiemetingen. Fit een bijpassende lijn door je metingen. Zet in je plot ook je verwachte ontwerpgrafiek (op basis van je zelfgeschreven functie). 
    
 ## Conclusie
-Schrijf een conclusie in de template. Benoem daar in minimaal:
+Schrijf een conclusie in de template bij opdracht 10. Benoem daar in minimaal:
     
 - Is je sensor uiteindelijk geschikt om het fenomeen dat je wilde meten daadwerkelijk te meten? (Dat zou wel moeten, anders moet je nog verder itereren).
 - heeft de verbetering uit de iteratie stap ook daadwerkelijk een verbetering opgeleverd?
@@ -145,13 +145,13 @@ Schrijf een conclusie in de template. Benoem daar in minimaal:
    
 ## Aantonen leerdoelen beheersing
 
-je hebt vandaag gewerkt aan het onder de knie krijgen van de volgende leerdoelen:   
+Je hebt vandaag gewerkt aan het onder de knie krijgen van de volgende leerdoelen:   
 
 1. Het kunnen gebruiken van de eigenschappen van een elektrische component in een ontwerpproces om een fysische grootheid te meten. 
 2. Kennis hebben van gedrag van elektrische componenten en meetopstellingen.
 3. Onderdelen van een datasheet zoals een kalibratiegrafiek opstellen, gevoeligheid en onzekerheid beschrijven.
 
-Als het goed is laat je werk in het template zien dat je deze leerdoelen nu beheert. Het is aan jullie om zelf aan te geven welke cellen van het template bij welk leerdoel horen. Lees het template door, kijk goed naar de cellen met LEERDOEL in de titel. Kopieer deze cellen en zet ze bij het juiste leerdoel in het template bij *..*.
+Als het goed is laat je werk in het template zien dat je deze leerdoelen nu beheert. Het is aan jullie om zelf aan te geven welke cellen van de template bij welk leerdoel horen. Kopier deze cellen bij opdracht 11. Lees het template door, kijk goed naar de cellen met LEERDOEL in de titel. Kopieer deze cellen en zet ze bij het juiste leerdoel in het template bij *..*.
 
 ## Inleveren op Vocareum
 Je bent nu klaar met het invul template en kan deze op vocareum inleveren. 
