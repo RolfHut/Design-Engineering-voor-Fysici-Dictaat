@@ -82,7 +82,7 @@ Ten slotte voer je je algoritme uit om te kijken of het daadwerkelijk werkt.
 
 Daarna ga je als 1e iteratie de beste ideeen van de verschillende algoritmes combineren tot één nieuw algoritme. "
 
-# Iteratie 0: Eerste pogingen\n
+# Iteratie 0: Eerste pogingen
 ### Synthese
 Beschrijf bij opdracht 5 in de template jullie algoritmes. Voeg als nodig een figuur toe.
 
