@@ -18,7 +18,7 @@ parts:
       - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensorInvulTemplate.ipynb
     - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DefOntwerpopdracht2OntwerpEenSensor.md
       sections:
-          - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.ipynb
+          - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
     - file: ontwerpopdrachten/3OntwerpEenTransistor/DEFontwerpopdracht3OntwerpEenTransistor.md
     - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritme.md
       sections:
