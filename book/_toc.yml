@@ -17,7 +17,8 @@ parts:
       sections:
       - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensorInvulTemplate.ipynb
     - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.md
-    - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
+      sections:
+      - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
   - caption: Overig
     chapters:
     - file: ontwerpopdrachten/0kickOffDag/kickoffdagTestAssignment.ipynb
