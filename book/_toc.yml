@@ -11,14 +11,17 @@ parts:
       sections:
       - file: leerdoelen/onzekerheid_oefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
+
   - caption: Ontwerpopdrachten
     chapters:
     - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensor.md
       sections:
       - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensorInvulTemplate.ipynb
+
     - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.md
       sections:
       - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
+
   - caption: Overig
     chapters:
     - file: ontwerpopdrachten/0kickOffDag/kickoffdagTestAssignment.ipynb
