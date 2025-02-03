@@ -23,6 +23,7 @@ parts:
     - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.md
       sections:
       - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
+      - file: leerdoelen/duurzaamOntwerpen.md
 
   - caption: Overig
     chapters:
