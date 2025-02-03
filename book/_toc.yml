@@ -4,25 +4,25 @@ root: intro.md
 parts:
   - caption: Leerdoelen
     chapters:
-      - file: leerdoelen/ontwerpen.md
-      - file: leerdoelen/schattendRekenen.md
-      - file: leerdoelen/fabricagetechnieken.md
-      - file: leerdoelen/onzekerheidToleranties.md
-        sections:
-          - file: leerdoelen/onzekerheid_oefenopgaves.md
-      - file: leerdoelen/lifeCycleAnalysis.md
+    - file: leerdoelen/ontwerpen.md
+    - file: leerdoelen/schattendRekenen.md
+    - file: leerdoelen/fabricagetechnieken.md
+    - file: leerdoelen/onzekerheidToleranties.md
+      sections:
+      - file: leerdoelen/onzekerheid_oefenopgaves.md
+    - file: leerdoelen/lifeCycleAnalysis.md
 
   - caption: Ontwerpopdrachten
     chapters:
-      - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensor.md
-        sections:
-          - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensorInvulTemplate.ipynb
-      - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.md
-        sections:
-          - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
+    - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensor.md
+      sections:
+      - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensorInvulTemplate.ipynb
+    - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.md
+    sections:
+    - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
 
   - caption: Overig
     chapters:
-      - file: ontwerpopdrachten/0kickOffDag/kickoffdagTestAssignment.ipynb
-      - file: references.md
-      - file: credits.md
+    - file: ontwerpopdrachten/0kickOffDag/kickoffdagTestAssignment.ipynb
+    - file: references.md
+    - file: credits.md
