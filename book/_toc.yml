@@ -16,19 +16,6 @@ parts:
     - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdrach1KalibreerEenSensor.md
       sections:
       - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensorInvulTemplate.ipynb
-    - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.md
-      sections:
-          - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
-    - file: ontwerpopdrachten/3OntwerpEenTransistor/DEFontwerpopdracht3OntwerpEenTransistor.md
-    - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritme.md
-      sections:
-          - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritmeInvulTemplate.ipynb
-    - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpOpdrachtTrillingsvrij.md
-      sections:
-          - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb
-    - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpOpdrachtMicroscoop.md
-      sections:
-          - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpopdracht6MaakEenMicroscoopInvulTemplate.ipynb.ipynb
   - caption: Overig
     chapters:
     - file: ontwerpopdrachten/0kickOffDag/kickoffdagTestAssignment.ipynb
