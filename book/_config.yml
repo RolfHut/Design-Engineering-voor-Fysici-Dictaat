@@ -7,10 +7,10 @@ parse:
   myst_enable_extensions:
     # don't forget to list any other extensions you want enabled,
     # including those that are enabled by default!
+    - colon_fence
     - amsmath
     - dollarmath
     - attrs_inline
-    - colon_fence
     - deflist
     - fieldlist
     - html_admonition
