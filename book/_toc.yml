@@ -12,7 +12,7 @@ parts:
       - file: leerdoelen/onzekerheid_oefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
       sections:
-        - file: leerdoelen/onzekerheid_oefenopgaves.md
+      - file: leerdoelen/duurzaamOntwerpen.md
 
   - caption: Ontwerpopdrachten
     chapters:
