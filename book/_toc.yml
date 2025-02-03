@@ -11,6 +11,8 @@ parts:
       sections:
       - file: leerdoelen/onzekerheid_oefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
+      sections:
+        - file: leerdoelen/onzekerheid_oefenopgaves.md
 
   - caption: Ontwerpopdrachten
     chapters:
