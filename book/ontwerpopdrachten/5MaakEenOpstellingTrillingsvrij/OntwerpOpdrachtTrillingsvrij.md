@@ -1,4 +1,4 @@
-# Parametrisch ontwerpen: Maak een meetopstelling trillingsvrij
+# 5. Maak een meetopstelling trillingsvrij
 De leerdoelen voor vandaag zijn:
 
 - Inzien dat de parameters in een differentiaalvergelijking ontwerpparameters zijn die een ontwerpruimte opspannen.
@@ -11,7 +11,7 @@ Om die leerdoelen onder de knie te krijgen gaan jullie een opstelling maken die 
 - laat zien dat je de Arduino werkend aangesloten hebt.
 
 ##### voor einde van de dag (ontwerpopdracht)
-- dit notebook op Vocareum
+- het [invul template ](OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb) op vocareum
 - Een video bestand (liefst gif!) met een video die laat zien dat je opstelling 'werkt', op Brightspace
 - je samenwerken feedback logboek op Brightspace.
 
@@ -141,5 +141,5 @@ Op Brightspace is een aparte assignment waar je de video moet inleveren. Zet dez
 ## Samenwerking feedback geven, noteren en inleveren
 Net als bij elke workshop geef je elkaar weer feedback op de samenwerking. Kijk als nodig nog even de videos daarvan terug. De feedback die je krijgt noteer je in je logboek en dat lever je weer in.
 
-# Opruimen en door TA af laten tekenen dat je weg gaat
+## Opruimen en door TA af laten tekenen dat je weg gaat
 Als alles ingeleverd is ruim je je tafel op. **Laat je TA controleren dat je tafel er ok uitziet voordat je weg gaat.**
