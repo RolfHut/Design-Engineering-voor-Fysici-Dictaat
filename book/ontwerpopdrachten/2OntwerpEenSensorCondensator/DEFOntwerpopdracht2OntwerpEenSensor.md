@@ -47,7 +47,7 @@ Sluit de functiegenerator aan op de scope. Zie slides 1 tot en met 6 van de hand
 ### Sanity check 2: bekende condensator meten 
 Je gaat berekenen wat de capaciteit van je referentie-condensator is. Gebruik hierbij het volgende
     
-- $ V_{in} $ is een sinusvormig signaal met een amplitude van 8 V (16 Vpp) en een frequentie van 100 kHz
+- $V_{in}$ is een sinusvormig signaal met een amplitude van 8 V (16 Vpp) en een frequentie van 100 kHz
 - De stroom door een condensator gegeven wordt door $I = C\frac{dV}{dt}$
 - De stroom niet direct gemeten wordt, maar we met behulp van een shunt-weerstand van $1 k\Omega$ deze stroom omzetten in een voltage dat we meten.
     
