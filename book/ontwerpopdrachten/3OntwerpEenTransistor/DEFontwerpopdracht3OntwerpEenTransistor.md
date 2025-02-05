@@ -1,4 +1,4 @@
-# Ontwerp een transistor
+# 3. Ontwerp een transistor
 
 In this assignment, you will design, on a single chip, a two components integrated circuit consisting of a transistor and a resistor. You will first have to simulate the circuit in the computer program “LTSpice” to obtain the required behavior and component values. After this, the lay-out of the devices must be drawn in another computer program: “KLayout”. Based on this lay-out, chips will be fabricated with the dimensions you designed.
 ![img_2.png](img_2.png)

@@ -1,4 +1,4 @@
-# Ontwerp een Sensor
+# 2. Ontwerp een Sensor
 
 Vandaag ga je een sensor maken op basis van verandering van capaciteit. Wat de sensor gaat meten mag je als groep zelf beslissen. Aan het einde van de dag moet je een (filmpje van een) werkende sensor laten zien en (in dit notebook) een kalibratiegrafiek inleveren.
 
