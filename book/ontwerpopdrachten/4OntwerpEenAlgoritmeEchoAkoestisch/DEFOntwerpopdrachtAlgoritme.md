@@ -1,8 +1,10 @@
-# Echo akoestisch algoritme
+# 4. Echo akoestisch algoritme
 Vandaag ga je zelf een algoritme ontwerpen waarmee je de locatie van een object op basis van echo's gaat bepalen.
 Dit notebook helpt je daar doorheen.
 
-## Leerdoel
+## Introductie 
+
+### Leerdoel
 Het leerdoel voor vandaag is: 
 
 - Inzien dat het maken van een algoritme een ontwerpproces is en het proces optimaal inrichten op de randvoorwaarden van de opdracht
@@ -23,9 +25,9 @@ Overleg bij alles wat je in het notebook invult met je team: wat je inlevert is 
 Vul onderstaande tabel in bij opdracht 1 in de template. 
 *Laat de planning aan je TA zien om deze te controleren. De planning moet uiterlijk om 11.00 gezien zijn*.
 
-### Voorbereiding, werkruimte inrichten, benodigd materiaal.
+## Voorbereiding, werkruimte inrichten, benodigd materiaal.
 
-Run cel onder opdracht 2 in de template om alle benodigde libraries te laden. Mogelijk voeg je er zelf nog een aantal toe later vandaag.
+Run de python cel onder opdracht 2 in de template om alle benodigde libraries te laden. Mogelijk voeg je er zelf nog een aantal toe later vandaag.
 
 Je hebt een leeg oppervlak van (minstens) 70 cm bij 70 cm nodig. Op de tafels hebben we een assenstelsel aangebracht. Daarnaast heb je nodig:
 
@@ -39,7 +41,7 @@ Sluit je Arduino aan volgens deze schakeling, zorg ervoor dat je USB kabel niet 
 
 ### Opdracht 1: Kalibreren sensor 
 
-Upload de code ```distanceCalibration.ino``` die op Brightspace staat naar je Arduino. Open vervolgens de ```Serial Monitor``` op je laptop. Je ziet nu de ruwe meetwaarden van je sensor binnenkomen. In het college  is uitgelegd wat deze waardes betekenen.
+Upload de code ```distanceCalibration.ino``` die op Brightspace en [hier](distanceCalibration/distanceCalibration.ino) staat naar je Arduino. Open vervolgens de ```Serial Monitor``` op je laptop. Je ziet nu de ruwe meetwaarden van je sensor binnenkomen. In het college  is uitgelegd wat deze waardes betekenen.
 
 Doe een serie metingen om je sensor te kalibreren. Bepaal zelf geschikte afstanden waarop je zender, ontvanger en reflector neerzet. Gebruik het meetlint van één van de assen op je tafel om de afstand te bepalen. Verwerk jullie metingen bij opdracht 3 in de template. Bepaal zelf welk verband het beste je metingen beschrijft en fit de bijpassende functie.
 
@@ -48,7 +50,7 @@ Doe een serie metingen om je sensor te kalibreren. Bepaal zelf geschikte afstand
 Maak ook een foto van je kalibratieopstelling en voeg deze in bij opdracht 3 in de template. 
 
 ### Zet kalibratie resultaat in Arduino
-Open vervolgens de Arduino code ```distanceMeasurement.ino``` die op Brightspace staat. Pas deze code aan zodat je eigen kalibratie constanten erin staan. Upload vervolgens deze code naar je Arduino. Jullie hebben nu zelf jullie sensor gekalibreerd en bent klaar voor het volgende deel van de opdracht.
+Open vervolgens de Arduino code ```distanceMeasurement.ino``` die op Brightspace en [hier](distanceMeasurement/distanceMeasurement.ino) staat. Pas deze code aan zodat je eigen kalibratie constanten erin staan. Upload vervolgens deze code naar je Arduino. Jullie hebben nu zelf jullie sensor gekalibreerd en bent klaar voor het volgende deel van de opdracht.
    
 ### Opdracht 2: Testen meetopstelling
  We hebben op elke tafel een assenstelsen aangebracht met papieren linialen. We gebruiken de notatie (x,y) in centimeters, bijvoorbeeld (0,40) is het punt 40 cm op de y-as, en (35,35) is in het midden van je oppervlak.
