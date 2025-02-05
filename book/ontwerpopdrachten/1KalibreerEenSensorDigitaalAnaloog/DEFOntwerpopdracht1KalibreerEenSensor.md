@@ -1,6 +1,8 @@
 # DEF Ontwerpopdracht Kalibreer een Sensor
 Vandaag ga je samen kijken of de sensor die je van ons krijgt geschikt is voor een bepaalde toepassing. Welke toepassing dat is en wat de criteria zijn ga je zelf bepalen.
 
+## Introductie
+
 ### Leerdoelen
 
 De leerdoelen voor vandaag zijn (deze lijst komt uit de studiehandleiding):

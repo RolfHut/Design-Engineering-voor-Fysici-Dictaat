@@ -2,12 +2,14 @@
 
 Vandaag ga je een sensor maken op basis van verandering van capaciteit. Wat de sensor gaat meten mag je als groep zelf beslissen. Aan het einde van de dag moet je een (filmpje van een) werkende sensor laten zien en (in dit notebook) een kalibratiegrafiek inleveren.
 
-## Groep vormen
+## Introductie
+
+### Groep vormen
 
 Deze opdracht doe je in groepen van 3 studenten. Je kan jouw groepsnummer en jouw medestudenten vinden op Brightspace onder Groups: ontwerpopdracht 2: ontwerp een sensor. Als eerste moet je je voorstellen aan jouw teamgenoten en zeker weten dat je met de juiste studenten aan de juiste tafel zit. Vervolgens download je het juiste template notebook van Brightspace. Dit template moet aan het eind van de dag ingeleverd worden via Vocareum.
 Als je groep om 10.50 niet compleet is, trek dan aan de bel door je TA erbij te roepen. Wij komen dan kijken wie er mist en schuiven met studenten in incomplete groepen om jullie in volledige groepen te krijgen.
 
-## Leerdoelen
+### Leerdoelen
 De leerdoelen voor vandaag zijn (deze lijst komt uit de studiehandleiding):
 
 1. Kennis hebben van gedrag van elektrische componenten en meetopstellingen
@@ -15,12 +17,12 @@ De leerdoelen voor vandaag zijn (deze lijst komt uit de studiehandleiding):
 3. Onderdelen van een datasheet zoals een kalibratiegrafiek (= grafiek op basis van testmetingen met een fit, die aangeeft welke waarde een sensor voor een bepaalde concentratie of temperatuur meet) opstellen, gevoeligheid en onzekerheid beschrijven
 In tegenstelling tot vorige week geven we deze week niet expliciet aan welke cellen bij welke leerdoelen horen. Aan het einde van de dag kies je zelf welke cellen volgens jullie laat zien dat jullie bovenstaande leerdoelen onder de knie hebben.
 
-## Caddy controleren op inhoud!
+### Caddy controleren op inhoud!
 Je gaat vandaag werken met de apparatuur in de caddy die bij je tafel staat. Aan het einde van de dag controleert je TA of alles netjes in de caddy zit. Als er spullen missen hebben we een probleem! Controleer daarom voor je begint of alles in de caddy zit. Er ligt een lijst met wat er in zou moeten zitten bovenop je caddy.
 
 **Als je dingen mist, of als je dingen te veel hebt, geef je dat direct aan bij je TA.**
 
-## Samenwerken
+### Samenwerken
 Overleg bij alles wat je in het notebook invult met je team: wat je inlevert is van jullie alle drie. Je zal dus goed moeten samenwerken. Jullie hebben allemaal als het goed is de gehele opdracht doorgelezen. Maak nu samen een planning waarin je aangeeft
     
 - hoe laat je bij de mijlpalen verwacht te zijn. Als je een mijlpaal niet haalt omdat je vast zit is het een goed idee om een TA om hulp te vragen
@@ -31,7 +33,7 @@ In de template staat een tabel. Vul deze in (en eventueel aan als je meer regels
 
 Hieronder begint de opdracht. Jullie keuzes in de ontwerpcyclus kunnen betekenen dat je zelf cellen toevoegd of verwijderd in de template. Dat is prima, zolang je ons maar laat zien welke ontwerpstappen je genomen hebt.
     
-## Zo veel mogelijk laptops weg 
+### Zo veel mogelijk laptops weg 
 Als je iets in de template moet invullen dan heb je een laptop nodig, maar leg deze weg wanneer je dat niet hoef te doen. 
 
 ## Voorbereiding: Sanity checks
@@ -113,10 +115,11 @@ Is de verwachte verandering in capaciteit goed meetbaar? Zo nee, ga dan terug in
 
 **Is de verandering wel meetbaar, laat dan je ontwerpgrafiek en tabel aan je TA zien voor je verder gaat. Je TA tekent dit af. Deze grafiek moet voor de pauze af zijn!**
 
-### Fabricage en meten (laptops weer weg)
+## Fabricage en meten (laptops weer weg)
 Maak nu je sensor.
     
 Zodra je sensor af is, maak je twee foto's van je sensor waarbij je in elke foto een andere meting doet. Probeer je scope scherm in beeld te krijgen zodat we ook de meetwaarde zien. Als dat door de opstelling niet kan, maar dan twee (extra) foto's van je scope die bij de metingen horen. Zet die foto's in de template bij opdracht 6. Dit zijn de foto's die we gebruiken om te zien of jullie sensoren werken. 
+
 ## Kalibratiemeting met Arduino
 Sluit vervolgens je sensor aan op je Arduino (zie de schakeling op Brightspace) en upload de code die op Brightspace staat naar je Arduino. Je kan nu heel snel heel veel metingen doen van de capaciteit, veel sneller dan als je dat steeds op de scope moet aflezen.
     
@@ -171,6 +174,8 @@ Verder levert elke student individueel het feedback logboek in. Ook hiervoor is 
 
 ## Opruimen en aftekenen
 Zodra alles ingeleverd is ruim je de tafel op. Zorg dat alles spullen die in de caddy horen daar weer netjes terug gelegd worden (zie de lijst bovenop de caddy!). 
-    
-# Als je klaar bent met opruimen laat je je tafel aan je TA zien. Je TA geeft je toestemming om weg te gaan als alles netjes is.
+
+**Als je klaar bent met opruimen laat je je tafel aan je TA zien. Je TA geeft je toestemming om weg te gaan als alles netjes is.**
+
+
    
