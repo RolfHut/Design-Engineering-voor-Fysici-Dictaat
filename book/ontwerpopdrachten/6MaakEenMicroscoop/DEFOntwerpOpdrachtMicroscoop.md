@@ -1,4 +1,4 @@
-# DEF ontwerpopdracht: Maak een microscoop
+# 6. Maak een microscoop
 
 ## Introductie
 In deze ontwerpopdracht ga je een microscoop maken waarmee je in staat moet zijn om het groepsnummer op de transistor die je in ontwerpopdracht 3 zelf ontworpen hebt af te lezen.
