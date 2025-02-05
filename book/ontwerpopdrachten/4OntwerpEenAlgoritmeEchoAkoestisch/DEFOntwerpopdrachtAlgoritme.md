@@ -84,7 +84,7 @@ Ten slotte voer je je algoritme uit om te kijken of het daadwerkelijk werkt.
 
 Daarna ga je als 1e iteratie de beste ideeen van de verschillende algoritmes combineren tot één nieuw algoritme. "
 
-# Iteratie 0: Eerste pogingen
+## Iteratie 0: Eerste pogingen
 ### Synthese
 Beschrijf bij opdracht 5 in de template jullie algoritmes. Voeg als nodig een figuur toe.
 
@@ -97,7 +97,7 @@ de rest van de metingen kan niet gebruikt worden door het imagingDEF programma e
 ### Evaluatie
 Run de cellen onder opdracht 7 in de template om de evaluatie uit te kunnen voeren. 
 
-# Iteratie 1+
+## Iteratie 1+
 ### Synthese
 Maak een nieuwe blokkenschema op A3 van wat je nu als algoritme gaat proberen. Als het kleine wijzigingen zijn ten opzichte van een vorige iteratie, kras dan gewoon in de oude blokkenschema als dat duidelijk blijft. Maak een foto en zet die bij opdracht 8 van de template. Zorg dat het iteratienummer goed op de foto te zien is.
 
@@ -114,7 +114,7 @@ Hierboven heb je als het goed is een aantal keren ge-itereerd.
 **Als je tevreden bent met je algoritme roep je je TA erbij en laat deze meekijken met de laatste versie van je algoritme. Als je TA tevreden is met jullie algoritme krijg je van je TA een locaties voor het papier.**
 Doe metingen op deze locatie en voer je algortime voor de laatste keer uit. Gebruik hier bij Opdracht 10 in de template.
 
-# Leerdoel: ontwerpcyclus
+## Leerdoel: ontwerpcyclus
 Om te laten zien dat je begrepen hebt hoe je vandaag met de ontwerpcyclus om moet gaan, zet je bij opdracht 11 in de template: onder elkaar alle blokkenschema's van alle versies van je algoritme. Zet ze in de goede volgorde (op tijd). Licht hierbij de gemaakte evaluaties en beslissingen kort toe. Dit, samen met het resultaat dat het gelukt is hierboven, laat zien dat je het leerdoel voor vandaag onder de knie hebt.
 
 ## Inleveren
