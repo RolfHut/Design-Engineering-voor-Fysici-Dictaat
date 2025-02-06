@@ -168,7 +168,7 @@ Je bent nu klaar met het invul template en kan deze op vocareum inleveren.
 - Als je helemaal klaar bent kan het notebook worden ingeleverd door bovenaan op **submit** te klikken. Je kan meerdere keren iets inleveren en alleen de laatste versie wordt bewaard. Na de deadline is het niet meer mogelijk om in te leveren.
 
 ## Feedback op samenwerken geven
-Kijk als herinnering nog even de video over feedback geve: https://www.youtube.com/watch?v=16uW1kPoiww. Pak je logboek van vorige week erbij en geef elkaar allemaal feedback. Noteer je feedback in je logboek.
+Kijk als herinnering nog even de video over feedback geven: https://www.youtube.com/watch?v=16uW1kPoiww. Pak je logboek van vorige week erbij en geef elkaar allemaal feedback. Noteer je feedback in je logboek.
 
 Verder levert elke student individueel het feedback logboek in. Ook hiervoor is de deadline 17.30. Let op dat je deze inlevert bij de assignment van de huidige ontwerpopdracht.
 
