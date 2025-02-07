@@ -58,7 +58,8 @@ Open vervolgens de Arduino code ```distanceMeasurement.ino``` die op Brightspace
  Jullie gaan 7 metingen doen om het imaging algoritme te testen. 
  Zet het papier met de vouw op (20,20) en met een hoek van 90 graden.
  Zie onderstaande figuur.
- <img src=\"testMeting.png\" width=\"400\">
+ 
+ <img src="testMeting.png" width="400">
  
  Doe metingen met je bron en ontvanger op de volgende posities. Noteer de totaal afgelegde afstand van het geluid zoals je Arduino die meet. Gebruik hiervoor de cel bij opdracht 4 in de Template.
  - bron (0,40), ontvanger (0,30)
