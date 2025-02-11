@@ -13,7 +13,7 @@ a) Bouw de schakeling.
 
 b) Open in de Arduino IDE het programma Analogreadserial.
 De belangrijkste code vind je hieronder.
-```angular2html
+```
 void loop(){
     int sensorValue = analogRead(A0);
     Serial.println(sensorValue);delay(1);
