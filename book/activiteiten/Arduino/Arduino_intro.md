@@ -15,13 +15,6 @@ Een belangrijk kenmerk van de Arduino Uno is de reeks pinnen die beschikbaar zij
   <img src="../../../figures/arduino/intro/Picture1.jpg" width="100%" title="De Arduino" name="fig_arduino">
 </p>
 
-```{figure} ../../figures/arduino/intro/Picture1.png
-:width: 100%
-:align: center
-:name: fig_arduino
-De Arduino.
-```
-
 De Arduino Uno heeft verschillende soorten pinnen, elk met een specifieke functie, samengevat in onderstaande tabel.
 
 |Categorie	|Pinnen	|Functie|
