@@ -1,4 +1,4 @@
-# Arduino intro
+# Arduino
 
 Een Arduino is een soort microcomputer. 
 De Arduino sluit je aan op een computer waarbij je een programma stuurt naar de Arduino. 
@@ -6,7 +6,7 @@ De Arduino voert vervolgens je geschreven script uit en zorgt voor de uitvoer.
 Zo kan een koelkast op een bepaalde temperatuur gehouden worden, kan je een zelfrijdende robot aansturen, lichtsensoren maken en ga zo maar door. 
 In deze module gaan we aan het werk met de Arduino en leren we de basismogelijkheden van een Arduino.
 
-## Arduino
+## Arduino Intro
 De Arduino Uno is een van de populairste microcontrollers voor hobbyisten, studenten en professionals. 
 Het is een kleine, programmeerbare elektronica-board die je kunt gebruiken om allerlei creatieve projecten te maken, zoals robots, slimme apparaten en sensoren. 
 Een belangrijk kenmerk van de Arduino Uno is de reeks pinnen die beschikbaar zijn voor interactie met andere elektronische componenten.
