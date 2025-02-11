@@ -12,6 +12,10 @@ parts:
       - file: leerdoelen/onzekerheid_oefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
 
+  - caption: Maandagen
+    chapters:
+      - file: book/activiteiten/Arduino/Arduino_intro.md
+
   - caption: Ontwerpopdrachten
     chapters:
     - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensor.md
