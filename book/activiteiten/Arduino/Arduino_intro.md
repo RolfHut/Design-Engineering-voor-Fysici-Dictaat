@@ -1,21 +1,28 @@
 # Arduino intro
 
-Leuk dat je aan de slag gaat met Arduino! Wellicht heb je nog geen idee wat een Arduino is en wat je er mee kunt. Een Arduino is een soort microcomputer. De Arduino sluit je aan op een computer waarbij je een programma (in Arduino noemen ze dat een sketch) stuurt naar de Arduino. De Arduino voert vervolgens je geschreven script uit en zorgt voor de uitvoer. Zo kun je een koelkast op een bepaalde temperatuur houden, een zelfrijdende robot aansturen, lichtsensoren maken, een lcd scherm op je shirt aansturen en ga zo maar door. Ook is het mogelijk om geen software te gebruiken en alleen met de elektronica te spelen. De Arduino is dan de spanningsbron.
-
-In deze module gaan we aan het werk met de Arduino en leren we de basismogelijkheden van een Arduino. Bij het werken met een Arduino heb je twee belangrijke onderdelen: De Arduino en een breadboard. De Arduino is de computer, met invoer en uitvoer mogelijkheden. Op het breadboard sluit je de elektronica aan die aangestuurd wordt door de Arduino.
+Een Arduino is een soort microcomputer. 
+De Arduino sluit je aan op een computer waarbij je een programma stuurt naar de Arduino. 
+De Arduino voert vervolgens je geschreven script uit en zorgt voor de uitvoer. 
+Zo kan een koelkast op een bepaalde temperatuur gehouden worden, kan je een zelfrijdende robot aansturen, lichtsensoren maken en ga zo maar door. 
+In deze module gaan we aan het werk met de Arduino en leren we de basismogelijkheden van een Arduino.
 
 ## Arduino
-De Arduino Uno, zie {numref}`foto {number} <fig_arduino>` is een van de populairste microcontrollers voor hobbyisten, studenten en professionals. Het is een kleine, programmeerbare elektronica-board die je kunt gebruiken om allerlei creatieve projecten te maken, zoals robots, slimme apparaten en sensoren. Een belangrijk kenmerk van de Arduino Uno is de reeks pinnen die beschikbaar zijn voor interactie met andere elektronische componenten.
+De Arduino Uno is een van de populairste microcontrollers voor hobbyisten, studenten en professionals. 
+Het is een kleine, programmeerbare elektronica-board die je kunt gebruiken om allerlei creatieve projecten te maken, zoals robots, slimme apparaten en sensoren. 
+Een belangrijk kenmerk van de Arduino Uno is de reeks pinnen die beschikbaar zijn voor interactie met andere elektronische componenten.
 
-```{figure} Figures/Arduino.jpg
----
-width: 50%
-name: fig_arduino
----
+<p align="center">
+  <img src="../../../figures/arduino/intro/Picture1.jpg" width="100%" title="De Arduino" name="fig_arduino">
+</p>
+
+```{figure} ../../figures/arduino/intro/Picture1.png
+:width: 100%
+:align: center
+:name: fig_arduino
 De Arduino.
 ```
 
-De Arduino Uno heeft verschillende soorten pinnen, elk met een specifieke functie, samengevat in onderstaande tabel. Een groot deel van die pinnen behandelen we tijdens de verschillende onderdelen van de cursus.
+De Arduino Uno heeft verschillende soorten pinnen, elk met een specifieke functie, samengevat in onderstaande tabel.
 
 |Categorie	|Pinnen	|Functie|
 |---|---|---|
@@ -28,34 +35,22 @@ De Arduino Uno heeft verschillende soorten pinnen, elk met een specifieke functi
 |Reset pin|	RESET|	Herstart van de Arduino Uno|
 |tx & rx| 1 & 2 | seriële communicatie|
 
+Bij het werken met een Arduino heb je twee belangrijke onderdelen: De Arduino zelf en een breadboard. De Arduino is de computer, met invoer en uitvoer mogelijkheden. 
+Op het breadboard wordt de elektronica aangesloten die aangestuurd wordt door de Arduino.
 
 ## Breadboard
-Het breadboard heeft aan beide zijdes twee kolommen die verbonden worden met de voeding (+ en -). De + kant sluit je aan op de 5V uitgang of op een uitvoerpoort van de Arduino. De – kant sluit je aan op de GND (ground) van de Arduino. Alhoewel je de constante output niet altijd gebruikt, is het wel verstandig om deze altijd aan te sluiten.
+Het breadboard heeft een plus en een min kolom, deze moet je aansluiten met de Arduino. 
+De + kant sluit je aan op de5V uitgang of op een uitvoerpoort van de Arduino. 
+De – kant sluit je aan op deGND (ground) van de Arduino.
 
-```{figure} Figures/Breadboard.jpg
----
-width: 100%
-name: fig_breadboard
-align: center
-figclass: margin
----
-Het breadboard om schakelingen op te bouwen.
-```
+<p align="right">
+  <img src="../../../figures/arduino/intro/Picture2.png" width="40%" title="De Arduino" name="fig_breadboardopen">
+</p>
 
-Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. De punten in een rij zijn met elkaar verbonden. Maar laten we hier niet te lang bij stil staan… we gaan aan de slag! 
+Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. 
+De punten in een rij zijn met elkaar verbonden. Maar laten we hier niet te lang bij stil staan… 
+we gaan aan de slag! 
 
-```{figure} Figures/Breadboardopen.PNG
----
-width: 40%
-name: fig_breadboardopen
-align: center
----
-Een open gewerkt breadboard om te tonen hoe de rijen en kolommen verbonden zijn.
-```
-
-```{note}
-Vaak moet je even aangeven in welke USB-Poort je Arduino zit. Dit doe je door in het programma te gaan naar: Hulpmiddelen/Poort. Daar kun je de juiste USB poort aanklikken, zie {numref}`Figuur {number} <fig_COM>`.
-```
 
 ## Benodigdheden
 Benodigdheden voor deze module:
