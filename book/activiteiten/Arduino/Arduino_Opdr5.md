@@ -8,7 +8,7 @@ Alleen nu gebruiken we een LDR en een ANALOG IN .
 a) Bouw de schakeling.
 
 <p align="center">
-  <img  src="../../../figures/arduino/Opdr5/LDR_bb.jpg " width="40%" title="LED_opdr2">
+  <img  src="../../../figures/arduino/Opdr5/LDR_bb.jpg " width="80%" title="LED_opdr2">
 </p>
 
 b) Open in de Arduino IDE het programma Analogreadserial.
@@ -35,7 +35,7 @@ Zorg ervoor dat de LED feller gaat branden als het donkerder wordt.
 
 f) Breid de schakeling verder uit zodat je de hele schakeling ook met een knop aan en uit kan zetten.
 
-g) Leg met behulp van grafiek 2 uit dat een grote waarde van $$R_Ω$$ ervoor zorgt dat de LDR in het hele bereik even gevoelig is.
+g) Leg met behulp van grafiek 2 uit dat een grote waarde van R<sub>Ω</sub> ervoor zorgt dat de LDR in het hele bereik even gevoelig is.
 
 
 

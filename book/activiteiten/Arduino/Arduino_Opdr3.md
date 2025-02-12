@@ -5,7 +5,7 @@
 a) Bouw de opstelling die hiernaast staat. Gebruik bij de output een pin met PWM.
 
 <p align="center">
-  <img src="../../../figures/arduino/Opdr3/LED_2_bb.jpg" width="40%" title="LED_opdr2">
+  <img src="../../../figures/arduino/Opdr3/LED_2_bb.jpg" width="80%" title="LED_opdr2">
 </p>
 
 b) Open het programma *Fade* in de ```examples/basics``` en upload het programma.

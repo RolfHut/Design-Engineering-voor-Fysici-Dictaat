@@ -25,13 +25,13 @@ Een deel van de spanning staat over de LDR en een deel van de spanning staat ove
 Het enige wat we moeten doen is de spanning over de LDR uitlezen en we weten hoe licht het is!
 
 Het is belangrijk om iets meer te weten over hoe een spanningsdeler werkt, omdat bij het gebruik van een sensor er sprake is van een spanningsdeler. 
-De LDR en de Ohmse weerstand staan in serie zodat er geldt: R_totaal = R_LDR + R_Ω. 
+De LDR en de Ohmse weerstand staan in serie zodat er geldt: R<sub>totaal</sub> = R<sub>LDR</sub> + R<sub>Ω</sub>. 
 De bronspanning is 5,0 Volt en omdat de weerstanden in serie geschakeld zijn, geldt dat de stroomsterkte overal gelijk is. 
-De stroomsterkte bereken je met: I = U_bron : R_totaal. 
-Als je deze informatie combineert zie je dat de verhouding tussen de spanningen gelijk is aan de verhouding tussen de weerstanden: I =U_LDR : R_LDR = U_Ω : R_Ω.
+De stroomsterkte bereken je met: I = U<sub>bron</sub> : R<sub>totaal</sub>. 
+Als je deze informatie combineert, zie je dat de verhouding tussen de spanningen gelijk is aan de verhouding tussen de weerstanden: I =U<sub>LDR</sub> : R<sub>LDR</sub> = U<sub>Ω</sub> : R<sub>Ω</sub>.
 
 Als het lichter is wordt de weerstandswaarde van de LDR kleiner waardoor er minder spanning over de LDR staat, maar meer over de Ohmse weerstand. 
-De spanning over de LDR (U_LDR = 5,0 x R_LDR / (R_LDR + R_Ω)) kan je meten met behulp van de ANALOG IN van de Arduino. 
+De spanning over de LDR (U<sub>LDR</sub> = 5,0 x R<sub>LDR</sub> / (R<sub>LDR</sub> + R<sub>Ω</sub>)) kan je meten met behulp van de ANALOG IN van de Arduino. 
 De spanning is dan een maat voor de gemeten lichtintensiteit.
 Je kan nu ook kiezen welke Ohmse weerstand je wilt hebben. 
 Dat ligt er aan voor welk gebied je sensor gevoelig moet zijn. Zie de tweede grafiek.

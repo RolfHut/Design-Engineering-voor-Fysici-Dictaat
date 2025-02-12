@@ -10,7 +10,7 @@ a) Bouw de schakeling die hiernaast staat.
 Let op dat je een grote weerstand gebruikt zodat de stroom niet te groot is.
 
 <p align="center">
-  <img src="../../../figures/arduino/Opdr4/button_1_bb.jpg" width="40%" title="LED_opdr2">
+  <img src="../../../figures/arduino/Opdr4/button_1_bb.jpg" width="80%" title="LED_opdr2">
 </p>
 
 Het idee is nu dat we pin 2 gebruiken als ```INPUT```. 

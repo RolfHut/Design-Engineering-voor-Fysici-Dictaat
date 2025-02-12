@@ -2,7 +2,7 @@
 
 De Arduino kan niet alle waarden uitlezen. 
 De ANALOG IN heeft een 10 bits chip. 
-Dit betekent dat er 2^10 = 1024 waarden doorgegeven kunnen worden. 
+Dit betekent dat er 2<sup>10</sup> = 1024 waarden doorgegeven kunnen worden. 
 <p align="right">
   <img src="../../../figures/arduino/programmeren3/Picture7.jpg" width="40%" title="blink">
 </p>
@@ -10,7 +10,7 @@ Dit betekent dat er 2^10 = 1024 waarden doorgegeven kunnen worden.
 Het is alsof je de 5,0 V in 1024 - 1 kleine blokjes verdeelt. 
 De waarde die je uitleest bij opdracht 5 is dus ook niet de spanning zelf, maar het getal dat bij een spanning hoort. 
 Het getal 223 hoort dus bij: 223 / 1023 * 5,0 = 1,09 V. 
-De PWM(~) is een 8 bits systeem en kan dus 2^8 = 256 waarden geven.
+De PWM(~) is een 8 bits systeem en kan dus 2<sup>8</sup> = 256 waarden geven.
 
 Oei… zie je het probleem? 
 We kunnen inlezen met 1023 verschillende waardes, maar uitschrijven kan maar met 255 waardes…. 

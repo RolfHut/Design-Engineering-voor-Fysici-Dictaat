@@ -2,7 +2,8 @@
 
 ## Het aansluiten van een LED
 
-Een LED is een diode die licht uitzendt als er stroom door deLED gaat. De LED laat stroom maar door in één richting. 
+Een LED is een diode die licht uitzendt als er stroom door de LED gaat. 
+De LED laat stroom maar door in één richting. 
 De lange poot van de LED moet altijd aan de + kant aangesloten worden en de korte poot aan de - kant. 
 
 <p align="right">

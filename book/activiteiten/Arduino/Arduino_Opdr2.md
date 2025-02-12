@@ -9,7 +9,7 @@ De 5V output heb je niet nodig, de uitvoerpoort van deArduino levert nu 5V.
 a) Bouw de opstelling die je ziet in de tekening en sluit de Arduino aan op de computer.
 
 <p align="center">
-  <img src="../../../figures/arduino/Opdr2/LED_2_bb.jpg" width="40%" title="LED_opdr2">
+  <img src="../../../figures/arduino/Opdr2/LED_2_bb.jpg" width="80%" title="LED_opdr2">
 </p>
 
 b) Open het programma en open het script blink via: `bestand/voorbeelden/basis/blink`.
