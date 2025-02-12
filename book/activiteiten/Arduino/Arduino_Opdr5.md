@@ -11,13 +11,6 @@ a) Bouw de schakeling.
   <img  src="../../../figures/arduino/Opdr5/LDR_bb.jpg " width="40%" title="LED_opdr2">
 </p>
 
-````{image} ../../../figures/arduino/Opdr5/LDR_bb.jpg
-:alt: fishy
-:class: bg-primary mb-1
-:width: 200px
-:align: center
-````
-
 b) Open in de Arduino IDE het programma Analogreadserial.
 De belangrijkste code vind je hieronder.
 ```

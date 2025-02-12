@@ -21,7 +21,6 @@ parse:
     - strikethrough
     - substitution
     - tasklist
-    - sphinx.ext.imgconverter
 
 execute:
   execute_notebooks: "off"
