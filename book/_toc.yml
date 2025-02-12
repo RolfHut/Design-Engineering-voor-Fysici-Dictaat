@@ -8,27 +8,32 @@ parts:
     - file: leerdoelen/schattendRekenen.md
     - file: leerdoelen/fabricagetechnieken.md
     - file: leerdoelen/onzekerheidToleranties.md
+      sections:
+      - file: leerdoelen/onzekerheid_oefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
-  - caption: Activiteiten
+
+  - caption: Ontwerpopdrachten
     chapters:
-    - file: activiteiten/activiteitenOverzicht.md
-    - file: activiteiten/colleges.md
+    - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensor.md
       sections:
-      - file: activiteiten/college1.md
-      - file: activiteiten/college2.md
-      - file: activiteiten/college3.md
-      - file: activiteiten/college4.md
-      - file: activiteiten/college5.md
-    - file: activiteiten/ontwerpopdrachten.md
+      - file: ontwerpopdrachten/1KalibreerEenSensorDigitaalAnaloog/DEFOntwerpopdracht1KalibreerEenSensorInvulTemplate.ipynb
+    - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensor.md
       sections:
-      - file: activiteiten/ontwerpopdracht1.md
-      - file: activiteiten/ontwerpopdracht2.md
-      - file: activiteiten/ontwerpopdracht3.md
-      - file: activiteiten/ontwerpopdracht4.md
-      - file: activiteiten/ontwerpopdracht5.md
-      - file: activiteiten/ontwerpopdracht6.md
-    - file: activiteiten/eindopdracht.md
-  - caption: Tot slot
+      - file: ontwerpopdrachten/2OntwerpEenSensorCondensator/DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb
+    - file: ontwerpopdrachten/3OntwerpEenTransistor/DEFontwerpopdracht3OntwerpEenTransistor.md
+    - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritme.md
+      sections:
+          - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritmeInvulTemplate.ipynb
+    - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpOpdrachtTrillingsvrij.md
+      sections:
+          - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb
+    - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpOpdrachtMicroscoop.md
+      sections:
+          - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpopdracht6MaakEenMicroscoopInvulTemplate.ipynb
+
+
+  - caption: Overig
     chapters:
+    - file: ontwerpopdrachten/0kickOffDag/kickoffdagTestAssignment.ipynb
     - file: references.md
     - file: credits.md

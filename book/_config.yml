@@ -3,6 +3,25 @@ author: TeachBooks
 logo: figures/TUDelft_logo_rgb.png
 copyright: Delft University of Technology, CC BY 4.0
 
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - colon_fence
+    - amsmath
+    - dollarmath
+    - attrs_inline
+    - deflist
+    - fieldlist
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - strikethrough
+    - substitution
+    - tasklist
+
 execute:
   execute_notebooks: "off"
 
@@ -20,7 +39,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      repository_url: "https://github.com/TeachBooks/template"
+      repository_url: "https://github.com/RolfHut/Design-Engineering-voor-Fysici-Dictaat"
       use_repository_button: true
       use_issues_button : true
       launch_buttons:
@@ -31,3 +50,4 @@ sphinx:
 
 bibtex_bibfiles: 
   - references.bib
+
