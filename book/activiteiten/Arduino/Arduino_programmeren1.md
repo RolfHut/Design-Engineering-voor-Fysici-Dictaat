@@ -41,15 +41,14 @@ De volgende regel code maakt pin 13 weer laag (0,0 V).
 De pin wordt aangestuurd met een hoog of met een laagsignaal. 
 Zit daar nog iets tussen? Ja en nee… 
 De output is altijd 0,0 V of 5,0V. 
+<p>
+  <img align="right" src="../../../figures/arduino/programmeren1/Picture5.jpg" width="40%" title="blink">
+</p>
 Maar je kan de LED wel dimmen door maar een bepaalde tijd de LED aan te zetten. 
 Als je de LED snel genoeg knippert, zie je niet dat de LED knippert, het lijkt er alleen op dat de LED minder fel brandt. 
 Wanneer je een LED wilt dimmen gebruikje een output met het symbool ~. 
 Dit is een Puls WidthModulation (PWM). 
 De waarde van de PWM zit tussen de 0(geheel uit) en 255 (geheel aan).
-
-<p align="center">
-  <img src="../../../figures/arduino/programmeren1/Picture5.jpg" width="40%" title="blink">
-</p>
 
 ## Een aantal verschillen met Python
 

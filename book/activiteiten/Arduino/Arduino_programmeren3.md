@@ -3,8 +3,8 @@
 De Arduino kan niet alle waarden uitlezen. 
 De ANALOG IN heeft een 10 bits chip. 
 Dit betekent dat er 2<sup>10</sup> = 1024 waarden doorgegeven kunnen worden. 
-<p align="right">
-  <img src="../../../figures/arduino/programmeren3/Picture7.jpg" width="40%" title="blink">
+<p>
+  <img align="right" src="../../../figures/arduino/programmeren3/Picture7.jpg" width="40%" title="blink">
 </p>
 
 Het is alsof je de 5,0 V in 1024 - 1 kleine blokjes verdeelt. 

@@ -26,7 +26,7 @@ f) Verander het script zodat de LED sneller knippert.
 g) Sluit drie verschillende LED lampjes aan, verander het script zodat ze om de beurt aan staan.
 
 <p align="center">
-  <img src="../../../figures/arduino/Opdr2/LED_3_bb.jpg" width="40%" title="3LED_opdr2">
+  <img src="../../../figures/arduino/Opdr2/LED_3_bb.jpg" width="80%" title="3LED_opdr2">
 </p>
 
 h) Verander het script en maak een verkeerslicht waarbij oranje maar even aan staat.
