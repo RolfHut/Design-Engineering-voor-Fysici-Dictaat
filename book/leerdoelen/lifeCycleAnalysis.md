@@ -22,7 +22,8 @@ LCA's maken is een vak apart. In dit vak gaan we dit niet doen, maar maken we ee
 
 Om een eco-geïnformeerde analyse te maken beginnen we met een bill of materials, (of in het kort BOM) van het product. 
 
-Als je start vanaf een bestaand product, ontmantel het product en bepaal welke materialen er gebruikt zijn. Middels bekende milieu-indicatoren zoals klimaatverandering (Global Warming Potential, GWP100) uitgedrukt in $kgCO_{2}$-equivalent, of watergebruik uitgedrukt in $m^3$ world eq. deprived. Er zijn veel verschillende indicatoren, en [Bassi et al (2023)](https://dx.doi.org/10.2760/798894) geeft je een mooi overzicht hiervan. Binnen dit vak gaan we ons focussen op GWP, de impact van het materiaalverbruik op klimaatverandering.
+Als je start vanaf een bestaand product, ontmantel het product en bepaal welke materialen er gebruikt zijn. 
+Middels bekende milieu-indicatoren zoals klimaatverandering (Global Warming Potential, GWP100) uitgedrukt in $kgCO_{2}$-equivalent, of watergebruik uitgedrukt in $m^3$ world eq. deprived. Er zijn veel verschillende indicatoren, en [Bassi et al (2023)](https://dx.doi.org/10.2760/798894) geeft je een mooi overzicht hiervan. Binnen dit vak gaan we ons focussen op GWP, de impact van het materiaalverbruik op klimaatverandering.
 
 <img src="../figures/2024-06-18-22-45-32-image.png" style="display: left; margin: 30 ; width: 50% ;"/>
 
