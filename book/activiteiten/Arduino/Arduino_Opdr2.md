@@ -8,8 +8,8 @@ De 5V output heb je niet nodig, de uitvoerpoort van deArduino levert nu 5V.
 
 a) Bouw de opstelling die je ziet in de tekening en sluit de Arduino aan op de computer.
 
-<p align="center">
-  <img src="../../../figures/arduino/Opdr2/LED_2_bb.jpg" width="80%" title="LED_opdr2">
+<p>
+  <img align="center" src="../../../figures/arduino/Opdr2/LED_2_bb.jpg" width="80%" title="LED_opdr2a">
 </p>
 
 b) Open het programma en open het script blink via: `bestand/voorbeelden/basis/blink`.
@@ -17,7 +17,7 @@ b) Open het programma en open het script blink via: `bestand/voorbeelden/basis/b
 c) Controleer het script met het vinkje. 
 Mocht het programma niet werken, dan geeft het onderaan een foutmelding weer (het kan zijn dat je de COM-poort moet toewijzen, dit doe je via hulpmiddelen/poort).
 
-d) Upload het script naar je Arduino met het tekentje ![upload.png](../../../figures/arduino/Opdr2/upload.jpg). (snelcode: ctrl + u)
+d) Upload het script naar je Arduino met het tekentje ![upload](../../../figures/arduino/Opdr2/upload.jpg). (snelcode: ctrl + u)
 
 e) Beschrijf kort wat je ziet. Probeer wat je ziet te verklaren met behulp van de code.
 
@@ -25,8 +25,8 @@ f) Verander het script zodat de LED sneller knippert.
 
 g) Sluit drie verschillende LED lampjes aan, verander het script zodat ze om de beurt aan staan.
 
-<p align="center">
-  <img src="../../../figures/arduino/Opdr2/LED_3_bb.jpg" width="80%" title="3LED_opdr2">
+<p>
+  <img align="center" src="../../../figures/arduino/Opdr2/LED_3_bb.jpg" width="80%" title="3LED_opdr2g">
 </p>
 
 h) Verander het script en maak een verkeerslicht waarbij oranje maar even aan staat.

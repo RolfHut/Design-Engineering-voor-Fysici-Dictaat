@@ -1,13 +1,16 @@
 (intro)=
-# Design Engineering voor Fysici, sylabus (in ontwikkeling)
+# Design Engineering voor Fysici, syllabus (in ontwikkeling)
 
-Maak een microscoop waarmee we individuele atomen kunnen bestuderen. Of: Ontwerp een systeem waardoor de trillingen van de duizenden mensen in deze concertzaal niet tot schade aan het historische gebouw ernaast leiden. Net als alle ingenieurs wordt van natuurkundig ingenieurs gevraagd om oplossingen te ontwerpen waarbij ze hun vak-inhoudelijke kennis gebruiken.
+Maak een microscoop waarmee we individuele atomen kunnen bestuderen. 
+Of: Ontwerp een systeem waardoor de trillingen van de duizenden mensen in deze concertzaal niet tot schade aan het historische gebouw ernaast leiden. 
+Net als alle ingenieurs wordt van natuurkundig ingenieurs gevraagd om oplossingen te ontwerpen waarbij ze hun vak-inhoudelijke kennis gebruiken.
 
 Binnen de opleiding tot technisch natuurkundig ingenieur in Delft leer je in de leerlijn Design Engineering voor Fysici hoe je op een gestructureerde manier efficient je kennis van natuurkunde inzet om (ontwerp)problemen op te lossen. 
 
-Dit interactieve boek vormt samen met de studie-handleiding, het materiaal op Brightspace, de notebooks op Vocareum en wat er in de colleges verteld wordt het studie-materiaal voor het eerste jaars vak Design Engineering voor Fysici (DEF, TU Delft vakcode TN1003). 
+Dit interactieve boek vormt samen met de studie-handleiding, het materiaal op Brightspace, de notebooks op Vocareum en wat er in de colleges verteld wordt het studie-materiaal voor het eerstejaars vak Design Engineering voor Fysici (DEF, TU Delft vakcode TN1003). 
 
-Vooralsnog is deze interactieve sylabus werk in ontwikkeling en een aanvulling op het materiaal dat op Brightspace staat. Als eerste zijn de hoofdstukken 'leerdoelen' ingevuld. Daar is (onder andere) de theorie te vinden die in de theoretische toetsen van het vak getoetst wordt (zie de studiehandleiding op Brightspace). 
+Vooralsnog is deze interactieve syllabus werk in ontwikkeling en een aanvulling op het materiaal dat op Brightspace staat. 
+Als eerste zijn de hoofdstukken 'leerdoelen' ingevuld. Daar is (onder andere) de theorie te vinden die in de theoretische toetsen van het vak getoetst wordt (zie de studiehandleiding op Brightspace). 
 
 ---
 

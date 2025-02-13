@@ -5,7 +5,7 @@ Heb je al ervaring met programmeren in C, dan is het heel makkelijk.
 Heb je geen ervaring met programmeren in C? Het is veel minder moeilijk dan je misschien wel denkt.
 
 <p align="center">
-  <img src="../../../figures/arduino/programmeren1/sketch_1.jpg" width="100%" title="blink">
+  <img src="../../../figures/arduino/programmeren1/sketch_1.jpg" width="100%" title="Arduino_code">
 </p>
 
 Bovenaan het programma Blink staat /* dit betekent dat alles na dit begin tekenen voor het afsluitteken */ commentaar is. 
@@ -42,7 +42,7 @@ De pin wordt aangestuurd met een hoog of met een laagsignaal.
 Zit daar nog iets tussen? Ja en nee… 
 De output is altijd 0,0 V of 5,0V. 
 <p>
-  <img align="right" src="../../../figures/arduino/programmeren1/Picture5.jpg" width="40%" title="blink">
+  <img align="right" src="../../../figures/arduino/programmeren1/Picture5.jpg" width="40%" title="PWM">
 </p>
 Maar je kan de LED wel dimmen door maar een bepaalde tijd de LED aan te zetten. 
 Als je de LED snel genoeg knippert, zie je niet dat de LED knippert, het lijkt er alleen op dat de LED minder fel brandt. 

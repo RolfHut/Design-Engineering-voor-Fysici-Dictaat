@@ -11,8 +11,8 @@ De Arduino Uno is een van de populairste microcontrollers voor hobbyisten, stude
 Het is een kleine, programmeerbare elektronica-board die je kunt gebruiken om allerlei creatieve projecten te maken, zoals robots, slimme apparaten en sensoren. 
 Een belangrijk kenmerk van de Arduino Uno is de reeks pinnen die beschikbaar zijn voor interactie met andere elektronische componenten.
 
-<p align="center">
-  <img src="../../../figures/arduino/intro/Picture1.jpg" width="100%" title="De Arduino" name="fig_arduino">
+<p>
+  <img align="center" src="../../../figures/arduino/intro/Picture1.jpg" width="100%" title="Arduino">
 </p>
 
 De Arduino Uno heeft verschillende soorten pinnen, elk met een specifieke functie, samengevat in onderstaande tabel.
@@ -37,7 +37,7 @@ De + kant sluit je aan op de5V uitgang of op een uitvoerpoort van de Arduino.
 De – kant sluit je aan op deGND (ground) van de Arduino.
 
 <p>
-  <img align="right" src="../../../figures/arduino/intro/Picture2.png" width="40%" title="De Arduino" name="fig_breadboardopen">
+  <img align="right" src="../../../figures/arduino/intro/Picture2.png" width="40%" title="Arduino_breadboard">
 </p>
 
 Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. 

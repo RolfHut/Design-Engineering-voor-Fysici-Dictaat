@@ -4,7 +4,7 @@ De Arduino kan niet alle waarden uitlezen.
 De ANALOG IN heeft een 10 bits chip. 
 Dit betekent dat er 2<sup>10</sup> = 1024 waarden doorgegeven kunnen worden. 
 <p>
-  <img align="right" src="../../../figures/arduino/programmeren3/Picture7.jpg" width="40%" title="blink">
+  <img align="right" src="../../../figures/arduino/programmeren3/Picture7.jpg" width="40%" title="bit_steps">
 </p>
 
 Het is alsof je de 5,0 V in 1024 - 1 kleine blokjes verdeelt. 
@@ -22,7 +22,7 @@ De functie **map** wil 5 getallen hebben.
 - Het derde getal de grootste waarde dat uitgelezen kan worden. Dit hoeft niet per se 0 en 1023 te zijn… 
   De gevoeligheid van je sensor kan ook zitten tussen 500 en 900, zie wederom grafiek 2 uit programmeren deel 3. 
 - Het vierde getal geeft de lower bound van de target range. 
-- En het vijfde getal geeft de upperboundvan de target range. 
+- En het vijfde getal geeft de upperbound van de target range. 
 
 ```
 void loop(){
