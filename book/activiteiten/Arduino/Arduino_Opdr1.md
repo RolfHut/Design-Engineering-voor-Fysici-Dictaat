@@ -1,6 +1,6 @@
+# Opdracht 1
 
-
-## Opdracht 1: Het aansluiten van een LED
+## Het aansluiten van een LED
 
 Een LED is een diode die licht uitzendt als er stroom door de LED gaat. 
 De LED laat stroom maar door in één richting. 
