@@ -26,6 +26,7 @@ parts:
       - file: book/Maandagen/Arduino/ArduinoOpdr5.md
       - file: book/Maandagen/Arduino/ArduinoProgrammeren3.md
       - file: book/Maandagen/Arduino/ArduinoOpdr6.md
+    - file: book/Maandagen/Tweede.md
 
 
   - caption: Ontwerpopdrachten
@@ -39,13 +40,13 @@ parts:
     - file: ontwerpopdrachten/3OntwerpEenTransistor/DEFontwerpopdracht3OntwerpEenTransistor.md
     - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritme.md
       sections:
-          - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritmeInvulTemplate.ipynb
+      - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritmeInvulTemplate.ipynb
     - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpOpdrachtTrillingsvrij.md
       sections:
-          - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb
+      - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb
     - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpOpdrachtMicroscoop.md
       sections:
-          - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpopdracht6MaakEenMicroscoopInvulTemplate.ipynb
+      - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpopdracht6MaakEenMicroscoopInvulTemplate.ipynb
 
 
   - caption: Overig
