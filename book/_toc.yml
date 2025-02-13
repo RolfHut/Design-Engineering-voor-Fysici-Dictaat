@@ -14,18 +14,18 @@ parts:
 
   - caption: Maandagen
     chapters:
-    - file: book/activiteiten/Arduino/Arduino_intro.md
+    - file: book/activiteiten/Arduino/ArduinoIntro.md
       sections:
-      - file: book/activiteiten/Arduino/Arduino_Opdr1.md
-      - file: book/activiteiten/Arduino/Arduino_Opdr2.md
-      - file: book/activiteiten/Arduino/Arduino_programmeren1.md
-      - file: book/activiteiten/Arduino/Arduino_Opdr3.md
-      - file: book/activiteiten/Arduino/Arduino_Opdr4.md
-      - file: book/activiteiten/Arduino/Arduino_programmeren2.md
-      - file: book/activiteiten/Arduino/Arduino_elektronica.md
-      - file: book/activiteiten/Arduino/Arduino_Opdr5.md
-      - file: book/activiteiten/Arduino/Arduino_programmeren3.md
-      - file: book/activiteiten/Arduino/Arduino_Opdr6.md
+      - file: book/activiteiten/Arduino/ArduinoOpdr1.md
+      - file: book/activiteiten/Arduino/ArduinoOpdr2.md
+      - file: book/activiteiten/Arduino/ArduinoProgrammeren1.md
+      - file: book/activiteiten/Arduino/ArduinoOpdr3.md
+      - file: book/activiteiten/Arduino/ArduinoOpdr4.md
+      - file: book/activiteiten/Arduino/ArduinoProgrammeren2.md
+      - file: book/activiteiten/Arduino/ArduinoElektronica.md
+      - file: book/activiteiten/Arduino/ArduinoOpdr5.md
+      - file: book/activiteiten/Arduino/ArduinoProgrammeren3.md
+      - file: book/activiteiten/Arduino/ArduinoOpdr6.md
 
 
   - caption: Ontwerpopdrachten
