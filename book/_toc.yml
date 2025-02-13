@@ -2,7 +2,7 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Leerdoelen
+  - caption: Theoretische Leerdoelen
     chapters:
     - file: leerdoelen/ontwerpen.md
     - file: leerdoelen/schattendRekenen.md
@@ -12,7 +12,7 @@ parts:
       - file: leerdoelen/OnzekerheidOefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
 
-  - caption: Maandagen
+  - caption: Praktische Leerdoelen
     chapters:
     - file: Maandagen/Arduino/ArduinoIntro.md
       sections:
