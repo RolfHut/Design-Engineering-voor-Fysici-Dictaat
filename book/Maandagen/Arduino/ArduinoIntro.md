@@ -6,6 +6,11 @@ De Arduino voert vervolgens je geschreven script uit en zorgt voor de uitvoer.
 Zo kan een koelkast op een bepaalde temperatuur gehouden worden, kan je een zelfrijdende robot aansturen, lichtsensoren maken en ga zo maar door. 
 In deze module gaan we aan het werk met de Arduino en leren we de basismogelijkheden van een Arduino.
 
+**LET OP**
+
+Volg de juiste volgorde: Opdracht 1 --> Opdracht 2 --> Programmeren deel 1 --> Opdracht 3 --> Opdracht 4 -->
+Programmeren deel 2 --> Elektronica --> Opdracht 5 --> Programmeren deel 3 --> Opdracht 6 --> **INLEVEREN**
+
 ## Arduino Intro
 De Arduino Uno is een van de populairste microcontrollers voor hobbyisten, studenten en professionals. 
 Het is een kleine, programmeerbare elektronica-board die je kunt gebruiken om allerlei creatieve projecten te maken, zoals robots, slimme apparaten en sensoren. 
@@ -43,3 +48,4 @@ De – kant sluit je aan op deGND (ground) van de Arduino.
 Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. 
 De punten in een rij zijn met elkaar verbonden. Maar laten we hier niet te lang bij stil staan… 
 we gaan aan de slag! 
+
