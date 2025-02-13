@@ -1,8 +1,8 @@
-## Oefen vraag: vermogen
+# Oefen vraag: vermogen
 Studenten willen de hoeveel energie nodig om water te laten koken bepalen met een onzekerheid van minder dan $5$%. Ze hebben waterkoker, twee multimeters en een stopwatch tot hun beschikking. 
 Multimeters voor V en I hebben $2$% onzekerheid. Hoe nauwkeurig (in procenten) moet de stopwatch zijn?
 
-### Antwoord
+## Antwoord
 De formule voor vermogen is $P = V I$.
 De formule voor energie is $E = P / t$
 Dus $E = \frac{V I}{t}$
