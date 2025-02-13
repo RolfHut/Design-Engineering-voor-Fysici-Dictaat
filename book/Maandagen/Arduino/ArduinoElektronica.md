@@ -5,7 +5,7 @@ Wanneer je alleen een knop hebt ben je snel uitgekeken…
 We willen ook robots aansturen, racemachines niet tegen muren laten botsen en ga zo maar door. 
 Daar hebben we sensoren voor nodig.
 <p>
-  <img  align="right" src="../../../figures/arduino/elektronica/Picture8.jpg" width="40%" title="LDR">
+  <img  align="right" src="../../figures/Arduino/elektronica/Picture8.jpg" width="40%" title="LDR">
 </p> 
 We gaan beginnen met een lichtsensor.
 
@@ -13,12 +13,12 @@ Voor een lichtsensor hebben we een LDR nodig, zie de foto.
 LDR staat voor Light Dependent Resistor (licht afhankelijke weerstand). 
 De weerstandswaarde verandert met veranderende lichtintensiteit, zie de grafiek.
 <p>
-  <img  align="right" src="../../../figures/arduino/elektronica/Picture9.jpg" width="40%" title="LDR_curve">
+  <img  align="right" src="../../figures/Arduino/elektronica/Picture9.jpg" width="40%" title="LDR_curve">
 </p>
 We sluiten de LDR in serie aan met een Ohmse weerstand (een weerstand met een constante weerstandswaarde). 
 Zo hebben we een spanningsdeler gemaakt. 
 <p>
-  <img align="right" src="../../../figures/arduino/elektronica/Picture10.gif" width="40%" title="spanningsdeler">
+  <img align="right" src="../../figures/Arduino/elektronica/Picture10.gif" width="40%" title="spanningsdeler">
 </p>
 
 Een deel van de spanning staat over de LDR en een deel van de spanning staat over de weerstand. 
@@ -36,5 +36,5 @@ De spanning is dan een maat voor de gemeten lichtintensiteit.
 Je kan nu ook kiezen welke Ohmse weerstand je wilt hebben. 
 Dat ligt er aan voor welk gebied je sensor gevoelig moet zijn. Zie de tweede grafiek.
 <p align="right">
-  <img src="../../../figures/arduino/elektronica/Picture11.jpg" width="100%" title="blink">
+  <img src="../../figures/Arduino/elektronica/Picture11.jpg" width="100%" title="blink">
 </p>

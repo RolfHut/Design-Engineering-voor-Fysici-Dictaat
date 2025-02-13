@@ -9,24 +9,23 @@ parts:
     - file: leerdoelen/fabricagetechnieken.md
     - file: leerdoelen/onzekerheidToleranties.md
       sections:
-      - file: leerdoelen/onzekerheid_oefenopgaves.md
+      - file: leerdoelen/OnzekerheidOefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
 
   - caption: Maandagen
     chapters:
-    - file: book/Maandagen/Arduino/ArduinoIntro.md
+    - file: Maandagen/Arduino/ArduinoIntro.md
       sections:
-      - file: book/Maandagen/Arduino/ArduinoOpdr1.md
-      - file: book/Maandagen/Arduino/ArduinoOpdr2.md
-      - file: book/Maandagen/Arduino/ArduinoProgrammeren1.md
-      - file: book/Maandagen/Arduino/ArduinoOpdr3.md
-      - file: book/Maandagen/Arduino/ArduinoOpdr4.md
-      - file: book/Maandagen/Arduino/ArduinoProgrammeren2.md
-      - file: book/Maandagen/Arduino/ArduinoElektronica.md
-      - file: book/Maandagen/Arduino/ArduinoOpdr5.md
-      - file: book/Maandagen/Arduino/ArduinoProgrammeren3.md
-      - file: book/Maandagen/Arduino/ArduinoOpdr6.md
-    - file: book/Maandagen/Tweede.md
+      - file: Maandagen/Arduino/ArduinoOpdr1.md
+      - file: Maandagen/Arduino/ArduinoOpdr2.md
+      - file: Maandagen/Arduino/ArduinoProgrammeren1.md
+      - file: Maandagen/Arduino/ArduinoOpdr3.md
+      - file: Maandagen/Arduino/ArduinoOpdr4.md
+      - file: Maandagen/Arduino/ArduinoProgrammeren2.md
+      - file: Maandagen/Arduino/ArduinoElektronica.md
+      - file: Maandagen/Arduino/ArduinoOpdr5.md
+      - file: Maandagen/Arduino/ArduinoProgrammeren3.md
+      - file: Maandagen/Arduino/ArduinoOpdr6.md
 
 
   - caption: Ontwerpopdrachten

@@ -8,7 +8,7 @@ Alleen nu gebruiken we een LDR en een ANALOG IN .
 a) Bouw de schakeling.
 
 <p>
-  <img align="center"  src="../../../figures/arduino/Opdr5/LDR_bb.jpg " width="80%" title="LED_opdr5">
+  <img align="center"  src="../../figures/Arduino/Opdr5/LDR_bb.jpg " width="80%" title="LED_opdr5">
 </p>
 
 b) Open in de Arduino IDE het programma Analogreadserial.

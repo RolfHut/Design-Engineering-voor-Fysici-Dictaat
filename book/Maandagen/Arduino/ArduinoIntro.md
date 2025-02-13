@@ -12,7 +12,7 @@ Het is een kleine, programmeerbare elektronica-board die je kunt gebruiken om al
 Een belangrijk kenmerk van de Arduino Uno is de reeks pinnen die beschikbaar zijn voor interactie met andere elektronische componenten.
 
 <p>
-  <img align="center" src="../../../figures/arduino/intro/Picture1.jpg" width="100%" title="Arduino">
+  <img align="center" src="../../figures/Arduino/intro/Picture1.jpg" width="100%" title="Arduino">
 </p>
 
 De Arduino Uno heeft verschillende soorten pinnen, elk met een specifieke functie, samengevat in onderstaande tabel.
@@ -37,7 +37,7 @@ De + kant sluit je aan op de5V uitgang of op een uitvoerpoort van de Arduino.
 De – kant sluit je aan op deGND (ground) van de Arduino.
 
 <p>
-  <img align="right" src="../../../figures/arduino/intro/Picture2.png" width="40%" title="Arduino_breadboard">
+  <img align="right" src="../../figures/Arduino/intro/Picture2.png" width="40%" title="Arduino_breadboard">
 </p>
 
 Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. 
