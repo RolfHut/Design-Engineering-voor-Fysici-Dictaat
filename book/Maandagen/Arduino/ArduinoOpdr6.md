@@ -2,8 +2,8 @@
 
 ## Alles samen
 
-- Maak een opstelling die als je op een knop drukt een meting doet.
-- Stuur die meetwaarde via seriële communicatie naar je laptop. 
+- Maak een opstelling die als je op een knop drukt één meting doet (en niet meer!).
+- Stuur die ene meetwaarde via seriële communicatie naar je laptop. 
   Zorg dat je maar één meetwaarde naar de laptop stuurt!
 - Laat met een LEDje zien dat er een meting gedaan is. 
   Zorg dat het LEDje weer uitgaat na een korte tijd zodat je een nieuwe meting kan doen.
