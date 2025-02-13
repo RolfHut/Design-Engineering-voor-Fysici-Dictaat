@@ -1,5 +1,7 @@
 # Arduino
 
+*Deze introductie in werken met de Arduino is gebasseerd op eerder werk van Freek Pols, licht aangepast door Rolf Hut voor Design Engineering voor Fysici en geschikt gemaakt als online materiaal door Mark Melotto.*
+
 Een Arduino is een soort microcomputer. 
 De Arduino sluit je aan op een computer waarbij je een programma stuurt naar de Arduino. 
 De Arduino voert vervolgens je geschreven script uit en zorgt voor de uitvoer. 
