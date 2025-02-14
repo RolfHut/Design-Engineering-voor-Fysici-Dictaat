@@ -2,15 +2,30 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Leerdoelen
+  - caption: Theoretische Leerdoelen
     chapters:
     - file: leerdoelen/ontwerpen.md
     - file: leerdoelen/schattendRekenen.md
-    - file: leerdoelen/fabricagetechnieken.md
     - file: leerdoelen/onzekerheidToleranties.md
       sections:
-      - file: leerdoelen/onzekerheid_oefenopgaves.md
+      - file: leerdoelen/OnzekerheidOefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
+
+  - caption: Praktische Leerdoelen
+    chapters:
+    - file: PraktischeLeerdoelen/Arduino/ArduinoIntro.md
+      sections:
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr1.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr2.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoProgrammeren1.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr3.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr4.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoProgrammeren2.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoElektronica.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr5.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoProgrammeren3.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr6.md
+
 
   - caption: Ontwerpopdrachten
     chapters:
@@ -23,13 +38,13 @@ parts:
     - file: ontwerpopdrachten/3OntwerpEenTransistor/DEFontwerpopdracht3OntwerpEenTransistor.md
     - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritme.md
       sections:
-          - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritmeInvulTemplate.ipynb
+      - file: ontwerpopdrachten/4OntwerpEenAlgoritmeEchoAkoestisch/DEFOntwerpopdrachtAlgoritmeInvulTemplate.ipynb
     - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpOpdrachtTrillingsvrij.md
       sections:
-          - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb
+      - file: ontwerpopdrachten/5MaakEenOpstellingTrillingsvrij/OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb
     - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpOpdrachtMicroscoop.md
       sections:
-          - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpopdracht6MaakEenMicroscoopInvulTemplate.ipynb
+      - file: ontwerpopdrachten/6MaakEenMicroscoop/DEFOntwerpopdracht6MaakEenMicroscoopInvulTemplate.ipynb
 
 
   - caption: Overig

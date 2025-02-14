@@ -11,23 +11,23 @@ parts:
     - file: leerdoelen/lifeCycleAnalysis.md
   - caption: Activiteiten
     chapters:
-    - file: activiteiten/activiteitenOverzicht.md
-    - file: activiteiten/colleges.md
+    - file: PraktischeLeerdoelen/activiteitenOverzicht.md
+    - file: PraktischeLeerdoelen/colleges.md
       sections:
-      - file: activiteiten/college1.md
-      - file: activiteiten/college2.md
-      - file: activiteiten/college3.md
-      - file: activiteiten/college4.md
-      - file: activiteiten/college5.md
-    - file: activiteiten/ontwerpopdrachten.md
+      - file: PraktischeLeerdoelen/college1.md
+      - file: PraktischeLeerdoelen/college2.md
+      - file: PraktischeLeerdoelen/college3.md
+      - file: PraktischeLeerdoelen/college4.md
+      - file: PraktischeLeerdoelen/college5.md
+    - file: PraktischeLeerdoelen/ontwerpopdrachten.md
       sections:
-      - file: activiteiten/ontwerpopdracht1.md
-      - file: activiteiten/ontwerpopdracht2.md
-      - file: activiteiten/ontwerpopdracht3.md
-      - file: activiteiten/ontwerpopdracht4.md
-      - file: activiteiten/ontwerpopdracht5.md
-      - file: activiteiten/ontwerpopdracht6.md
-    - file: activiteiten/eindopdracht.md
+      - file: PraktischeLeerdoelen/ontwerpopdracht1.md
+      - file: PraktischeLeerdoelen/ontwerpopdracht2.md
+      - file: PraktischeLeerdoelen/ontwerpopdracht3.md
+      - file: PraktischeLeerdoelen/ontwerpopdracht4.md
+      - file: PraktischeLeerdoelen/ontwerpopdracht5.md
+      - file: PraktischeLeerdoelen/ontwerpopdracht6.md
+    - file: PraktischeLeerdoelen/eindopdracht.md
   - caption: Tot slot
     chapters:
     - file: references.md
