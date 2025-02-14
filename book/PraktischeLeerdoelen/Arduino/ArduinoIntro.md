@@ -47,7 +47,7 @@ De – kant sluit je aan op de GND (ground) van de Arduino.
   <img align="right" src="../../figures/Arduino/intro/Picture2.png" width="40%" title="Arduino_breadboard">
 </p>
 
-Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. 
+Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opengewerkte breadboard. 
 De punten in een rij zijn met elkaar verbonden. Maar laten we hier niet te lang bij stil staan… 
 we gaan aan de slag! 
 
