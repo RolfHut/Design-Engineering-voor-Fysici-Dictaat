@@ -6,7 +6,6 @@ parts:
     chapters:
     - file: leerdoelen/ontwerpen.md
     - file: leerdoelen/schattendRekenen.md
-    - file: leerdoelen/fabricagetechnieken.md
     - file: leerdoelen/onzekerheidToleranties.md
       sections:
       - file: leerdoelen/OnzekerheidOefenopgaves.md
