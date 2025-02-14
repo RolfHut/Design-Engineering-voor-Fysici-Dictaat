@@ -40,7 +40,7 @@ Op het breadboard wordt de elektronica aangesloten die aangestuurd wordt door de
 
 ## Breadboard
 Het breadboard heeft een plus en een min kolom, deze moet je aansluiten met de Arduino. 
-De + kant sluit je aan op de5V uitgang of op een uitvoerpoort van de Arduino. 
+De + kant sluit je aan op de 5V uitgang of op een uitvoerpoort van de Arduino. 
 De – kant sluit je aan op deGND (ground) van de Arduino.
 
 <p>

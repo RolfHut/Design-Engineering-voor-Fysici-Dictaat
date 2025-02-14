@@ -14,18 +14,18 @@ parts:
 
   - caption: Praktische Leerdoelen
     chapters:
-    - file: Maandagen/Arduino/ArduinoIntro.md
+    - file: PraktischeLeerdoelen/Arduino/ArduinoIntro.md
       sections:
-      - file: Maandagen/Arduino/ArduinoOpdr1.md
-      - file: Maandagen/Arduino/ArduinoOpdr2.md
-      - file: Maandagen/Arduino/ArduinoProgrammeren1.md
-      - file: Maandagen/Arduino/ArduinoOpdr3.md
-      - file: Maandagen/Arduino/ArduinoOpdr4.md
-      - file: Maandagen/Arduino/ArduinoProgrammeren2.md
-      - file: Maandagen/Arduino/ArduinoElektronica.md
-      - file: Maandagen/Arduino/ArduinoOpdr5.md
-      - file: Maandagen/Arduino/ArduinoProgrammeren3.md
-      - file: Maandagen/Arduino/ArduinoOpdr6.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr1.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr2.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoProgrammeren1.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr3.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr4.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoProgrammeren2.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoElektronica.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr5.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoProgrammeren3.md
+      - file: PraktischeLeerdoelen/Arduino/ArduinoOpdr6.md
 
 
   - caption: Ontwerpopdrachten
