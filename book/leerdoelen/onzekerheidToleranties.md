@@ -25,7 +25,7 @@ beschikbaar om $\mu$ en $\sigma$ te berekenen.
 * De onzekerheid $\frac{\sigma}{\sqrt{N}}$ wordt meestal slechts in 1 significant cijfer gerapporteerd. Bij $N>10^4$ kan de onzekerheid in 2 significante cijfers worden gerapporteerd.
 * Het aantal significante cijfers in $\mu$ wordt bepaald door de grootte van de onzekerheid.
 
-##### afleiding onzekerheidsformules
+### afleiding onzekerheidsformules
 Stel een fysische grootheid Z hangt af van de fysische grootheden A , B en C: 
 
 $$
