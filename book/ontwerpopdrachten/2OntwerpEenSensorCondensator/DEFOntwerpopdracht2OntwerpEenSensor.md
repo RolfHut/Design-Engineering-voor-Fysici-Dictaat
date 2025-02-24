@@ -125,7 +125,7 @@ Maak nu je sensor.
 Zodra je sensor af is, maak je twee foto's van je sensor waarbij je in elke foto een andere meting doet. Probeer je scope scherm in beeld te krijgen zodat we ook de meetwaarde zien. Als dat door de opstelling niet kan, maar dan twee (extra) foto's van je scope die bij de metingen horen. Zet die foto's in de template bij opdracht 6. Dit zijn de foto's die we gebruiken om te zien of jullie sensoren werken. 
 
 ## Kalibratiemeting met Arduino
-Sluit vervolgens je sensor aan op je Arduino (zie de schakeling hieronder) en upload de code die op Brightspace, of [hier](CapMeas_UNO_1r.uno), staat naar je Arduino. Je kan nu heel snel heel veel metingen doen van de capaciteit, veel sneller dan als je dat steeds op de scope moet aflezen.
+Sluit vervolgens je sensor aan op je Arduino (zie de schakeling hieronder) en upload de code die op Brightspace, of [hier](CapMeas_UNO_1r.ino), staat naar je Arduino. Je kan nu heel snel heel veel metingen doen van de capaciteit, veel sneller dan als je dat steeds op de scope moet aflezen.
 
 <p>
   <img align="left" src="capaciteitMetArduino.png" width="40%" title="Arduino" border = "2">
