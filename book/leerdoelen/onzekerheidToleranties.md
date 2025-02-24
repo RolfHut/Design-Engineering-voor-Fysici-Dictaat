@@ -1,4 +1,4 @@
-# onzekerheids analyse en toleranties
+# Onzekerheids analyse en toleranties
 
 ## Doel:
 Het bij hij het ontwerpen van een fysisch experiment nadenken over, en voldoen aan, de
