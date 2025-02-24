@@ -6,7 +6,7 @@ Vandaag ga je een sensor maken op basis van verandering van capaciteit. Wat de s
 
 ### Groep vormen
 
-Deze opdracht doe je in groepen van 3 studenten. Je kan jouw groepsnummer en jouw medestudenten vinden op Brightspace onder Groups: ontwerpopdracht 2: ontwerp een sensor. Als eerste moet je je voorstellen aan jouw teamgenoten en zeker weten dat je met de juiste studenten aan de juiste tafel zit. Vervolgens download je het juiste template notebook van Brightspace. Dit template moet aan het eind van de dag ingeleverd worden via Vocareum.
+Deze opdracht doe je in groepen van 3 studenten. Je kan jouw groepsnummer en jouw medestudenten vinden op Brightspace onder Groups: ontwerpopdracht 2: ontwerp een sensor. Als eerste moet je je voorstellen aan jouw teamgenoten en zeker weten dat je met de juiste studenten aan de juiste tafel zit. Vervolgens download je [dit template notebook](DEFOntwerpopdracht2OntwerpEenSensorInvulTemplate.ipynb). Dit template moet aan het eind van de dag ingeleverd worden via Vocareum.
 Als je groep om 10.50 niet compleet is, trek dan aan de bel door je TA erbij te roepen. Wij komen dan kijken wie er mist en schuiven met studenten in incomplete groepen om jullie in volledige groepen te krijgen.
 
 ### Leerdoelen
@@ -23,7 +23,7 @@ Je gaat vandaag werken met de apparatuur in de caddy die bij je tafel staat. Aan
 **Als je dingen mist, of als je dingen te veel hebt, geef je dat direct aan bij je TA.**
 
 ### Samenwerken
-Overleg bij alles wat je in het notebook invult met je team: wat je inlevert is van jullie alle drie. Je zal dus goed moeten samenwerken. Jullie hebben allemaal als het goed is de gehele opdracht doorgelezen. Maak nu samen een planning waarin je aangeeft
+Overleg bij alles wat je in het template invult met je team: wat je inlevert is van jullie alle drie. Je zal dus goed moeten samenwerken. Jullie hebben allemaal als het goed is de gehele opdracht doorgelezen. Maak nu samen een planning waarin je aangeeft
     
 - hoe laat je bij de mijlpalen verwacht te zijn. Als je een mijlpaal niet haalt omdat je vast zit is het een goed idee om een TA om hulp te vragen
 - Op welke tijden je als team je pauzes neemt: plan deze in! continue werken is niet effectief.
@@ -34,7 +34,7 @@ In de template staat een tabel. Vul deze in (en eventueel aan als je meer regels
 Hieronder begint de opdracht. Jullie keuzes in de ontwerpcyclus kunnen betekenen dat je zelf cellen toevoegd of verwijderd in de template. Dat is prima, zolang je ons maar laat zien welke ontwerpstappen je genomen hebt.
     
 ### Zo veel mogelijk laptops weg 
-Als je iets in de template moet invullen dan heb je een laptop nodig, maar leg deze weg wanneer je dat niet hoef te doen. 
+Als je iets in de template moet invullen dan heb je een laptop nodig, maar leg deze weg wanneer je dat niet hoef te doen. Je kan julle laptops nu weg doen tot het einde van sanity check 3.
 
 ## Voorbereiding: Sanity checks
 Om zeker te weten dat al je apparatuur werkt doe je eerst een paar controles. Op Brightspace staat een powerpoint met een handleiding voor deze drie sanity checks. Deze handleiding ligt ook geprint op tafel.
@@ -51,22 +51,22 @@ Je gaat berekenen wat de capaciteit van je referentie-condensator is. Gebruik hi
 - De stroom door een condensator gegeven wordt door $I = C\frac{dV}{dt}$
 - De stroom niet direct gemeten wordt, maar we met behulp van een shunt-weerstand van $1 k\Omega$ deze stroom omzetten in een voltage dat we meten.
     
-Leidt hiermee twee formules af: eentje waarmee je de capaciteit van de condensator bepaald wanneer je $V_{out}$ gemeten hebt en eentje andersom: waarmee je $V_{out}$ voorspelt als je de capaciteit weet. 
+Leidt hiermee op papier twee formules af: eentje waarmee je de capaciteit van de condensator bepaald wanneer je $V_{out}$ gemeten hebt en eentje andersom: waarmee je $V_{out}$ voorspelt als je de capaciteit weet. 
     
-Als je beide formules hebt, dan sluit je vervolgens het plankje aan zoals uitgelegd in de handleiding, slides 6 tot en met 13. Als alle draden goed aangesloten zijn schroef je de referentie condensator die je gehad hebt in het plankje. Lees dan af wat de oscilloscoop meet. Bereken op basis van wat je op de scope meet wat de capaciteit van je referentie condensator is.
+Als je beide formules hebt, dan sluit je vervolgens het plankje aan zoals uitgelegd in de handleiding, slides 6 tot en met 13. Als alle draden goed aangesloten zijn schroef je de referentie condensator die je gehad hebt in het plankje. Lees dan af wat de oscilloscoop meet. Bereken, op papier, op basis van wat je op de scope meet wat de capaciteit van je referentie condensator is.
     
-**Laat je opstelling en je berekening aan je TA zien, die tekent dit af!**
+**Laat je opstelling en je berekening op papier aan je TA zien, die tekent dit af!**
     
 ### Sanity check 3: Plaat condensator meten
-Nu je de meetopstelling hebt getest doen we een laatste sanity check: kunnen we de waarde van een plaatcondensator voorspellen (berekenen) en daarna meten? Kijk welke materialen je beschikbaar hebt en ontwerp (op papier!) een plaatcondensator die een capaciteit heeft van meer dan 50 pF. Geef in je schets de belangrijke dimensies (maten) aan. Gebruik de plaatcondensator formule die in het college behandeld is om te voorspellen wat de capaciteit van jullie condensator wordt:
+Nu je de meetopstelling hebt getest doen we een laatste sanity check: kunnen we de waarde van een plaatcondensator voorspellen (berekenen) en daarna meten? Kijk welke materialen je beschikbaar hebt en ontwerp (op papier!) een plaatcondensator die een capaciteit heeft **van meer dan 50 pF**. Geef in je schets de belangrijke dimensies (maten) aan. Gebruik de plaatcondensator formule die in het college behandeld is om te voorspellen wat de capaciteit van jullie condensator wordt:
 
 $$ C = \epsilon_{0}\epsilon_{r}\frac{A}{d}$$
     
-waarbij $A$ de overlappende oppervlakte van je platen is, $d$ de afstand tussen je platen, $\epsilon_{0}$ de diëlektrische constante van vacuum ( $8.8 \times 10^{-12}$ Farad ) en $\epsilon_{r}$ de diëlektrische waarde voor het materiaal tussen de platen ($1.0$ voor vacuum). Zet je berekening op hetzelfde papier als je ontwerpschets. Deze lever je later in. Bouw vervolgens je plaatcondensator en sluit deze aan zoals de referentie condensator bij sanity check 2. Bereken de amplitude van $V_{out}$ die je op de osciloscoop verwacht te gaan zien. 
+waarbij $A$ de overlappende oppervlakte van je platen is, $d$ de afstand tussen je platen, $\epsilon_{0}$ de diëlektrische constante van vacuum ( $8.8 \times 10^{-12}$ Farad ) en $\epsilon_{r}$ de diëlektrische waarde voor het materiaal tussen de platen ($1.0$ voor vacuum). Zet je berekening op hetzelfde papier als je ontwerpschets. Bouw vervolgens je plaatcondensator en sluit deze aan zoals de referentie condensator bij sanity check 2. Bereken de amplitude van $V_{out}$ die je op de osciloscoop verwacht te gaan zien. 
     
 Meet op de oscilloscoop en gebruik de formules die je bij santiy check 2 afgeleidt hebt om de daadwerkelijke capaciteit van je plaatcondensator te bepalen.
-    
-**De cellen in de template bij opdracht 1 kunnen nu ingevuld worden. Tot en met de tabel. Laat je plaatcondensator, je ontwerp en je berekening aan je TA zien. Die tekent dit af. Pas als je TA sanity check 3 afgetekend heeft pak je als team er weer één laptop bij om door te gaan.**
+
+**De cellen in de template bij *opdracht 1: sanity check 3* kunnen nu ingevuld worden. Bij de eerste python cell voeg je een formule in die op basis van de afmetingen en materiaal van de condensator uitrekent wat de capaciteit gaat zijn. Bij de tweede cell voorspel je, met hulp van die formule, wat de capaciteit van jullie condensator gaat zijn. Laat je plaatcondensator, je ontwerp en je berekening, allemaal in het template, aan je TA zien. Die tekent dit af.**
 
 
 ## Ontwerp opdracht: Maak je eigen sensor.
@@ -90,7 +90,7 @@ Kies één van je drie geschetste sensoren uit om daadwerkelijk te gaan maken. B
 - wat is haalbaar gegeven de beschikbare materialen en tijd?
 - wat vind je (als groep!) het leukst om te maken?
 
-Geef in de template bij opdracht 3 aan welke sensor jullie gaan maken. 
+Vul nu bij Opdracht 3 in welke sensor jullie gaan maken.
 
 ## Simulatie
 Het is belangrijk om van tevoren te weten of de sensor die je gaat maken zijn capaciteit in een groot genoeg meetbaar bereik veranderdt. Werk je schets van je gekozen sensor verder uit. Zet daar in ieder geval goed alle afmetingen bij. 
@@ -99,17 +99,21 @@ Als je schets klaar is, bepaal dan (schat, of leidt af) hoe de te meten variabel
     
 Bijvoorbeeld: een stuk pvc tussen twee metalen platen van 10 cm bij 10 cm zal bij een temperatuur verandering van 20 naar 30 graden lineair uitzetten van 3 naar 3.002 millimeter. Hierdoor veranderd de capaciteit van 117.33 pF naar 117.25 pF. (ik heb expres een slecht voorbeeld gekozen, dit verschil is niet meetbaar).
     
-Bereken en plot de verwachte ontwerpgrafiek van jullie sensor in de template bij opdracht 4. Maak daarbij gebruik van de functie die je zelf geschreven hebt. Zet met comments (#) duidelijk in je code welke aannames en schattingen je maakt.
+Bereken en plot de verwachte ontwerpgrafiek van jullie sensor in de template bij opdracht 4. Maak daarbij gebruik van de functie die je zelf geschreven hebt bij sanity check 3. Zet met comments (#) duidelijk in je code welke aannames en schattingen je maakt.
    
-Om te kijken of de verwachte verandering in capaciteit goed meetbaar is gebruiken we het pakket LTSpice. Dit pakket simuleert het gedrag van elektrische schakelingen. **Ieder groepslid opent op de eigen laptop LTSpice.**
+Om te kijken of de verwachte verandering in capaciteit goed meetbaar is gebruiken we het pakket LTSpice. Dit pakket simuleert het gedrag van elektrische schakelingen. 
+
+**Ieder groepslid opent op de eigen laptop LTSpice.**
     
-- Open het bestand ```LTSpiceTemplateCapacitor.asc``` in LTSpice. (staat op Brightspace). 
+- Open het bestand ```LTSpiceTemplateCapacitor.asc``` in LTSpice. (staat op Brightspace en [hier](LTSpiceTemplateCapacitor.asc)). 
 - Run de simulatie (klik op rennende persoon icoon)
 - Klik met rechtermuisknop in de lege grafiek die verschijnt en kies \add trace\ (of druk op A)
 - Kies V(vin) en V(vout) en druk op ok. Je zou nu twee grafieken moeten zien.
 - Verander de waarde van de condensator door er met de rechtermuisknop op te klikken. Een van de groepsleden kiest als waarde het midden van het verwachte bereik aan capaciteit (midden van je grafiek hierboven). De andere twee groepsleden kiezen het maximum en het minimum. 
 - druk weer op 'run' en zie de grafieken veranderen. Lees af hoeveel Vpp LTSpice berekend bij de uitgang (Vout). Je kan de assen aanpassen door erop te klikken met je rechtermuisknop.
-- Vul nu de tabel in deze staat in de template bij opdracht 5. **Elk groepslid heeft nu succesvol met LTSpice gewerkt, dit is belangrijk voor de ontwerpopdracht van volgende week**
+- Vul nu de tabel in deze staat in de template bij opdracht 5. 
+
+**Elk groepslid heeft nu succesvol met LTSpice gewerkt, dit is belangrijk voor de ontwerpopdracht van volgende week**
     
 Is de verwachte verandering in capaciteit goed meetbaar? Zo nee, ga dan terug in de ontwerp cyclus. Bepaal zelf hoe ver terug je moet stappen of vraag je TA om advies. 
 
@@ -121,13 +125,16 @@ Maak nu je sensor.
 Zodra je sensor af is, maak je twee foto's van je sensor waarbij je in elke foto een andere meting doet. Probeer je scope scherm in beeld te krijgen zodat we ook de meetwaarde zien. Als dat door de opstelling niet kan, maar dan twee (extra) foto's van je scope die bij de metingen horen. Zet die foto's in de template bij opdracht 6. Dit zijn de foto's die we gebruiken om te zien of jullie sensoren werken. 
 
 ## Kalibratiemeting met Arduino
-Sluit vervolgens je sensor aan op je Arduino (zie de schakeling op Brightspace) en upload de code die op Brightspace staat naar je Arduino. Je kan nu heel snel heel veel metingen doen van de capaciteit, veel sneller dan als je dat steeds op de scope moet aflezen.
+Sluit vervolgens je sensor aan op je Arduino (zie de schakeling hieronder) en upload de code die op Brightspace, of [hier](CapMeas_UNO_1r.ino), staat naar je Arduino. Je kan nu heel snel heel veel metingen doen van de capaciteit, veel sneller dan als je dat steeds op de scope moet aflezen.
+
+<p>
+  <img align="left" src="capaciteitMetArduino.png" width="40%" title="Arduino" border = "2">
+</p>
     
 Doe metingen over het bereik waar je de sensor voor ontworpen hebt (denk aan je berekende ontwerpgrafiek). Meet de bijbehorende capaciteit. Plot in de template bij opdracht 7 je gemeten kalibratiegrafiek. Plot in dezelfde figuur ook je verwachte kalibratie die je hierboven had uitgerekend.
 
-## Feedback op samenwerken geven
-Kijk als herinnering nog even de video over feedback geve: https://www.youtube.com/watch?v=16uW1kPoiww. Pak je logboek van vorige week erbij en geef elkaar allemaal feedback. Noteer je feedback in je logboek.
-   
+**Laat je gemeten grafiek aan je TA zien en aftekenen!**
+
 ## Itereren
 Bepaal aan de hand van je kalibratiegrafiek of je sensor goed is voor de gekozen grootheid. Kijk dan naar hoe de sensor nog verbeterd kan worden. Vul tekst in de template bij opdracht 8 aan.
 
@@ -165,7 +172,7 @@ Je bent nu klaar met het invul template en kan deze op vocareum inleveren.
 - Open je notebook in Vocareum
 - **Klik boven op Kernel -> Restart and Run all**
 - Check of er geen errors zijn en alle afbeeldingen zichtbaar zijn.
-- Als je helemaal klaar bent kan het notebook worden ingeleverd door bovenaan op **submit** te klikken. Je kan meerdere keren iets inleveren en alleen de laatste versie wordt bewaard. Na de deadline is het niet meer mogelijk om in te leveren.
+- Als je helemaal klaar bent kan het notebook worden ingeleverd door bovenaan op **submit** te klikken. Je kan meerdere keren iets inleveren en alleen de laatste versie wordt bewaard. **druk na submit op *end lab* voordat je vocareum afsluit! Anders kunnen wij niet nakijken!** Na de deadline is het niet meer mogelijk om in te leveren.
 
 ## Feedback op samenwerken geven
 Kijk als herinnering nog even de video over feedback geven: https://www.youtube.com/watch?v=16uW1kPoiww. Pak je logboek van vorige week erbij en geef elkaar allemaal feedback. Noteer je feedback in je logboek.
