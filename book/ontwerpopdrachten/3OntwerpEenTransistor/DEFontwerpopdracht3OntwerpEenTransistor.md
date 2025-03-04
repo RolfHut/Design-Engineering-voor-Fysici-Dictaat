@@ -41,7 +41,7 @@ We will use the SN region as resistor, which is a n-type region surrounded by th
 
 An easy way of translating geometry into total resistance through RS is by counting squares in a line. For instance, a 5 µm wide and 25 µm long line consists of five 5x5 µm squares, therefore $R = 5 R_S$. This is especially useful when a meandering resistor is used to reduce the area of Si required for the resistor. However, as shown in the figure below, the corners of a meandering resistor must be counted as 0.56 square. This is because of current-crowding effects at the corner.
 
-![resistor_squares](Nmos trans_squares.jpg)
+![resistor_squares](Nmos_resistor_squares.jpg)
 
 You can use any shape and dimensions to draw your resistor to match the value used in the simulation if it follows the design rules in the next section. The SP guard ring should also follow the meandering structure for best performance of the device and enclose the entire resistor, as shown in the template. The length of the resistor is typically defined from CO to CO.
 
@@ -60,7 +60,7 @@ The following figure shows a cross-section on the transistor (left) and resistor
 
 The NMOS from KLayout is shown in the following figure, in which the length (L) and width (W) are indicated. Note that the L is the distance between the two implanted SN regions and not the width of the gate for our process! These dimensions can be changed into the L and W used in your simulator, if they abide to the design rules described in the next section. Don’t forget that beside the SN, all other masks will also have to be resized.
 
-![klayout_trans](NMOS_transistor.png)
+![klayout_trans](klayout_transistor.png)
 
 As a group, you can choose between two design assignments: either a digital signal inverter (‘not gate’) can be made or an audio amplifier. First, you will simulate the design you chose, after this, you will translate it into a lay-out.
 
