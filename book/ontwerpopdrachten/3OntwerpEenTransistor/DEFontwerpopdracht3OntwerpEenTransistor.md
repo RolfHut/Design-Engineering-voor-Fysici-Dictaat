@@ -14,11 +14,13 @@ For a current to flow from the drain to the source, a so-called drain-source vol
 
 As the transistor between the drain and source has a finite resistance, which is controlled by the gate, we now end up with this transistor resistor in series with the on-chip resistor Rchip. This acts as a so-called voltage divider: the voltage at Vout equals the current which goes to through RChip and the transistor, times the on resistance of the transistor. Mathematically:
 
-$V_{out} = \frac{R_{Transistor}}{R_{Transistor} + R_{chip}} V_{dd}$ (1)
+$V_{out} = \frac{R_{Transistor}}{R_{Transistor} + R_{chip}} V_{dd}$
 
-We can control the value of RChip through its dimensions (l, w) as explained in the KLayout manual and repeated here in eq. 2.
+Since the resistance value of the transistor depends on the applied input voltage Vin we get that we can control Vout with Vin: 
 
-$R_{Chip} = \frac{\rho l}{A} = \frac{\rho l}{d w} = R_{s}\frac{l}{w}$ (2)
+$V_{out}\left(V_{in}\right) = \frac{R_{Transistor}\left(V_{in}\right)}{R_{Transistor}\left(V_{in}\right) + R_{chip}} V_{dd}$
+ 
+Both the exact value of RChip as well as the behavior of the transistor is determined by their physical dimensions on the chip. Those dimensions you get to design today! Below we will explain seperatly for the resistor and the transistor how the design links to their resistance value. This is treated in the lecture and repeated here for your convenience. 
 
 The value of RTransistor depends on its operation region and its dimensions W and L. Here W is the width of the channel and L the length of the channel. In general, a wider and/or narrower transistor has a lower on-resistance.
 
@@ -33,13 +35,31 @@ $R_{Transistor} = \frac{1}{\mu_n C_{ox} \frac{W}{L} V_{DS}} = \frac{L}{\mu_n C_{
 Where µn­ is the mobility of electrons in Si (596 cm2/Vs in our model), Cox the capacitance per unit area of the 100 nm thick gate-oxide, and VTh the threshold voltage (1.1 ± 0.1 V). These are process-depended and cannot be controlled by the designer (which is you in this assignment). Only the W and L can be changed, within the specifications of the design rules as mentioned in the KLayout manual. In the digital assignment the relevant VGS are 0V and 5V, in the analog assignment you can assume VDS is typically between 2-3 V.
 
 ### CMOS resistor on chip
+as explained in the KLayout manual and repeated here in eq. 2.
+
+$R_{Chip} = \frac{\rho l}{A} = \frac{\rho l}{d w} = R_{s}\frac{l}{w}$ (2)
+
+
+We can design the value of RChip through its dimensions (l, w), this is explained below in section CMOS resistor on chip. 
 
 In the simulator we could easily type in any value for the resistor. In order to translate this resistance into dimensions, circuit designers use a property called sheet resistance, $R_S$ in Ω or sometimes $Ω_\Box$ (Ohms per square), which is defined in equation (2).
 
-As our aluminium (Al) has a very low resistivity ($2.8×10^{-8}$ Ω-m), making a resistor of Al with a value of several kΩ would either require a very thin or very long resistor. This is not practical; however, it is also possible to use doped Si as a resistor. A region doped with another type of implants as the substrate will formed a depletion region between the doped area and the substrate. When biased correctly this will act as a diode between the doped region and the substrate, therefore insulating the implanted region from the surrounding Si.
-We will use the SN region as resistor, which is a n-type region surrounded by the p-type substrate. Hence a diode is formed between the SN and the substrate, which remains reverse biased if the substrate has a lower potential than the SN region. Therefore, the substrate must be grounded. The SN in our process has a typical $R_S$ of $60$ Ω.
+We will create a resistor on the chip by just making a suitably long strip of material that conducts electricity. We could use the top layer of aluminium, but as our aluminium (Al) has a very low resistivity ($2.8×10^{-8}$ Ω-m), making a resistor of Al with a value of several kΩ would either require a very thin or very long resistor. This is not practical; however, it is also possible to use doped Si as a resistor. A region doped with another type of implants as the substrate will formed a depletion region between the doped area and the substrate. When biased correctly this will act as a diode between the doped region and the substrate, therefore insulating the implanted region from the surrounding Si.
+We will use the SN region as resistor, which is a n-type region surrounded by the p-type substrate. Hence a diode is formed between the SN and the substrate, which remains reverse biased if the substrate has a lower potential than the SN region. Therefore, the substrate must be grounded. We will create a beam shaped resistor. Remember from high school that for a beam:
 
-An easy way of translating geometry into total resistance through RS is by counting squares in a line. For instance, a 5 µm wide and 25 µm long line consists of five 5x5 µm squares, therefore $R = 5 R_S$. This is especially useful when a meandering resistor is used to reduce the area of Si required for the resistor. However, as shown in the figure below, the corners of a meandering resistor must be counted as 0.56 square. This is because of current-crowding effects at the corner.
+$R = \rho_{s}\frac{l}{b d} $
+
+where $R$ is the resistance, $\rho_{s}$ is the specific resistance which depends on the material, $l$ is the length (in the direction of the current) and $b d$ is the area (perpendicular to the current), with $b$ the width of the beam and $d$ the depth. On our chip, how deep the Si is doped and with how many doped atoms per volume is determined by the factory. This means that for the resistor on the chip, the factory controls $\rho_{s}$ and $d$. As a designer, you can control the length and the width. Seperating what we control:
+
+$R_{Chip} = \frac{\rho_{s}}{d}\frac{l}{b}$
+
+The part we don't control we call $R_{S}$ and is provided by the factory. The SN in our process has a typical $R_S$ of $60$ Ω.
+
+Note that the resistance is determined by the ratio of $l$ over $b$, not by the absolute values. Without loss of generality we can write the length as a number of times the with: $l = nb$. This gives 
+
+$R_{Chip} = \frac{\rho_{s}}{d}n$
+
+With $n$ the amount of times that the width fits in the length. This makes it easy to translate geometry into total resistance through RS: just count the number of squares (of width $b$ in a line. For instance, a 5 µm wide and 25 µm long line consists of five 5x5 µm squares, therefore $R = 5 R_S$. This is especially useful when a meandering resistor is used to reduce the area of Si required for the resistor. However, as shown in the figure below, the corners of a meandering resistor must be counted as 0.56 square. This is because of current-crowding effects at the corner.
 
 ![resistor_squares](Nmos_resistor_squares.jpg)
 
@@ -64,31 +84,11 @@ The NMOS from KLayout is shown in the following figure, in which the length (L) 
 
 As a group, you can choose between two design assignments: either a digital signal inverter (‘not gate’) can be made or an audio amplifier. First, you will simulate the design you chose, after this, you will translate it into a lay-out.
 
-## Part one: simulations
-### Warm-up: contact pad capacitance
-In both versions of the assignment (described below) you will have to consider that the 1 by 1 mm contact pads on your chip will have a capacitance that is not neglectable. Remember the assignment from last week and realize that the contact pads together with the grounded bottom of the chip can be considered as plate capacitors with 100 nm silicon dioxide. Calculate what the capacitance of the contact pads is. You will need to put the value that you’ve calculated in the relevant elements of the LTSpice simulation.
+## Choose an assignment
+Read the two assignments below. As a team, choose which one you want to work on today. 
 
-### Both assignments: tolerances
-First, using what you learned in the lecture on tolerances last Monday and the equations applied above, derive the equation for the uncertainty in the output. Use the following information:
+### Assignment option 1: digital inverter
 
-- The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness. The maximum absolute variation this can give is ± 200 nm of the designed dimensions. The typical size of a structure is about 10 micrometers.
-- Another source of variation in our process is the sheet resistance (Rs­) of the resistor, which strongly depends on the implantation dose and annealing temperature. In our process, the sheet resistance can vary ±10%.
-- You may assume that the value of Rchip and Rtransistor are about equal (but their uncertainties are not!).
-- You may also assume that the uncertainty in VGS and VDS is neglectable.
-Follow these steps:
-
-1. If needed, calculate the uncertainty in (VGS – Vth) first. Neglect terms that can be neglected.
-2. Calculate the relative uncertainty in Rchip and Rtransistor. Neglect terms that can be neglected
-3. Use the equation for the uncertainty of a voltage divider to derive the uncertainty in de output Voltage.
-
-Calculate which of the variations in the production process will have the largest impact on your output Voltage? (This should take no more than 15 minutes, if you get stuck ask help).
-1. 
-2. Show the derived uncertainty equation and your answer to the above question to your TA before moving on.
-2. On the sheet your TA gave you is a table with “problem -> cause -> solution”. Fill in this table and show it to your TA.
-*Now you can move on to simulating in LTSpice, but before simulating, first, read the LTSpice manual!*
-
-## Assignment option 1: digital inverter
-Template: NMOS_EKL_digital_template_group_XYZ.asc
 
 A digital inverter gives a high output when the input is low, and vice versa, and is the basic building block of any digital circuit. Here the transistor acts like a switch with a finite on-resistance. The goal of the assignment is to have a circuit that can invert a 20 kHz square wave as good as possible. This means that when 0 V is supplied to the gate the output should be close to 5 V, and when 5 V is supplied it should be close to 0 V.
 
@@ -107,7 +107,7 @@ All the specifications of the circuit will have to be documented in a datasheet 
 
 The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
 
-## Assignment option 2: audio amplifier
+### Assignment option 2: audio amplifier
 Template: NMOS_EKL_analog_template_group_XYZ.asc
 
 The circuit can also be used as an audio amplifier, for instance, to amplify the signal coming from a microphone. In this case, a small changing voltage is supplied to the gate, which is amplified at the output. The goal is to design an amplifier which can amplify a sine input by at least a factor 4, which means that the amplitude of the output voltage must be at least four times the amplitude of the input voltage.
@@ -126,6 +126,45 @@ Once you have this working you should try to improve the performance of your chi
 All the specifications of the circuit will have to be documented in a datasheet in such a way that you can verify the performance on the second session of this workshop.
 
 The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
+
+
+## Part one: simulations
+### Warm-up: contact pad capacitance
+In both versions of the assignment (described below) you will have to consider that the 1 by 1 mm contact pads on your chip will have a capacitance that is not neglectable. Remember the assignment from last week and realize that the contact pads together with the grounded bottom of the chip can be considered as plate capacitors with 100 nm silicon dioxide. Calculate what the capacitance of the contact pads is. You will need to put the value that you’ve calculated in the relevant elements of the LTSpice simulation.
+
+### Tolerances
+First, using what you learned in the lecture on tolerances last Monday and the equations applied above, derive the equation for the uncertainty in the output. Use the following information:
+
+- The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness. The maximum absolute variation this can give is ± 200 nm of the designed dimensions. The typical size of a structure is about 10 micrometers.
+- Another source of variation in our process is the sheet resistance (Rs­) of the resistor, which strongly depends on the implantation dose and annealing temperature. In our process, the sheet resistance can vary ±10%.
+- You may assume that the value of Rchip and Rtransistor are about equal (but their uncertainties are not!).
+- You may also assume that the uncertainty in VGS and VDS is neglectable.
+Follow these steps:
+
+1. If needed, calculate the uncertainty in (VGS – Vth) first. Neglect terms that can be neglected.
+2. Calculate the relative uncertainty in Rchip and Rtransistor. Neglect terms that can be neglected
+3. Use the equation for the uncertainty of a voltage divider to derive the uncertainty in de output Voltage.
+
+Calculate which of the variations in the production process will have the largest impact on your output Voltage? (This should take no more than 15 minutes, if you get stuck ask help).
+1. 
+2. Show the derived uncertainty equation and your answer to the above question to your TA before moving on.
+2. On the sheet your TA gave you is a table with “problem -> cause -> solution”. Fill in this table and show it to your TA.
+
+### Simulate in LTSpice
+
+*Now you can move on to simulating in LTSpice, but before simulating, first, read the LTSpice manual!*
+
+Open the file in LTSpice associated with your chosen assignment:
+
+- Assignment option 1: digital inverter should open ```digital NMOS_EKL_digital_template_group_XYZ.asc```
+- Assignment option 2: audio amplifier should open ```Template: NMOS_EKL_analog_template_group_XYZ.asc```
+
+Click on the 
+
+
+
+
+
 
 *You have to write down specifics from your LTSpice simulation on your sheet and show this to your TA before moving on the phase two: Layout.*
 
