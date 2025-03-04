@@ -1,10 +1,12 @@
 # 3. Ontwerp een transistor
 
+## Introduction
+
 In this assignment, you will design, on a single chip, a two components integrated circuit consisting of a transistor and a resistor. You will first have to simulate the circuit in the computer program “LTSpice” to obtain the required behavior and component values. After this, the lay-out of the devices must be drawn in another computer program: “KLayout”. Based on this lay-out, chips will be fabricated with the dimensions you designed.
 ![img_2.png](img_2.png)
-Figure 1: Electrical circuit for design assignment. The components in the dashed box will be your integrated circuit. The voltage sources are for power and supplying the input signal. In the actual LTSpice circuit, additional parasitic components are added to account for the pad and wire capacitances.
+Figure 1: Electrical circuit for design assignment. The components in the dashed box will be your integrated circuit. The voltage sources are for power and supplying the input signal. Later on in the LTSpice simulation circuit, additional parasitic components are added to account for the pad and wire capacitances.
 
-Figure 1 shows the electrical circuit you will be working with. It consists of a transistor labelled NMOS1 in LTSPICE and a resistor called RChip. Two voltages sources are added to simulate the power supply (VDD) and input voltage (Vin­), Vout is the output voltage which will go to the oscilloscope when you measure the device after fabrication.
+Figure 1 shows the electrical circuit you will be working with. It consists of a transistor (labelled NMOS1 in LTSPICE) and a resistor called RChip. Two voltages sources are added for the power supply (VDD) and input voltage (Vin­), Vout is the output voltage which will go to the oscilloscope when you measure the device after fabrication.
 
 By applying a voltage on the input (gate), the resistance between the drain and source will be modulated. Due to this a current going from drain to source will be modulated. A minimum voltage is required to form a channel between source and drain, which is called the threshold voltage (VTh). For voltages above VTh the transistor will form a conductive path between source and drain. As the gate is electrically isolated from the source and drain by 100 nm of SiO2, ideally no current will flow from the gate to the source or drain. Remember that since current is a flow of charged particles, which are electrons with a negative charge, the charge carriers move from source to drain. Hence their names.
 
@@ -12,7 +14,7 @@ For a current to flow from the drain to the source, a so-called drain-source vol
 
 As the transistor between the drain and source has a finite resistance, which is controlled by the gate, we now end up with this transistor resistor in series with the on-chip resistor Rchip. This acts as a so-called voltage divider: the voltage at Vout equals the current which goes to through RChip and the transistor, times the on resistance of the transistor. Mathematically:
 
-$V_{out} = \frac{R_{Transistor}}{R_{Transistor} + R_{chip}} C_{dd}$ (1)
+$V_{out} = \frac{R_{Transistor}}{R_{Transistor} + R_{chip}} V_{dd}$ (1)
 
 We can control the value of RChip through its dimensions (l, w) as explained in the KLayout manual and repeated here in eq. 2.
 
