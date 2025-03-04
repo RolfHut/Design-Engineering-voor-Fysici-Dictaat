@@ -80,12 +80,11 @@ The following figure shows a cross-section on the transistor (left) and resistor
 ![cross_section](NMOS_trans.png)
 
 ## Choose an assignment
-As a group, you can choose between two design assignments: either a digital signal inverter (‘not gate’) can be made or an audio amplifier. First, you will simulate the design you chose, after this, you will translate it into a lay-out.
+As a group, you can choose between two design assignments: either a digital signal inverter (‘not gate’) can be made or an audio amplifier. First, you will simulate the design you chose in LTSpice, after this, you will translate it into a lay-out using KLayout.
 
 Read the two assignments below. As a team, choose which one you want to work on today. 
 
 ### Assignment option 1: digital inverter
-
 
 A digital inverter gives a high output when the input is low, and vice versa, and is the basic building block of any digital circuit. Here the transistor acts like a switch with a finite on-resistance. The goal of the assignment is to have a circuit that can invert a 20 kHz square wave as good as possible. This means that when 0 V is supplied to the gate the output should be close to 5 V, and when 5 V is supplied it should be close to 0 V.
 
@@ -93,16 +92,7 @@ A digital inverter gives a high output when the input is low, and vice versa, an
 
 *When you get your own chip, you will have to show that this works!*
 
-Transient simulations, that is simulations with time on the x-axis, are the most useful for this in LTSpice. In the template a 5 V square wave is connected to the gate, which has an on-period of 25 µs and total period of 50 µs (which equals 20 kHz). You can change these numbers by right-clicking on the VIn source.
 
-Once you have this working you should try to improve the performance of your chip using the below steps:
-
-1. The power consumption when the transistor is on can be quite high. This is undesired behavior and can be reduced by optimizing the W/L and RChip values. Add the power dissipated by RChip (remember, P = U∙I) to the simulation window and try to reduce the power consumption in the on-state (Vin = 5 V) to below 2.0 mW without sacrificing the previous specification. The maximum allowed dissipation is 3.0 mW.
-2. Optional (if time permits): Digital circuits are fast! Try to determine the maximum frequency your circuit can operate at while still coming within 500 mV of the desired value at the end of the pulse. Can you improve your circuit to increase this maximum frequency? What happens to your power consumption?
-
-All the specifications of the circuit will have to be documented in a datasheet in such a way that you can verify the performance on the second session of this workshop.
-
-The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
 
 ### Assignment option 2: audio amplifier
 Template: NMOS_EKL_analog_template_group_XYZ.asc
@@ -113,16 +103,11 @@ The circuit can also be used as an audio amplifier, for instance, to amplify the
 
 *When you get your own chip, you will have to show that this works!*
 
-Transient simulations, that is simulations with time on the x-axis, are the most useful for this in LTSpice. A sine wave with a frequency of 1 kHz can be simulated and has been added to the template, with an amplitude of 0.125 V and DC offset voltage of 2.5 V (remember VTh = 1.1 ± 0.1 V). The values can be changed by right-clicking on the voltage source. This offset voltage is required for two reasons: 1) to ensure that the transistor is on over the entire range of the input signal, and 2) to set the transistor in the right operation regime (the so-called linear regime) for maximum gain.
+In the box below, write your choice:
 
-Once you have this working you should try to improve the performance of your chip:
-
-1. Optimize the system such that it is also a good (at least 4 x) amplifier for higher frequencies. Try to get the biggest spread (ie. bandwith) of frequencies for which your amplifier works. Ideally at least 4x gain at 20 kHz for audio, but see if you can get it as high as 100 kHz.
-2. Optional (if time permits) Explore for which amplitudes of the sine at the input the amplifier still gives a correct output, that is no distortion takes place. To analyze distortion, you can use the Fourier transform in the simulator: right-click the plot – View and select FFT. Now select the input and output signal. For an undistorted signal you should only see a peak at 1 kHz, once the signal starts to be deformed by the circuit additional peaks at higher frequencies will appear. Try to obtain a circuit which can at least process a sine with 0.2 V as amplitude for Vin with less than -20 dB distortion (= difference in dB between the fundamental frequency of 1 kHz and its first harmonic).
-
-All the specifications of the circuit will have to be documented in a datasheet in such a way that you can verify the performance on the second session of this workshop.
-
-The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
+:::{note}
+We choose the assignment: 
+:::
 
 
 ## Part one: simulations
@@ -158,8 +143,30 @@ Open the file in LTSpice associated with your chosen assignment:
 
 Click on the 
 
+#### extra assignment 1
+Transient simulations, that is simulations with time on the x-axis, are the most useful for this in LTSpice. In the template a 5 V square wave is connected to the gate, which has an on-period of 25 µs and total period of 50 µs (which equals 20 kHz). If needed you can change these numbers by right-clicking on the VIn source.
+
+Once you have this working you should try to improve the performance of your chip using the below steps:
+
+1. The power consumption when the transistor is on can be quite high. This is undesired behavior and can be reduced by optimizing the W/L and RChip values. Add the power dissipated by RChip (remember, P = U∙I) to the simulation window and try to reduce the power consumption in the on-state (Vin = 5 V) to below 2.0 mW without sacrificing the previous specification. The maximum allowed dissipation is 3.0 mW.
+2. Optional (if time permits): Digital circuits are fast! Try to determine the maximum frequency your circuit can operate at while still coming within 500 mV of the desired value at the end of the pulse. Can you improve your circuit to increase this maximum frequency? What happens to your power consumption?
+
+All the specifications of the circuit will have to be documented in a datasheet in such a way that you can verify the performance on the second session of this workshop.
+
+The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
 
 
+#### extra assignment 2
+Transient simulations, that is simulations with time on the x-axis, are the most useful for this in LTSpice. A sine wave with a frequency of 1 kHz can be simulated and has been added to the template, with an amplitude of 0.125 V and DC offset voltage of 2.5 V (remember VTh = 1.1 ± 0.1 V). The values can be changed by right-clicking on the voltage source. This offset voltage is required for two reasons: 1) to ensure that the transistor is on over the entire range of the input signal, and 2) to set the transistor in the right operation regime (the so-called linear regime) for maximum gain.
+
+Once you have this working you should try to improve the performance of your chip:
+
+1. Optimize the system such that it is also a good (at least 4 x) amplifier for higher frequencies. Try to get the biggest spread (ie. bandwith) of frequencies for which your amplifier works. Ideally at least 4x gain at 20 kHz for audio, but see if you can get it as high as 100 kHz.
+2. Optional (if time permits) Explore for which amplitudes of the sine at the input the amplifier still gives a correct output, that is no distortion takes place. To analyze distortion, you can use the Fourier transform in the simulator: right-click the plot – View and select FFT. Now select the input and output signal. For an undistorted signal you should only see a peak at 1 kHz, once the signal starts to be deformed by the circuit additional peaks at higher frequencies will appear. Try to obtain a circuit which can at least process a sine with 0.2 V as amplitude for Vin with less than -20 dB distortion (= difference in dB between the fundamental frequency of 1 kHz and its first harmonic).
+
+All the specifications of the circuit will have to be documented in a datasheet in such a way that you can verify the performance on the second session of this workshop.
+
+The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
 
 
 
