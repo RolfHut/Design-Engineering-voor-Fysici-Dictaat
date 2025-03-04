@@ -22,28 +22,7 @@ $V_{out}\left(V_{in}\right) = \frac{R_{Transistor}\left(V_{in}\right)}{R_{Transi
  
 Both the exact value of RChip as well as the behavior of the transistor is determined by their physical dimensions on the chip. Those dimensions you get to design today! Below we will explain seperatly for the resistor and the transistor how the design links to their resistance value. This is treated in the lecture and repeated here for your convenience. 
 
-The value of RTransistor depends on its operation region and its dimensions W and L. Here W is the width of the channel and L the length of the channel. In general, a wider and/or narrower transistor has a lower on-resistance.
-
-The resistance can also be estimated. In the saturation regime (digital assignment):
-
-$R_{Transistor} = \frac{1}{\mu_n C_{ox} \frac{W}{L}(V_{GS} - V_{Th})} = \frac{L}{\mu_n C_{ox} W(V_{GS} - V_{Th})}$ (3) 
-
-While in the linear regime (analog assignment):
-
-$R_{Transistor} = \frac{1}{\mu_n C_{ox} \frac{W}{L} V_{DS}} = \frac{L}{\mu_n C_{ox} W V_{DS}}$(4)
-
-Where µn­ is the mobility of electrons in Si (596 cm2/Vs in our model), Cox the capacitance per unit area of the 100 nm thick gate-oxide, and VTh the threshold voltage (1.1 ± 0.1 V). These are process-depended and cannot be controlled by the designer (which is you in this assignment). Only the W and L can be changed, within the specifications of the design rules as mentioned in the KLayout manual. In the digital assignment the relevant VGS are 0V and 5V, in the analog assignment you can assume VDS is typically between 2-3 V.
-
 ### CMOS resistor on chip
-as explained in the KLayout manual and repeated here in eq. 2.
-
-$R_{Chip} = \frac{\rho l}{A} = \frac{\rho l}{d w} = R_{s}\frac{l}{w}$ (2)
-
-
-We can design the value of RChip through its dimensions (l, w), this is explained below in section CMOS resistor on chip. 
-
-In the simulator we could easily type in any value for the resistor. In order to translate this resistance into dimensions, circuit designers use a property called sheet resistance, $R_S$ in Ω or sometimes $Ω_\Box$ (Ohms per square), which is defined in equation (2).
-
 We will create a resistor on the chip by just making a suitably long strip of material that conducts electricity. We could use the top layer of aluminium, but as our aluminium (Al) has a very low resistivity ($2.8×10^{-8}$ Ω-m), making a resistor of Al with a value of several kΩ would either require a very thin or very long resistor. This is not practical; however, it is also possible to use doped Si as a resistor. A region doped with another type of implants as the substrate will formed a depletion region between the doped area and the substrate. When biased correctly this will act as a diode between the doped region and the substrate, therefore insulating the implanted region from the surrounding Si.
 We will use the SN region as resistor, which is a n-type region surrounded by the p-type substrate. Hence a diode is formed between the SN and the substrate, which remains reverse biased if the substrate has a lower potential than the SN region. Therefore, the substrate must be grounded. We will create a beam shaped resistor. Remember from high school that for a beam:
 
@@ -57,7 +36,7 @@ The part we don't control we call $R_{S}$ and is provided by the factory. The SN
 
 Note that the resistance is determined by the ratio of $l$ over $b$, not by the absolute values. Without loss of generality we can write the length as a number of times the with: $l = nb$. This gives 
 
-$R_{Chip} = \frac{\rho_{s}}{d}n$
+$R_{Chip} = R_{S}n$
 
 With $n$ the amount of times that the width fits in the length. This makes it easy to translate geometry into total resistance through RS: just count the number of squares (of width $b$ in a line. For instance, a 5 µm wide and 25 µm long line consists of five 5x5 µm squares, therefore $R = 5 R_S$. This is especially useful when a meandering resistor is used to reduce the area of Si required for the resistor. However, as shown in the figure below, the corners of a meandering resistor must be counted as 0.56 square. This is because of current-crowding effects at the corner.
 
@@ -68,7 +47,29 @@ You can use any shape and dimensions to draw your resistor to match the value us
 
 ### CMOS transistor on chip
 
-The mask will be used to imprint the pattern into a photoresist layer during fabrication, which is subsequently used to pattern the layer that is currently being worked on. For the course you will have to design the four masks based on a provided template. The layers that will have to be designed are:
+For the transistor: see the figure below for a typical cut-through of the inside of a MOSFET transistor. Between two areas of well conductive doped Si (S and D) we create a small channel of badly conducting Si that is not doped. On top of this channel, seperated by an insulator, a piece of well conductive metal is applied called the gate (G). When a voltage is applied to the gate, the charge on the gate either pushed away electrons in the channel, increasing the resistance between S and D, or attracts electrons, lowering the resistance  
+
+![mosfet](mosfet.png)
+
+The value of RTransistor depends on its operation region and its dimensions W and L. Here W is the width of the channel and L the length of the channel. In the figure above L is the distance between the S and D regions, W is invisibile in this view (points outside of the image). In general, a wider and/or narrower transistor has a lower on-resistance.
+
+The resistance can also be estimated. In the saturation regime (relevant for digital assignment below):
+
+$R_{Transistor} = \frac{1}{\mu_n C_{ox} \frac{W}{L}(V_{GS} - V_{Th})} = \frac{L}{\mu_n C_{ox} W(V_{GS} - V_{Th})}$ (3) 
+
+While in the linear regime (relevant for analog assignment below):
+
+$R_{Transistor} = \frac{1}{\mu_n C_{ox} \frac{W}{L} V_{DS}} = \frac{L}{\mu_n C_{ox} W V_{DS}}$(4)
+
+Where µn­ is the mobility of electrons in Si (596 cm2/Vs in our model), Cox the capacitance per unit area of the 100 nm thick gate-oxide, and VTh the threshold voltage (1.1 ± 0.1 V). These are process-depended and cannot be controlled by the designer (which is you in this assignment). Only the W and L can be changed, within the specifications of the design rules as mentioned in the KLayout manual. In the digital assignment the relevant VGS are 0V and 5V, in the analog assignment you can assume VDS is typically between 2-3 V.
+
+The transistor as you will see it in KLayout is shown in the following figure, in which the length (L) and width (W) are indicated. Note that the L is the distance between the two implanted SN regions and not the width of the gate for our process! These dimensions can be changed into the L and W used in LTSpice, if they abide to the design rules described in the next sections. Don’t forget that beside the SN-layer, all other masks will also have to be resized to match!
+
+![klayout_trans](klayout_transistor.png)
+
+### CMOS: Layers
+
+In lithografy designs masks are used to imprint (dope, etch, etc.) the intended design into or onto the wafer. The mask will be used to imprint the pattern into a photoresist layer during fabrication, which is subsequently used to pattern the layer that is currently being worked on. For this design assignment you will have to design four masks based on a provided template. The layers that will have to be designed are:
 1.	SN, shallow n-type $Si$. It is used for the resistor and source and drain areas of the transistor. This is a high dose but low energy (hence shallow) Arsenic implanted region in the $Si$.
 2.	SP, shallow p-type $Si$. It is used to electrically insulate the devices from the surrounding substrate, the so-called guard ring, and to bias the substrate to ground. This is a high dose but low energy (hence shallow) Boron implanted region in the $Si$.
 3.	CO, contact opening. After the implantations, the $SiO_2$ gate oxide to realize the MOS capacitor (metal-oxide-silicon) is formed on the wafer. As $SiO_2$ is non-conductive we must make holes in this layer in the areas where we want to contact the $Si$.
@@ -78,13 +79,9 @@ The following figure shows a cross-section on the transistor (left) and resistor
 
 ![cross_section](NMOS_trans.png)
 
-The NMOS from KLayout is shown in the following figure, in which the length (L) and width (W) are indicated. Note that the L is the distance between the two implanted SN regions and not the width of the gate for our process! These dimensions can be changed into the L and W used in your simulator, if they abide to the design rules described in the next section. Don’t forget that beside the SN, all other masks will also have to be resized.
-
-![klayout_trans](klayout_transistor.png)
-
+## Choose an assignment
 As a group, you can choose between two design assignments: either a digital signal inverter (‘not gate’) can be made or an audio amplifier. First, you will simulate the design you chose, after this, you will translate it into a lay-out.
 
-## Choose an assignment
 Read the two assignments below. As a team, choose which one you want to work on today. 
 
 ### Assignment option 1: digital inverter
