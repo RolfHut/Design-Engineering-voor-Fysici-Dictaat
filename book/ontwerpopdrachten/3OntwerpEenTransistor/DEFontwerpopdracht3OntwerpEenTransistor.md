@@ -32,6 +32,36 @@ $R_{Transistor} = \frac{1}{\mu_n C_{ox} \frac{W}{L} V_{DS}} = \frac{L}{\mu_n C_{
 
 Where µn­ is the mobility of electrons in Si (596 cm2/Vs in our model), Cox the capacitance per unit area of the 100 nm thick gate-oxide, and VTh the threshold voltage (1.1 ± 0.1 V). These are process-depended and cannot be controlled by the designer (which is you in this assignment). Only the W and L can be changed, within the specifications of the design rules as mentioned in the KLayout manual. In the digital assignment the relevant VGS are 0V and 5V, in the analog assignment you can assume VDS is typically between 2-3 V.
 
+### CMOS resistor on chip
+
+In the simulator we could easily type in any value for the resistor. In order to translate this resistance into dimensions, circuit designers use a property called sheet resistance, $R_S$ in Ω or sometimes $Ω_\Box$ (Ohms per square), which is defined as equation (2).
+
+As our aluminium (Al) has a very low resistivity ($2.8×10^{-8} Ω-m$), making a resistor of Al with a value of several kΩ would either require a very thin or very long resistor. This is not practical; however, it is also possible to use doped Si as a resistor. A region doped with another type of implants as the substrate will formed a depletion region between the doped area and the substrate. When biased correctly this will act as a diode between the doped region and the substrate, therefore insulating the implanted region from the surrounding Si.
+We will use the SN region as resistor, which is a n-type region surrounded by the p-type substrate. Hence a diode is formed between the SN and the substrate, which remains reverse biased if the substrate has a lower potential than the SN region. Therefore, the substrate must be grounded. The SN in our process has a typical $R_S$ of $60$ Ω.
+
+An easy way of translating geometry into total resistance through RS is by counting squares in a line. For instance, a 5 µm wide and 25 µm long line consists of five 5x5 µm squares, therefore $R = 5 R_S$. This is especially useful when a meandering resistor is used to reduce the area of Si required for the resistor. However, as shown in the figure below, the corners of a meandering resistor must be counted as 0.56 square. This is because of current-crowding effects at the corner.
+
+![resistor_squares](Nmos trans_squares.jpg)
+
+You can use any shape and dimensions to draw your resistor to match the value used in the simulation if it follows the design rules in the next section. The SP guard ring should also follow the meandering structure for best performance of the device and enclose the entire resistor, as shown in the template. The length of the resistor is typically defined from CO to CO.
+
+
+### CMOS transistor on chip
+
+The mask will be used to imprint the pattern into a photoresist layer during fabrication, which is subsequently used to pattern the layer that is currently being worked on. For the course you will have to design the four masks based on a provided template. The layers that will have to be designed are:
+1.	SN, shallow n-type Si. It is used for the resistor and source and drain areas of the transistor. This is a high dose but low energy (hence shallow) Arsenic implanted region in the Si.
+2.	SP, shallow p-type Si. It is used to electrically insulate the devices from the surrounding substrate, the so-called guard ring, and to bias the substrate to ground. This is a high dose but low energy (hence shallow) Boron implanted region in the Si.
+3.	CO, contact opening. After the implantations, the SiO2 gate oxide to realize the MOS capacitor (metal-oxide-silicon) is formed on the wafer. As SiO2 is non-conductive we must make holes in this layer in the areas where we want to contact the Si.
+4.	IC, interconnect. The last step in the process is to deposit and pattern aluminium on the wafer to be able to electrically contact the Si transistor and on-chip resistor from the outside.
+
+The following figure shows a cross-section on the transistor (left) and resistor (right) as it will be made in the top surface of the Si is shown. The actual devices are only in the first few hundred of nm of the Si, the rest of the wafer is for mechanical stability.
+
+![cross_section](NMOS_trans.png)
+
+The NMOS from KLayout is shown in the following figure, in which the length (L) and width (W) are indicated. Note that the L is the distance between the two implanted SN regions and not the width of the gate for our process! These dimensions can be changed into the L and W used in your simulator, if they abide to the design rules described in the next section. Don’t forget that beside the SN, all other masks will also have to be resized.
+
+![klayout_trans](NMOS_transistor.png)
+
 As a group, you can choose between two design assignments: either a digital signal inverter (‘not gate’) can be made or an audio amplifier. First, you will simulate the design you chose, after this, you will translate it into a lay-out.
 
 ## Part one: simulations
