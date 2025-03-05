@@ -28,7 +28,7 @@ We will use the SN region as resistor, which is a n-type region surrounded by th
 
 $R = \rho_{s}\frac{l}{b d} $
 
-where $R$ is the resistance, $\rho_{s}$ is the specific resistance which depends on the material, $l$ is the length (in the direction of the current) and $b d$ is the area (perpendicular to the current), with $b$ the width of the beam and $d$ the depth. On our chip, how deep the Si is doped and with how many doped atoms per volume is determined by the factory. This means that for the resistor on the chip, the factory controls $\rho_{s}$ and $d$. As a designer, you can control the length and the width. Seperating what we control:
+where $R$ is the resistance, $\rho_{s}$ is the specific resistance which depends on the material, $l$ is the length (in the direction of the current) and $b d$ is the area (perpendicular to the current), with $b$ the width of the beam and $d$ the depth. On our chip, how deep the $Si$ is doped and with how many doped atoms per volume is determined by the factory. This means that for the resistor on the chip, the factory controls $\rho_{s}$ and $d$. As a designer, you can control the length and the width. Seperating what we control:
 
 $R_{Chip} = \frac{l}{b}\frac{\rho_{s}}{d}$
 
