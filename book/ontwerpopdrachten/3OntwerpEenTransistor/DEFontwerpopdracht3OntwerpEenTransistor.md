@@ -16,7 +16,7 @@ As the transistor between the drain and source has a finite resistance, which is
 
 $V_{out} = \frac{R_{Transistor}}{R_{Transistor} + R_{chip}} V_{dd}$
 
-Since the resistance value of the transistor depends on the applied input voltage $V_{in}$ we get that we can control Vout with $V_{in}$: 
+Since the resistance value of the transistor depends on the applied input voltage $V_{in}$ we get that we can control $V_{out}$ with $V_{in}$: 
 
 $V_{out}\left(V_{in}\right) = \frac{R_{Transistor}\left(V_{in}\right)}{R_{Transistor}\left(V_{in}\right) + R_{chip}} V_{dd}$
  
