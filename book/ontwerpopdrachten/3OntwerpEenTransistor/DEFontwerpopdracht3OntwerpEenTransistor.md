@@ -8,15 +8,15 @@ Figure 1: Electrical circuit for design assignment. The components in the dashed
 
 Figure 1 shows the electrical circuit you will be working with. It consists of a transistor (labelled NMOS1 in LTSPICE) and a resistor called RChip. Two voltages sources are added for the power supply (VDD) and input voltage (Vin­), Vout is the output voltage which will go to the oscilloscope when you measure the device after fabrication.
 
-By applying a voltage on the input (gate), the resistance between the drain and source will be modulated. Due to this a current going from drain to source will be modulated. A minimum voltage is required to form a channel between source and drain, which is called the threshold voltage (VTh). For voltages above VTh the transistor will form a conductive path between source and drain. As the gate is electrically isolated from the source and drain by 100 nm of SiO2, ideally no current will flow from the gate to the source or drain. Remember that since current is a flow of charged particles, which are electrons with a negative charge, the charge carriers move from source to drain. Hence their names.
+By applying a voltage on the input (gate), the resistance between the drain and source will be modulated. Due to this a current going from drain to source will be modulated. A minimum voltage is required to form a channel between source and drain, which is called the threshold voltage ($V_{Th}$). For voltages above $V_{Th}$ the transistor will form a conductive path between source and drain. As the gate is electrically isolated from the source and drain by 100 nm of $SiO_2$, ideally no current will flow from the gate to the source or drain. Remember that since current is a flow of charged particles, which are electrons with a negative charge, the charge carriers move from source to drain. Hence their names.
 
 For a current to flow from the drain to the source, a so-called drain-source voltage must be applied. This could be done by connecting the source to a voltage supply, however, in such a case the output voltage of the transistor will always be 5 V and only the current is modulated by the gate voltage. If we want to make a circuit where an input voltage on the gate controls an output voltage (Vout) on the drain of the transistor, we need to add a resistor between the drain and the power supply, as shown in figure 1.
 
-As the transistor between the drain and source has a finite resistance, which is controlled by the gate, we now end up with this transistor resistor in series with the on-chip resistor Rchip. This acts as a so-called voltage divider: the voltage at Vout equals the current which goes to through RChip and the transistor, times the on resistance of the transistor. Mathematically:
+As the transistor between the drain and source has a finite resistance, which is controlled by the gate, we now end up with this transistor resistor in series with the on-chip resistor $R_{chip}$. This acts as a so-called voltage divider: the voltage at $V_{out}$ equals the current which goes to through $R_{Chip}$ and the transistor, times the on resistance of the transistor. Mathematically:
 
 $V_{out} = \frac{R_{Transistor}}{R_{Transistor} + R_{chip}} V_{dd}$
 
-Since the resistance value of the transistor depends on the applied input voltage Vin we get that we can control Vout with Vin: 
+Since the resistance value of the transistor depends on the applied input voltage $V_{in}$ we get that we can control Vout with $V_{in}$: 
 
 $V_{out}\left(V_{in}\right) = \frac{R_{Transistor}\left(V_{in}\right)}{R_{Transistor}\left(V_{in}\right) + R_{chip}} V_{dd}$
  
