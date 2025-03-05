@@ -20,7 +20,7 @@ Since the resistance value of the transistor depends on the applied input voltag
 
 $V_{out}\left(V_{in}\right) = \frac{R_{Transistor}\left(V_{in}\right)}{R_{Transistor}\left(V_{in}\right) + R_{chip}} V_{dd}$
  
-Both the exact value of RChip as well as the behavior of the transistor is determined by their physical dimensions on the chip. Those dimensions you get to design today! Below we will explain seperatly for the resistor and the transistor how the design links to their resistance value. This is treated in the lecture and repeated here for your convenience. 
+Both the exact value of $R_{Chip}$ as well as the behavior of the transistor is determined by their physical dimensions on the chip. Those dimensions you get to design today! Below we will explain seperatly for the resistor and the transistor how the design links to their resistance value. This is treated in the lecture and repeated here for your convenience. 
 
 ### CMOS resistor on chip
 We will create a resistor on the chip by just making a suitably long strip of material that conducts electricity. We could use the top layer of aluminium, but as our aluminium ($Al$) has a very low resistivity ($2.8×10^{-8}$ Ω-m), making a resistor of $Al$ with a value of several kΩ would either require a very thin or very long resistor. This is not practical; however, it is also possible to use doped $Si$ as a resistor. A region doped with another type of implants as the substrate will formed a depletion region between the doped area and the substrate. When biased correctly this will act as a diode between the doped region and the substrate, therefore insulating the implanted region from the surrounding $Si$.
@@ -61,7 +61,7 @@ While in the linear regime (relevant for analog assignment below):
 
 $R_{Transistor} = \frac{1}{\mu_n C_{ox} \frac{W}{L} V_{DS}} = \frac{L}{\mu_n C_{ox} W V_{DS}}$(4)
 
-Where $µ_n$­ is the mobility of electrons in $Si$ (596 cm2/Vs in our model), $C_{ox}$ the capacitance per unit area of the 100 nm thick gate-oxide, and $V_{Th}$ the threshold voltage ($1.1 ± 0.1$ V). These are process-depended and cannot be controlled by the designer (which is you in this assignment). Only the W and L can be changed, within the specifications of the design rules as mentioned in the KLayout manual. In the digital assignment the relevant $V_{GS}$ are 0V and 5V, in the analog assignment you can assume VDS is typically between 2-3 V with an uncertainty of about 1 mV
+Where $µ_n$­ is the mobility of electrons in $Si$ (596 $cm^2/Vs$ in our model), $C_{ox}$ the capacitance per unit area of the 100 nm thick gate-oxide, and $V_{Th}$ the threshold voltage ($1.1 ± 0.1$ V). These are process-depended and cannot be controlled by the designer (which is you in this assignment). Only the W and L can be changed, within the specifications of the design rules as mentioned in the KLayout manual. In the digital assignment the relevant $V_{GS}$ are 0V and 5V, in the analog assignment you can assume VDS is typically between 2-3 V with an uncertainty of about 1 mV
 
 The transistor as you will see it in KLayout is shown in the following figure, in which the length (L) and width (W) are indicated. Note that the L is the distance between the two implanted SN regions and not the width of the gate for our process! These dimensions can be changed into the L and W used in LTSpice, if they abide to the design rules described in the next sections. Don’t forget that beside the SN-layer, all other masks will also have to be resized to match!
 
@@ -87,14 +87,14 @@ Read the two assignments below. As a team, choose which one you want to work on 
 ### Assignment option 1: digital inverter
 A digital inverter gives a high output when the input is low, and vice versa, and is the basic building block of any digital circuit. Here the transistor acts like a switch with a finite on-resistance. The goal of the assignment is to have a circuit that can invert a 20 kHz square wave as good as possible. This means that when 0 V is supplied to the gate the output should be close to 5 V, and when 5 V is supplied it should be close to 0 V.
 
-*Your design assignment is to make a chip where you adjust the width and length of the transistor, and the value of RChip in such a way that the inverter reaches the required voltages as close as possible, but at least within 250 mV of the nominal value of 0 or 5 V at the end of each pulse.*
+*Your design assignment is to make a chip where you adjust the width and length of the transistor, and the value of $R_{Chip}$ in such a way that the inverter reaches the required voltages as close as possible, but at least within 250 mV of the nominal value of 0 or 5 V at the end of each pulse.*
 
 *When you get your own chip, you will have to show that this works!*
 
 ### Assignment option 2: audio amplifier
 The circuit can also be used as an audio amplifier, for instance, to amplify the signal coming from a microphone. In this case, a small changing voltage is supplied to the gate, which is amplified at the output. The goal is to design an amplifier which can amplify a sine input by at least a factor 4, which means that the amplitude of the output voltage must be at least four times the amplitude of the input voltage.
 
-*Your design assignment is to make a chip where you scale the DC offset voltage of the source, the RChip resistor, and the transistor dimensions in such a way that the gain of the circuit is at least 4 times the amplitude of the input signal (AC gain).*
+*Your design assignment is to make a chip where you scale the DC offset voltage of the source, the $R_{Chip}$ resistor, and the transistor dimensions in such a way that the gain of the circuit is at least 4 times the amplitude of the input signal (AC gain).*
 
 *When you get your own chip, you will have to show that this works!*
 
@@ -106,9 +106,9 @@ In both versions of the assignment (described below) you will have to consider t
 
 ### Tolerances
 
-First, using what you learned in the lecture on tolerances last Monday and the equations given above, we will look at the uncertainty in designing the resistor. A source of variation in our process is the sheet resistance (Rs­) of the resistor, which strongly depends on the implantation dose and annealing temperature. In our process, the sheet resistance can vary ±10%. Suppose we want the make sure the uncertainty in the value of $R_{Chip}$ is less than 11%: how accurate (as a percentage) do we have to count the number of 'blocks' we design on the chip? 
+First, using what you learned in the lecture on tolerances last Monday and the equations given above, we will look at the uncertainty in designing the resistor. A source of variation in our process is the sheet resistance ($R_s$­) of the resistor, which strongly depends on the implantation dose and annealing temperature. In our process, the sheet resistance can vary ±10%. Suppose we want the make sure the uncertainty in the value of $R_{Chip}$ is less than 11%: how accurate (as a percentage) do we have to count the number of 'blocks' we design on the chip? 
 
-Since the uncertainty in $R_{Chip}$ will be at least 10%, an additional uncertainty in $R_{transistor}$ of less than 5% is neglectable on the final output $V_{out}$. Use that any dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness. For the The maximum absolute variation this can give is ± 200 nm of the designed dimensions. This holds for both W and L of the transistor. Use the equation for the lineair regime. Derive what the minimal values of W and L are to make sure that the uncertainty in $R_{transistor}$ is less than 5%. 
+Since the uncertainty in $R_{Chip}$ will be at least 10%, an additional uncertainty in $R_{Transistor}$ of less than 5% is neglectable on the final output $V_{out}$. Use that any dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness. For the The maximum absolute variation this can give is ± 200 nm of the designed dimensions. This holds for both W and L of the transistor. Use the equation for the lineair regime. Derive what the minimal values of W and L are to make sure that the uncertainty in $R_{Transistor}$ is less than 5%. 
 
 ### Thinking physics
 On the sheet your TA gave you is a table with “problem -> cause -> solution”, where problem is already filled in. Given all the above information you should be able to analyse what you should do if you encounter these problems. **Fill in this table and show it to your TA.**
@@ -132,18 +132,18 @@ You should now see your first simulation result for the default values we provid
 
 1. Change the value of the resistor by right clicking on the resistor icon
 2. Change the value of the width (W) and length (L) of the transistor channel by right clicking on the transistor icon
-3. If you are doing the analog amplifier (assignment 2), you can also change the dc-offset of the input signal: right click on the Vin icon.
+3. If you are doing the analog amplifier (assignment 2), you can also change the dc-offset of the input signal: right click on the $V_{in}$ icon.
 3. Run the simulation again by clicking on the running man or play button.
 
 Do not change the values without thinking: use your problem -> cause -> solution to guide you. Keep on changing the values of your resistor and transistor until your simulation show result which satisfy the requirements of your chosen assignment. You have to draw a graph of this on your sheet. You can draw with pencil and highlight the important parts, or you can print what is on your screen and glue on the sheet. Once you have a good design, there are two things to check:
 
 1. The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
-2. For both system we want to know: do they still work with a higher frequency of Vin? To change this, right click on Vin. For the digital assignment you have to specify the on-time and off-time of the square wave. For the analog assignment you can specify the frequency in Hz. You have to draw a graph of this on your sheet.
+2. For both system we want to know: do they still work with a higher frequency of $V_{in}$? To change this, right click on $V_{in}$. For the digital assignment you have to specify the on-time and off-time of the square wave. For the analog assignment you can specify the frequency in Hz. You have to draw a graph of this on your sheet.
 
 Once you have this working you should try to improve the performance of your chip using the below steps, which differ per assignment:
 
 #### improvements assignment 1: digital invertor
-1. The power consumption when the transistor is on can be quite high. This is undesired behavior and can be reduced by optimizing the W/L and RChip values. Add the power dissipated by RChip (remember, P = U∙I) to the simulation window and try to reduce the power consumption in the on-state (Vin = 5 V) to below 2.0 mW without sacrificing the previous specification. The maximum allowed dissipation is 3.0 mW.
+1. The power consumption when the transistor is on can be quite high. This is undesired behavior and can be reduced by optimizing the W/L and $R_{Chip}$ values. Add the power dissipated by $R_{Chip}$ (remember, $P = U∙I$) to the simulation window and try to reduce the power consumption in the on-state ($V_{in}$ = 5 V) to below 2.0 mW without sacrificing the previous specification. The maximum allowed dissipation is 3.0 mW.
 2. Optional (if time permits): Digital circuits are fast! Try to determine the maximum frequency your circuit can operate at while still coming within 500 mV of the desired value at the end of the pulse. Can you improve your circuit to increase this maximum frequency? What happens to your power consumption? 
 3. The dimensions on the chip can vary due to fluctuations in the exposure energy or resist thickness as you have calculated above. Before moving on to drawing the lay-out it is good practice to check the tolerances of your circuit. Simulate the impact of these variations on your circuit. If the factory reaches the edges of the specified variations, will your circuit still satisfy the criteria of the design?
 
