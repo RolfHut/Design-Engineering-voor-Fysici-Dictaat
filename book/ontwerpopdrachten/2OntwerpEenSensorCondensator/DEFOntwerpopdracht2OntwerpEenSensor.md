@@ -80,7 +80,7 @@ We gaan, via deze instructie, weer de ontwerpcyclus door om tot je sensor te kom
 In de formule van de vlakke plaat condensator staan drie parameters die je kan gebruiken in je ontwerp: afstand ($d$), oppervlakte ($A$) en diëlektrische constante ($\epsilon_{r}$). Deze parameters kan je door andere fysische grootheden laten veranderen. Zo zou je bijvoorbeeld een materiaal met een grote thermische expansie coefficient kunnen inklemmen tussen twee platen. Bij toename van de temperatuur worden de platen uit elkaar geduwd. Op die manier zorgt verandering in temperatuur voor verandering in afstand, dat via de capaciteit te meten is. Dit is een voorbeeld van een (vrij slechte!) temperatuur sensor. In de synthese fase ga je eerst ideeen ontwikkelen om vervolgens één idee te kiezen en uit te werken.
     
 #### Opdracht synthese
-Verzin per parameter ($A$, $d$ en $\epsilon_{r}$) minsten één andere fysische grootheid die je via $A$, $d$ of $\epsilon_{r}$ kan meten. Schets hoe die drie sensoren eruit zouden moeten zien / zouden moeten werken. Upload je schetsen in de template bij opdracht 2.
+Verzin als groep per parameter ($A$, $d$ en $\epsilon_{r}$) minsten één andere fysische grootheid die je via $A$, $d$ of $\epsilon_{r}$ kan meten. Schets hoe die drie sensoren eruit zouden moeten zien / zouden moeten werken. Upload je schetsen in de template bij opdracht 2. (Dus: drie schetsen in totaal als groep).
 
 **Laat dat aan je TA zien.**
 
@@ -171,7 +171,8 @@ Je bent nu klaar met het invul template en kan deze op vocareum inleveren.
 - Upload je notebook en alle foto's naar vocareum via de 'upload' knop.
 - Open je notebook in Vocareum
 - **Klik boven op Kernel -> Restart and Run all**
-- Check of er geen errors zijn en alle afbeeldingen zichtbaar zijn.
+- Check of er geen errors in je python zijn
+- check of je afbeeldingen niet (per ongeluk) als "attachment" erin staan, dus dubbelklik op alle afbeeldingen om dit te checken. Als dit wel het geval is, haal je TA er bij en druk niet op submit!
 - Als je helemaal klaar bent kan het notebook worden ingeleverd door bovenaan op **submit** te klikken. Je kan meerdere keren iets inleveren en alleen de laatste versie wordt bewaard. **druk na submit op *end lab* voordat je vocareum afsluit! Anders kunnen wij niet nakijken!** Na de deadline is het niet meer mogelijk om in te leveren.
 
 ## Feedback op samenwerken geven
