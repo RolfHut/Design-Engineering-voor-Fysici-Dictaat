@@ -1,6 +1,6 @@
-# Duurzaam ontwerpen
+# Duurzaam ontwerpen 2025
 
-Bas Flipsen, Universitair Hoofddocent, Industrieel Ontwerpen (2024)
+Bas Flipsen, Universitair Hoofddocent, Industrieel Ontwerpen (2025)
 
 ## Introductie
 
