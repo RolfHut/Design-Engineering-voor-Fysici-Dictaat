@@ -56,19 +56,19 @@ Bij het opstellen van criteria gebruiken we de **SMART** afkorting die oorspronk
 
 Er zit enige overlap tussen de verschillende termen, maar het helpt als denkmiddel om te kijken of criteria goed geformuleerd zijn.
 
-##### Specifiek
+#### Specifiek
 Het criterium moet eenduidig zijn. Als twee mensen die het criterium lezen een verschillend beeld kunnen hebben bij het criterium, dan is het niet specifiek. Vermijd daarom subjectieve termen als: goed genoeg, sterk genoeg of 'niet te groot' en vervang deze door specifieke getallen of grenzen. Geef bij getallen waar nodig ook een domein aan, bijvoorbeeld: De koorts-thermometer die we gaan ontwerpen moet in het bereik van 30 tot 45 graden de lichaamstemperatuur van een persoon met een nauwkeurigheid lager dan 0.1 graad Celcius vaststellen. 
 
-##### Meetbaar
+#### Meetbaar
 Het moet meetbaar zijn of een oplossing aan het criterium voldoet. Wanneer het niet objectief meetbaar is of een criterium gehaald is, is niet vast te stellen of daadwerkelijk aan het criterium voldaan is. Vaak overlapt dit criterium met Specifiek, maar het is ook mogelijk om een criterium wel specifiek op te stellen, maar dat het fysisch, technisch of financieel niet mogelijk is om te meten of aan het wel specifieik geformuleerde criterium is voldaan.
 
-##### Actionable
+#### Actionable
 De ontwerper / maker moet binnen de grenzen van de opdracht invloed hebben op het criterium. Als de ontwerper niets kan veranderen aan het wel of niet halen van het criterium met een ontworpen oplossing, dan is het een slecht criterium.
 
-##### Relevant
+#### Relevant
 Het criterium moet gaan over de in de analyse geformuleerde probleem en bijdragen aan de oplossing. Als de uitkomst van de analyse fase is: "er moet een oplossing gemaakt worden om mensen over de rivier te verplaatsen", dan is het criterium: "de oplossing moet blauw zijn" niet relevant.  
 
-##### Tijdsgebonden
+#### Tijdsgebonden
 Het criterium moet binnen een normale tijd te halen zijn en/of aantoonbaar zijn. Als de oplossing een bepaalde verandering moet teweegbrengen, dan moet aangegeven worden wanneer deze verandering bewerkstelligd is. Bijvoorbeeld: "de opstelling moet een drankje van maximaal 200 ml met een begin temperatuur van maximaal 40 graden af kunnen koelen naar 10 graden celcius *binnen 2 minuten*."
 
 ### Synthese

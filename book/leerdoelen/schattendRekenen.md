@@ -25,7 +25,7 @@ Schattend (hoofd)rekenen in machten van 10
 * $15000^{1/3} = 15^{1/3} 1000^{1/3} \approx 2.5 * 10$ (want $2^3 = 8 < 15$ en $3^3 = 27 > 15$)
 * $ln(1000) \approx ln\left( 3^6 \right) \approx ln\left( e^6 \right) \approx 6$ (in de tweede stap hebben we overschat, dus waarschijnlijk wat kleiner)
 * $12^{3.5} = 12^3 * \sqrt{12} = 1.2^3 * 10^3 * \sqrt{12} \approx 1.6 * 10^3 * 3.5$ (want $3^2 = 9 < 12$ en $4^2 = 16 > 12$) $\approx 5.5 * 10^3$
-* $e^2.5 \approx 3^2.5 \approx 3^2 \sqrt{3} \approx 9 * 1.5$ (want $1^2 = 1 < 3$ en $2^2 = 4 > 3 $) $\approx 13.5$ (maar we hebben overschat, dus waarschijnlijk wat kleiner)
+* $e^{2.5} \approx 3^{2.5} \approx 3^2 \sqrt{3} \approx 9 * 1.5$ (want $1^2 = 1 < 3$ en $2^2 = 4 > 3 $) $\approx 13.5$ (maar we hebben overschat, dus waarschijnlijk wat kleiner)
 * $(1.002)^3 \approx 1.006$ $\left(\text{want Taylor geeft }(1 + \epsilon)^\alpha \approx 1 + \epsilon \alpha \right)$
 * $^{10}log(3000) = ^{10}log(3) + ^{10}log(1000) \approx 0.5 + 3 \approx 3.5$ (want $3 \approx \sqrt{10}$)
 
