@@ -109,7 +109,7 @@ Overleg als groep welke algoritme je kansrijk acht om goed te gaan werken. Kies 
 
 **Alleen de metingen die een bruikbare waarde opgeven kun je in de data array in de volgende stap toevoegen. De rest van de metingen kan niet gebruikt worden door het imagingDEF programma en moet je dus met een ```#``` commentarieren. **
 
-Hieronder staat een voorbeeld van hoe dat eruit kan zien voor een groep van twee studenten genaamd "Rolf", "Erik" en "Rutger" (verrassing...). De data in dit voorbeeld is verzonnen. De tweede en zesde meting van Rolf leverde in dit voorbeeld een ongeldige waarde op. Erik had een algoritme waar maar twee metingen uit kwamen (onmogelijk) en Rutger had bij Rolf afgekeken qua algoritme (ook niet slim).
+Hieronder staat een voorbeeld van hoe dat eruit kan zien voor een groep van drie studenten genaamd "Rolf", "Erik" en "Rutger" (verrassing...). De data in dit voorbeeld is verzonnen. De tweede en zesde meting van Rolf leverde in dit voorbeeld een ongeldige waarde op. Erik had een algoritme waar maar twee metingen uit kwamen (onmogelijk) en Rutger had bij Rolf afgekeken qua algoritme (ook niet slim).
 
 ```pyton
 data ={'Rolf' :  pd.DataFrame(columns=["xs", "ys", "xr", "yr", "R"], data=[
