@@ -10,7 +10,6 @@ parts:
       sections:
       - file: leerdoelen/OnzekerheidOefenopgaves.md
     - file: leerdoelen/lifeCycleAnalysis.md
-    - file: leerdoelen/duurzaamontwerpen.md
 
   - caption: Praktische Leerdoelen
     chapters:

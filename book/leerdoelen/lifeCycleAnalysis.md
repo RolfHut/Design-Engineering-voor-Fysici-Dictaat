@@ -1,4 +1,4 @@
-# Duurzaam ontwerpen 2024
+# Duurzaam ontwerpen 
 Samenvatting van de stof door Bas Flipsen, Universitair Hoofddocent, Industrieel Ontwerpen (2024)
 
 ## Introductie
