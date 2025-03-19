@@ -27,12 +27,8 @@ void setup() {
 }
 
 void loop() {
-  if (HCSR04Measurement(trigPin, echoPin,500) < 400){
-    digitalWrite(13,HIGH);
-    delay(500);
-    digitalWrite(13,LOW);
-  }
-  delay(1);
+  Serial.println(HCSR04Measurement(trigPin, echoPin,500));
+  delay(100);
 }
 
 long HCSR04Measurement(int trigger, int echo, unsigned long timeout){
