@@ -109,7 +109,7 @@ Overleg als groep welke algoritme je kansrijk acht om goed te gaan werken. Kies 
 
 **Alleen de metingen die een bruikbare waarde opgeven kun je in de data array in de volgende stap toevoegen. De rest van de metingen kan niet gebruikt worden door het imagingDEF programma en moet je dus met een ```#``` commentarieren. **
 
-Hieronder staat een voorbeeld van hoe dat eruit kan zien voor een groep van drie studenten genaamd "Rolf", "Erik" en "Rutger" (verrassing...). De data in dit voorbeeld is verzonnen. De tweede en zesde meting van Rolf leverde in dit voorbeeld een ongeldige waarde op. Erik had een algoritme waar maar twee metingen uit kwamen (onmogelijk) en Rutger had bij Rolf afgekeken qua algoritme (ook niet slim).
+Hieronder staat een voorbeeld van hoe dat eruit kan zien voor een groep van drie studenten geboren in de jaren 1980 genaamd "Rolf", "Erik" en "Rutger" (verrassing...). De data in dit voorbeeld is verzonnen. De tweede en zesde meting van Rolf leverde in dit voorbeeld een ongeldige waarde op. Erik had een algoritme waar maar twee metingen uit kwamen (onmogelijk) en Rutger had bij Rolf afgekeken qua algoritme (ook niet slim).
 
 ```pyton
 data ={'Rolf' :  pd.DataFrame(columns=["xs", "ys", "xr", "yr", "R"], data=[
@@ -148,7 +148,7 @@ Maak als groep één nieuwe blokkenschema op A3 van wat je nu als algoritme gaat
 Je gaat nu weer metingen doen om je algoritme te controleren. Kies een nieuwe target plek en hoek waar je het papiertje neerzet. We raden je aan om minstens twee meetseries te doen met verschillende locaties. Deze meetseries kunnen verwerkt worden bij *opdracht 9* in de template.
 
 ### Decision
-Is je algoritme goed genoeg, of valt er nog wat te verbeteren? Kan je het aantal benodigde metingen nog omlaag brengen? Als je algoritme nog verbeteringen nodig heeft, kopieer cellen vanaf opdracht 8 en 9. Plaats deze onder opdracht 9 in de template en maak daarin de volgende iteratie. 
+Is je algoritme goed genoeg, of valt er nog wat te verbeteren? Voldoet het aan de eisen (1 cm en 5 graden?). Kan je het aantal benodigde metingen nog omlaag brengen? Als je algoritme nog verbeteringen nodig heeft, kopieer cellen vanaf opdracht 8 en 9. Plaats deze onder opdracht 9 in de template en maak daarin de volgende iteratie. 
 
 Is je algoritme klaar dan ga je hieronder door.
 
