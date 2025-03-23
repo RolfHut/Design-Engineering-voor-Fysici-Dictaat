@@ -15,18 +15,10 @@ Om die leerdoelen onder de knie te krijgen gaan jullie een opstelling maken die 
 - Een video bestand (liefst gif!) met een video die laat zien dat je opstelling 'werkt', op Brightspace
 - je samenwerken feedback logboek op Brightspace.
 
-### Groep aanmelden 
-Deze opdracht doe je in groepen van 3 studenten. Je kan je groepsnummer en je medestudenten vinden op Brightspace onder Groups: ontwerpopdracht 5: Maak een meetopstelling trillingsvrij. Ga in vocareum naar het juiste notebook  (link op brightspace) en geef met de knop 'Send Invite' je groepsgenoten aan zodat jullie gezamelijk in dezelfde notebook kunnen werken. Uiteindelijk lever je dit notebook als groep in via Vocareum door op submit te klikken.
+### Groep vormen 
+Deze opdracht doe je in groepen van 3 studenten. Je kan je groepsnummer en je medestudenten vinden op Brightspace onder Groups: ontwerpopdracht 5: Maak een meetopstelling trillingsvrij. Net als in vorige weken hebben we [een invultemplate notebook](OntwerpopdrachtMaakEenOpstellingTrillingsvrijInvulTemplate.ipynb) dat je gedurende de dag bij houdt. Aan het einde van de dag ga je via de link op Brightspace naar Vocareum. Dat staat aan het einde van dit document uitgelegd. 
 
-**Laat voor 11:00 aan je TA zien dat je succesvol samen in een groep zit!**
-
-Als je groep om 11.00 niet compleet is, trek dan aan de bel door je TA erbij te roepen. Wij komen dan kijken wie er mist en schuiven met studenten in incomplete groepen om jullie in volledige groepen te krijgen.
-
-### Samenwerken in Vocareum 
-Om vertragingen en mogelijk verlies van werk te voorkomen is het essentieel om niet tegelijk in Vocareum te werken. Wat je het beste kan doen:
-- Één student opent het notebook. Een andere student werkt met de Arduino.
-- Als je grote bestanden wilt delen (video), doe dat dan via wetransfer of soortgelijke services. De student die Vocareum 'bedient' haalt de bestanden op en voegt ze aan het noteboek toe. Doe dit via 'control panel', dan 'my server' en dan 'upload'. Bestanden gedeeld via WhatsApp worden gecomprimeerd en kunnen dan essentiele details verliezen.
-- Als je meetgegevens wilt delen, type die dan als bericht / email naar elkaar.
+**Als je groep om 11.00 niet compleet is, trek dan aan de bel door je TA erbij te roepen.** Wij komen dan kijken wie er mist en schuiven met studenten in incomplete groepen om jullie in volledige groepen te krijgen.
 
 ### Samenwerken
 Overleg bij alles wat je in het notebook invult met je team: wat je inlevert is van jullie alle drie. Je zal dus goed moeten samenwerken. Jullie hebben allemaal als het goed is het hele notebook doorgelezen. Maak nu samen een planning waarin je aangeeft
@@ -137,6 +129,12 @@ Controleer eerst nog goed of alles klopt. Klik boven op Kernel -> Restart and Ru
 Als je helemaal klaar bent kan het notebook worden ingeleverd door bovenaan op submit te klikken. Je kan meerdere keren iets inleveren, alleen de laatste versie wordt dan bewaard. 
 
 Op Brightspace is een aparte assignment waar je de video moet inleveren. Zet deze video niet bij dit notebook!
+
+### Samenwerken in Vocareum 
+Om vertragingen en mogelijk verlies van werk te voorkomen is het essentieel om niet tegelijk in Vocareum te werken. Wat je het beste kan doen:
+- Één student opent het notebook. Een andere student werkt met de Arduino.
+- Als je grote bestanden wilt delen (video), doe dat dan via wetransfer of soortgelijke services. De student die Vocareum 'bedient' haalt de bestanden op en voegt ze aan het noteboek toe. Doe dit via 'control panel', dan 'my server' en dan 'upload'. Bestanden gedeeld via WhatsApp worden gecomprimeerd en kunnen dan essentiele details verliezen.
+- Als je meetgegevens wilt delen, type die dan als bericht / email naar elkaar.
 
 ## Samenwerking feedback geven, noteren en inleveren
 Net als bij elke workshop geef je elkaar weer feedback op de samenwerking. Kijk als nodig nog even de videos daarvan terug. De feedback die je krijgt noteer je in je logboek en dat lever je weer in.
