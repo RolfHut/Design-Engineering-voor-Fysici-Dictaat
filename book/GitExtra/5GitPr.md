@@ -1,7 +1,7 @@
 # Git Pull Request
 
-Met een *Pull Request* vraag je aan je samenwerkers (in bij DEF: aan je hoofdTAs) toestemming om de wijzigingen in jouw *branch* toe te voegen aan de *branch* waar de *pull request* naar toe gaat, in ons geval de `main` *branch*.
-Om nu jullie opdracht na te laten kijken en terug te *mergen* met jullie `main` *branch* gaan we een *pull request* (PR) doen.
+Met een *Pull Request* vraag je aan je samenwerkers (in bij DEF: aan je hoofdTAs) toestemming om de wijzigingen in jouw *branch* toe te voegen aan de *branch* waar de *pull request* naar toe gaat, in ons geval de `inprogress` *branch*.
+Om nu jullie opdracht na te laten kijken en terug te *mergen* met jullie `inprogress` *branch* gaan we een *pull request* (PR) doen.
 De *pull request* doe je als je klaar bent met de opdracht.
 GitHub kijkt dan of alles klopt en runt checks die wij hebben toegevoegd.
 
@@ -17,7 +17,7 @@ Op Brightspace houden we uiteindelijk bij of de opdracht namelijk succesvol is a
 
 ## Voorbeeld
 
-Nu alles is gesynct op mijn GitHub account ga ik een *pull request* doen van mijn `opdracht` branch naar `main`.
+Nu alles is gesynct op mijn GitHub account ga ik een *pull request* doen van mijn `opdracht` branch naar `inprogress`.
 
 1. Ik klik op 'Compare & pull request': 
 
@@ -27,9 +27,9 @@ Nu alles is gesynct op mijn GitHub account ga ik een *pull request* doen van mij
 
 ![Pull request menu.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_2_in_pr.png)
 
-3. We moeten zorgen dat we niet een *PR* openen naar de DEF-D opdrachten *repo*, maar naar jouw eigen `main` *branch*, dit doe je hier: 
+3. We moeten zorgen dat we niet een *PR* openen naar de DEF-D opdrachten *repo*, maar naar jouw eigen `inprogress` *branch*, dit doe je hier: 
 
-![Base veranderen naar jouw eigen `main` branch.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_3_verander_base_repo.png)
+![Base veranderen naar jouw eigen `inprogress` branch.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_3_verander_base_repo.png)
 
 4. Bij *reviewers* moet je jouw nakijker toevoegen, in mijn geval is dit hoofdTA: MartijnSonneveld.
    - Je hoort op de dag zelf wie jouw nakijker is.
@@ -47,9 +47,9 @@ Nu alles is gesynct op mijn GitHub account ga ik een *pull request* doen van mij
 
 ![Feedback: goed gekeurd.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_6_feedback_verwerkt.png) 
 
-Nu willen we mergen met de `main` *branch*, *squash & merge* om precies te zijn!
+Nu willen we mergen met de `inprogress` *branch*, *squash & merge* om precies te zijn!
     
-Nu het is goedgekeurd door de TA en zal hij zorgen dat alles op jullie `main` *branch* komt!
+Nu het is goedgekeurd door de TA en zal hij zorgen dat alles op jullie `inprogress` *branch* komt!
 Dit doet hij door deze stappen te volgen:
 
 - ![Branches mergen.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_7_merge.png)
@@ -73,12 +73,12 @@ Als de checks niet goed zijn, lees goed wat er mis is, pas dat aan in je opdrach
 ### Deel je werk met je groepsgenoot
 
 Als je je werk wilt delen met je groepsgenoten, zodat hun *repo* ook geüpdate is met jullie opdracht, kan dit ook via een *PR*.
-Maak dus nog een *PR* aan vanuit jouw *branch* waar je in hebt gewerkt, naar de `main` branch van de forks van je groepsgenoten.
+Maak dus nog een *PR* aan vanuit jouw *branch* waar je in hebt gewerkt, naar de `inprogress` branch van de forks van je groepsgenoten.
 1. Maak dus nog een *PR* aan en kies hier je groepsgenoten: 
 
 ![Werk delen met je groepsgenoot.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_10_deel_met_medestudenten.png)
 
-2. Mijn groepsgenoot is Danielle, ik push mijn `opdracht` *branch* naar haar `main` *branch*: 
+2. Mijn groepsgenoot is Danielle, ik push mijn `opdracht` *branch* naar haar `inprogress` *branch*: 
 
 ![Pull request naar je medestudent.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_11_pr_groepsgenoot.png)
 

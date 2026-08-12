@@ -16,11 +16,16 @@ Nu je de *repo* op je eigen account hebt *geforkt*, klikken we op de dropdown va
 
 ![Branch plek.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/2_2_plek_branches.png)
 
+Eerst maken we een `inprogress` *branch* aan, daar zetten we alle opdrachten in die klaar zijn.
 Dan om de nieuwe `opdracht` branch aan te maken typen we in de dropdown: 'opdracht' en klikken we: 'create branch'.
+Zorg dat je vanuit `main` de opdracht *branch* aanmaakt.
 
 ![Branch aanmaken.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/2_3_maak_branches.png)
 
 In hetzelfde dropdown menu als eerst kan je nu switchen tussen de *branches*.
+
+> [!NOTE]
+> Je zou nu 3 *branches* moeten hebben: `main`, `inprogress` en `<opdracht>`.
 
 ## Voorbeeld: naar je branch switchen in VSCode
 
