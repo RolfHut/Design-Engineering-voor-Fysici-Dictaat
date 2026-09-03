@@ -27,9 +27,12 @@ Nu alles is gesynct op mijn GitHub account ga ik een *pull request* doen van mij
 
 ![Pull request menu.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_2_in_pr.png)
 
-3. We moeten zorgen dat we niet een *PR* openen naar de DEF-D opdrachten *repo*, maar naar jouw eigen `inprogress` *branch*, dit doe je hier: 
+3. We moeten zorgen dat we **niet** een *PR* openen naar de DEF-D opdrachten *repo*, maar naar jouw eigen `inprogress` *branch*, dit doe je hier: 
 
 ![Base veranderen naar jouw eigen `inprogress` branch.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_3_verander_base_repo.png)
+
+![Base veranderen naar jouw eigen `inprogress` branch deel 2.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_3_5_verander_base_repo.png)
+
 
 4. Bij *reviewers* moet je jouw nakijker toevoegen, in mijn geval is dit hoofdTA: MartijnSonneveld.
    - Je hoort op de dag zelf wie jouw nakijker is.
@@ -56,7 +59,7 @@ Dit doet hij door deze stappen te volgen:
 
 - ![Squash mergen selecteren.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_8_squash_merge.png)
 
-- Dan deleten we de *branch*: 
+- Dan kunnen we de *branch* deleten: 
 
 ![De branch verwijderen.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_9_delete_branch.png)
  
