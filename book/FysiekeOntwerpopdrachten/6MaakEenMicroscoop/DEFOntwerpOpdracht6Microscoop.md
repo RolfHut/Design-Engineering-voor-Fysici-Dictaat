@@ -30,6 +30,9 @@ Daarnaast moet je documentatie natuurlijk in orde zijn.
 - Fysica: Hebben jullie je kennis van natuurkunde toegepast en dat aan ons duidelijk gemaakt?
 - Documentatie: Hebben jullie je proces van de dag gedocumenteerd en daarbij de regels die je over documenteren bij het practicum geleerd hebt toegepast?
 
+## Life Cycle Analysis
+
+In het college van Bas Flipsen is behandeld hoe ontwerpkeuzes die je maakt uitmaken voor de impact die de objecten die je maakt hebben op het milieu. Wanneer je microscoop af is, maak je een Bill of Materials (BoM) met daarin de CO2 impact van je zelfgemaakte microscoop. Deze BoM maak je op papier (niet digitaal) en je levert een foto ervan in op Brightspace.
 
 ## Inleveren
 
@@ -43,4 +46,5 @@ Aan het einde van de dag, leveren jullie in:
    3. een gecombineerde foto van foto 1 en 2 naast elkaar geplakt **zonder de grootte van de foto's aan te passen!!** (met bijvoorbeeld een applicatie zoals paint).
    4. een foto van de microscoop, met zowel het object als de camera (telefoon) die gebruikt is voor 1, 2 en 3 duidelijk in beeld.
    5. een foto van de chip, waarop het groepsnummer leesbaar is.
+   6. een foto van je BoM met de CO2 impact van je microscoop
       
