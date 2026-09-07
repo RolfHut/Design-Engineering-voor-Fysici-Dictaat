@@ -34,6 +34,7 @@ In hetzelfde dropdown-menu als eerst kan je nu switchen tussen de *branches*.
 ## Voorbeeld: naar je branch switchen in VSCode
 
 Om dit in VSCode te doen, gaan we eerst jullie *repo* *clonen* naar VSCode en dan de goeie *branch* in.
+Voor een reminder naar hoe je moet *clonen* zie [hier hoe het ook alweer moet](https://contemporary-physicslab.github.io/thermolab/intro-1/).
 In de terminal kan je dit typen nadat je *gecloned* hebt: `git checkout <opdracht>`.
 
 Het kan ook via deze manier:
