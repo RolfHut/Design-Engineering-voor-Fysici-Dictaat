@@ -51,6 +51,8 @@ parts:
         sections:
           - external: https://github.com/Design-Engineering-voor-Fysici/opdrachten-DEF-D/blob/main/DigitaleOntwerpopdrachten/1CondensatorOpdracht/CondensatorOntwerpopdracht.ipynb
       - file: DigitaleOntwerpopdrachten/spoel.md
+        sections:
+          - external: https://github.com/Design-Engineering-voor-Fysici/opdrachten-DEF-D/blob/main/DigitaleOntwerpopdrachten/2KrachtactuatorOpdracht/KrachtactuatorOpdracht.ipynb
 
   # - caption: Dictaten
   #   chapters:
