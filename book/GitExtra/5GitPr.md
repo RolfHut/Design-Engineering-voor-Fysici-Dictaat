@@ -34,8 +34,8 @@ Nu alles is gesynct op mijn GitHub account ga ik een *pull request* doen van mij
 ![Base veranderen naar jouw eigen `inprogress` branch deel 2.](https://raw.githubusercontent.com/Design-Engineering-voor-Fysici/plaatjes-DEF/main//figures/git/6_3_5_verander_base_repo.png)
 
 
-4. Bij *reviewers* moet je jouw nakijker toevoegen, in mijn geval is dit hoofdTA: MartijnSonneveld.
-   - Je hoort op de dag zelf wie jouw nakijker is.
+4. Bij *reviewers* moet je de hoofdTA's toevoegen.
+   - In het voorbeeld gebruiken we HoofdTA MartijnSonneveld, maar later moeten jullie bij de opdrachten altijd alle HoofdTA's toevoegen als reviewer.
 5. Zet nu de link van jouw *PR* op de juiste plek in Brightspace.
     - Voor DEF-D moet je meestal zodra je je *pull request* hebt aangemaakt dit op Brightspace melden in een assignment. Dat is belangrijk om voor je DEF-D onderwijs je punten te krijgen. Dat doe je door de URL/link te kopieren. Dus de link van de pagina van je *PR* to kopiëren en die te plakken in de juiste assignment op Brightspace.
 6. Martijn heeft nagekeken en was niet tevreden: 
