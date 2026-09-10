@@ -42,10 +42,9 @@ Nodig nu je groepsgenoot uit voor jouw *repo*, of accepteer die van je groepsgen
 Hoe dit moet staat [hier](https://contemporary-physicslab.github.io/thermolab/intro-1/#je-partner-s-uitnodigen), bij `settings` zie je een tab *collaborators*.
 
 
-#### 3 hoofdTA GitHub accounts
+#### hoofdTA GitHub accounts
 
 - Martijn Sonneveld: MartijnSonneveld
-- Emma Aspeslagh Nielen: Enielen
 - Sjoerd Hoogeman: SHoogeman
 
 Als je het niet zeker weet, dan kan je [hier](https://github.com/orgs/Design-Engineering-voor-Fysici/teams/hoofd-ta/members) de hoofd TA's zien.
